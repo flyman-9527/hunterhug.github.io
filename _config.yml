@@ -6,16 +6,21 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: 一只尼玛 | ONESUN
+email: 569929309@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  这是架设在Github上的静态博客，使用Jekyll。我讨厌在天朝，个人技术宅弄个域名都需要
+  备案，严重不和谐。
+  This static blog sleep in the Github alone, just using Jekyll.I don't like every boy like me making a simple website for making fun of must be record in some org such as
+  in the country of chin*.
+  Who am I.
+  You can call One Sun.
+  In some place, the Chines*, They say:
+  一只尼玛~~~
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://hunterhug.github.io/" # the base hostname & protocol for your site
+twitter_username: I forget it(there are a wall stop me)
+github_username:  hunterhug
 
 # Build settings
 markdown: kramdown
