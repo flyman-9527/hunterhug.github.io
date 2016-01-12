@@ -168,6 +168,9 @@
 /**
  * Page content
  */
+.home {
+    min-height: 800px;
+}
 .page-content {
     padding: $spacing-unit 0;
 }
