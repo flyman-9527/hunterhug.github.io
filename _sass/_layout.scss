@@ -170,7 +170,19 @@
  */
 .home {
     min-height: 800px;
+	width:60%;
+	float:left
 }
+.rnav{
+	float:right;
+	width:30%
+	}
+.newpage {
+	margin-bottom:10px;
+	padding:10px;
+	padding-left:0;
+}
+
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -244,3 +256,5 @@
         }
     }
 }
+
+.ds-top-threads {font-size:1.2em;list-style:none;text-align:center}
