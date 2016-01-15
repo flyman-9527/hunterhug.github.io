@@ -1,37 +1,74 @@
-<footer class="site-footer">
+<!--<footer class="site-footer">-->
 
-    <div class="wrapper">
+    <!--<div class="wrapper">-->
 
-        <!--<h2 class="footer-heading">{{ site.title }}</h2>-->
-		<!--<h2 class="footer-heading">meme~~</h2>-->
-        <div class="footer-col-wrapper">
-            <div class="footer-col footer-col-3">
-                <ul class="social-media-list">
-                    {% if site.github_username %}
-                    <li>
-                        Github:{% include icon-github.html username=site.github_username %}
-                    </li>
-                    {% endif %}
+        <!--&lt;!&ndash;<h2 class="footer-heading">{{ site.title }}</h2>&ndash;&gt;-->
+		<!--&lt;!&ndash;<h2 class="footer-heading">meme~~</h2>&ndash;&gt;-->
+        <!--<div class="footer-col-wrapper">-->
+            <!--<div class="footer-col footer-col-3">-->
+                <!--<ul class="social-media-list">-->
+                    <!--{% if site.github_username %}-->
+                    <!--<li>-->
+                        <!--Github:{% include icon-github.html username=site.github_username %}-->
+                    <!--</li>-->
+                    <!--{% endif %}-->
 
-                    {% if site.twitter_username %}
-                    <li>
-                        Weibo:{% include icon-twitter.html username=site.twitter_username usernameb=site.twitterb_username%}
-                    </li>
-                    {% endif %}
-                    <li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-                    <li>
-                        Website:<a href="http://www.lenggirl.com">http://www.lenggirl.com</a>
-                    </li>
-                </ul>
+                    <!--{% if site.twitter_username %}-->
+                    <!--<li>-->
+                        <!--Weibo:{% include icon-twitter.html username=site.twitter_username usernameb=site.twitterb_username%}-->
+                    <!--</li>-->
+                    <!--{% endif %}-->
+                    <!--<li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>-->
+                    <!--<li>-->
+                        <!--Website:<a href="http://www.lenggirl.com">http://www.lenggirl.com</a>-->
+                    <!--</li>-->
+                <!--</ul>-->
 
-            </div>
-            <div class="footer-col">
-                <h1>关于我</h1>
-                <p>{{ site.description }}</p>
-            </div>
-        </div>
+            <!--</div>-->
+            <!--<div class="footer-col">-->
+                <!--<h1>关于我</h1>-->
+                <!--<p>{{ site.description }}</p>-->
+            <!--</div>-->
+        <!--</div>-->
 
-    </div>
+    <!--</div>-->
 
 
-</footer>
+<!--</footer>-->
+<div id='about' class="container-fluid">
+			<div class="row-fluid">
+                    <div class="span11">
+					<div class="hero-unit">
+						<h1>
+							关于我
+						</h1>
+						<p>
+						{{ site.description }}
+						</p>
+                        <p>
+                            {% if site.github_username %}
+                            {% include icon-github.html username=site.github_username %}
+                            {% endif %}
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id='footer' class="container-fluid">
+			<div class="row-fluid">
+				<div class="span11">
+					<div class='well'>
+                    <div style="font-size: 1.2em">
+                        {% if site.twitter_username %}
+                       <p> Weibo:{% include icon-twitter.html username=site.twitter_username usernameb=site.twitterb_username%}</p>
+                        {% endif %}
+                        <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+                       <p>website:<a href="http://www.lenggirl.com">http://www.lenggirl.com</a></p>
+
+                    </div>
+					<p style="text-align: center;font-size: 1.2em">Copyright © 2016-2016 Github博客  lenggirl.com All Rights Reserved. 备案号：XICP备XXXXX号-1 </p>
+					</div>
+				</div>
+			</div>
+		</div>
