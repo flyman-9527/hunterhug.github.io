@@ -187,9 +187,7 @@ layout: default
                         <a href="hunterhug.github.io">首页</a>
                     </li>
                     {% for category in site.categories %}
-                    <li><a href="{{ "/showCategory.html?cat=" | prepend: site.baseurl }}{{ category | first }}">{{
-                        category
-                        | first }}<span>-({{ category | last | size }})</span></a></li>
+                    <li><a href="{{ "/showCategory.html?cat=" | prepend: site.baseurl }}{{ category | first }}">{{category| first }}<span>-({{ category | last | size }})</span></a></li>
                     {% endfor %}
                     <li class="nav-header">
                         热评
