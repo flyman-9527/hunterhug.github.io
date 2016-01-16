@@ -28,7 +28,7 @@ twitterb_username: 一只尼玛_mark
 github_username:  hunterhug
 gems: [jekyll-paginate]
 highlighter: true
-paginate: 6
+paginate: 3
 paginate_path: "page:num"
 # Build settings
 markdown: kramdown
