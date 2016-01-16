@@ -2,7 +2,9 @@
 layout: post  
 title: "github使用说明"
 date: 2016-01-14 14:31:01
+author: hunterhug
 categories: GitHub
+excerpt: 介绍Github，如何使用Github
 --- 
 
 #第一步

@@ -3,6 +3,8 @@ layout: post
 title: "jekyll安装说明"
 date: 2016-01-14 14:59.00
 categories: 静态博客
+author: hunterhug
+excerpt: 介绍jekyll，如何使用jekyll
 ---
  
 >>参考：<a href="http://www.tuicool.com/articles/7Vz6BzJ">Jekyll安装及写静态博客</a><br/>
