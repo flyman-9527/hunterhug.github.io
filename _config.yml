@@ -26,6 +26,9 @@ url: "http://hunterhug.github.io/" # the base hostname & protocol for your site
 twitter_username: hunterhug
 twitterb_username: 一只尼玛_mark
 github_username:  hunterhug
-
+gems: [jekyll-paginate]
+highlighter: true
+paginate: 6
+paginate_path: "page:num"
 # Build settings
 markdown: kramdown

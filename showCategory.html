@@ -1,94 +1,8 @@
 ---
 layout: default
 ---
-
-<!--<div class="home">-->
-
-<!--<h1 class="page-heading">文章</h1>-->
-
-<!--<ul class="post-list">-->
-<!--{% for post in site.posts %}-->
-<!--<li>-->
-<!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
-<!--<h2>-->
-<!--<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>-->
-<!--</h2>-->
-<!--<div style='background-color:pink;padding:5px'>{{ post.excerpt }}</div>-->
-<!--</li>-->
-<!--{% endfor %}-->
-<!--</ul>-->
-
-<!--</div>-->
-<!--<div class='rnav'>-->
-<!--<div class='newpage'>-->
-<!--&lt;!&ndash; 多说公共JS代码 end &ndash;&gt;-->
-<!--&lt;!&ndash; 多说热评文章 start &ndash;&gt;-->
-<!--<br /><br />-->
-<!--<h1 class="page-heading">热评文章</h1>-->
-<!--<div class="ds-top-threads" data-range="weekly" data-num-items="5"></div>-->
-<!--&lt;!&ndash; 多说热评文章 end &ndash;&gt;-->
-<!--&lt;!&ndash; 多说公共JS代码 start (一个网页只需插入一次) &ndash;&gt;-->
-<!--<script type="text/javascript">-->
-<!--var duoshuoQuery = {short_name: "huntehug"};-->
-<!--(function () {-->
-<!--var ds = document.createElement('script');-->
-<!--ds.type = 'text/javascript';-->
-<!--ds.async = true;-->
-<!--ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';-->
-<!--ds.charset = 'UTF-8';-->
-<!--(document.getElementsByTagName('head')[0]-->
-<!--|| document.getElementsByTagName('body')[0]).appendChild(ds);-->
-<!--})();-->
-<!--</script>-->
-
-<!--&lt;!&ndash; 多说公共JS代码 end &ndash;&gt;-->
-<!--</div>-->
-<!--<div>-->
-<!--<h1 class="page-heading">最新评论</h1>-->
-<!--&lt;!&ndash; 多说最新评论 start &ndash;&gt;-->
-<!--<div class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70"></div>-->
-<!--&lt;!&ndash; 多说最新评论 end &ndash;&gt;-->
-<!--&lt;!&ndash; 多说公共JS代码 start (一个网页只需插入一次) &ndash;&gt;-->
-<!--<script type="text/javascript">-->
-<!--var duoshuoQuery = {short_name:"huntehug"};-->
-<!--(function() {-->
-<!--var ds = document.createElement('script');-->
-<!--ds.type = 'text/javascript';ds.async = true;-->
-<!--ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';-->
-<!--ds.charset = 'UTF-8';-->
-<!--(document.getElementsByTagName('head')[0]-->
-<!--|| document.getElementsByTagName('body')[0]).appendChild(ds);-->
-<!--})();-->
-<!--</script>-->
-<!--&lt;!&ndash; 多说公共JS代码 end &ndash;&gt;-->
-<!--</div>-->
-<!--</div>-->
   <script type="text/javascript" src="{{ "/js/jquery.q.js" | prepend: site.baseurl }}"></script>
 
-<script>
-        (function () {
-
-var dataStr = '{ {% for cat in site.categories %}{% if cat[0] != site.categories.first[0] %},{% endif %}"{{ cat[0] }}":[{% for post in cat[1] %}{% if post != cat[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}", "date":"{{post.date | date:"%d/%m/%Y"}}"}{% endfor %}]{% endfor %} }';
-data = JSON.parse(dataStr);
-    curTag = $.query.get("cat");
-//alert(curTag);
-    archieves = data[curTag];
-//alert(archieves);
-var k='';
-for(i in archieves){
-    var aaa ="<div class='span12 well thumbnails'><div class='thumbnail'><img alt='";
-    aaa+=archieves[i]['date'];
-    aaa+="' src='img/people.jpg' /><div class='caption'><h3><a href = '";
-    aaa+=archieves[i]['url'];
-    aaa+="' > "+archieves[i]['title']+"</a></h3></div></div></div>";
-    k+=aaa;
-}
-            var div=document.getElementById("yy");
-            div.innerHTML=k;
-            alert(k)
-                        })();
-
-  </script>
 <div id='content' class="container-fluid">
     <div class="carousel slide" id="carousel-358480">
         <ol class="carousel-indicators">
@@ -101,7 +15,7 @@ for(i in archieves){
         </ol>
         <div class="carousel-inner">
             <div class="item active">
-                <img alt="" src="img/1.jpg" class='container'/>
+                <img alt="" src="img/1.jpg" class='container' style='max-height:500px'/>
 
                 <div class="carousel-caption">
                     <h4>
@@ -114,7 +28,7 @@ for(i in archieves){
                 </div>
             </div>
             <div class="item">
-                <img alt="" src="img/2.jpg" class='container'/>
+                <img alt="" src="img/2.jpg" class='container' style='max-height:500px'/>
 
                 <div class="carousel-caption">
                     <h4>
@@ -123,19 +37,6 @@ for(i in archieves){
 
                     <p>
                         冲浪是以海浪为动力,利用自身的高超技巧和平衡能力,搏击海浪的一项运动。运动员站立在冲浪板上,或利用腹板、跪板、充气的橡皮垫、划艇、皮艇等驾驭海浪的一项水上运动。
-                    </p>
-                </div>
-            </div>
-            <div class="item">
-                <img alt="" src="img/3.jpg" class='container'/>
-
-                <div class="carousel-caption">
-                    <h4>
-                        自行车
-                    </h4>
-
-                    <p>
-                        以自行车为工具比赛骑行速度的体育运动。1896年第一届奥林匹克运动会上被列为正式比赛项目。环法赛为最著名的世界自行车锦标赛。
                     </p>
                 </div>
             </div>
@@ -148,33 +49,8 @@ for(i in archieves){
     <div class="row-fluid">
         <div class="span9">
             <div class="row-fluid" id="yy">
-                xx
-            </div>
-            <div class="pagination pagination-centered pagination-large">
-                <ul>
-                    <li>
-                        <a href="#">上一页</a>
-                    </li>
-                    <li>
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">下一页</a>
-                    </li>
-                </ul>
-            </div>
+             
+            </div> 
         </div>
         <div class="span3">
             <div class="alert alert-error">
@@ -246,3 +122,27 @@ for(i in archieves){
         </div>
     </div>
 </div>
+<script>
+        (function () {
+
+var dataStr = '{ {% for cat in site.categories %}{% if cat[0] != site.categories.first[0] %},{% endif %}"{{ cat[0] }}":[{% for post in cat[1] %}{% if post != cat[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}", "date":"{{post.date | date:"%d/%m/%Y"}}"}{% endfor %}]{% endfor %} }';
+data = JSON.parse(dataStr);
+    curTag = $.query.get("cat");
+//alert(curTag);
+    archieves = data[curTag];
+//alert(archieves);
+var k='';
+for(i in archieves){
+    var aaa ="<div class='span12 thumbnails' style='border-bottom:1px solid pink;margin-bottom:10px'><div class='thumbnail'><p>";
+    aaa+=archieves[i]['date'];
+    aaa+="</p><div class='caption'><h3><a href = '";
+    aaa+=archieves[i]['url'];
+    aaa+="' > "+archieves[i]['title']+"</a></h3></div></div></div>";
+    k+=aaa;
+}
+            var div=document.getElementById("yy");
+            div.innerHTML=k;
+          //  alert(k)
+                        })();
+
+  </script>

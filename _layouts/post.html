@@ -23,7 +23,7 @@ layout: default
         <div>
             <ul class="nav nav-list">
                 <li class="nav-header">
-                    目录
+                  分类
                 </li>
                 <li class="active">
                     <a href="hunterhug.github.io">首页</a>
@@ -31,6 +31,13 @@ layout: default
                 {% for category in site.categories %}
                 <li><a href="{{ "/showCategory.html?cat=" | prepend: site.baseurl }}{{ category | first }}">{{ category | first }}<span>-({{ category | last | size }})</span></a></li>
                 {% endfor %}
+                                 <li class='nav-header'>
+                	目录
+                </li>
+                <ul class="ds-top-threads nav nav-list"  id="toc" ></ul>
+                               <li class="nav-header">
+                    热评
+                </li>
                 <li class="nav-header">
                     热评
                 </li>
@@ -85,4 +92,10 @@ layout: default
     </script>
 </div>
 </div>
+<script type="text/javascript" src="{{ "/js/toc.js" | prepend: site.baseurl }}"></script>
 <!-- 多说公共JS代码 end -->
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#toc').toc();
+});
+</script>

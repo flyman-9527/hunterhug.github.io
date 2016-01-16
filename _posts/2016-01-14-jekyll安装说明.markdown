@@ -1,16 +1,16 @@
----  
+---
 layout: post  
 title: "jekyll安装说明"
 date: 2016-01-14 14:59.00
 categories: 静态博客
----  
+---
  
 >>参考：<a href="http://www.tuicool.com/articles/7Vz6BzJ">Jekyll安装及写静态博客</a><br/>
 >>软件下载：<a href='http://pan.baidu.com/s/1mhzOo3m'>我的百度云</a>
 <hr />
 <br/><br />
-以下为说明：
 
+以下为说明：
 首先下载软件，点击安装，安装过程该选勾的全部选勾，此处讲的是以Ruby开头的安装文件。
 
 其次，安装另外一个软件，点击后会要求解压到某一文件夹，解压。
