@@ -12,6 +12,9 @@ layout: default
                 </time>
                 {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span
                     itemprop="name">{{ page.author }}</span></span>{% endif %}
+                 {% for tag in page.tags %}
+                  • <span>{{ tag }}</span>
+                 {% endfor %}
             </p>
         </header>
 
@@ -21,48 +24,8 @@ layout: default
     </div>
     <div class="span3">
         <div>
-            <ul class="nav nav-list">
-                <li class="nav-header">
-                  分类
-                </li>
-                <li class="active">
-                    <a href="hunterhug.github.io">首页</a>
-                </li>
-                {% for category in site.categories %}
-                <li><a href="{{ "/showCategory.html?cat=" | prepend: site.baseurl }}{{ category | first }}">{{ category | first }}<span>-({{ category | last | size }})</span></a></li>
-                {% endfor %}
-                                 <li class='nav-header'>
-                	目录
-                </li>
-                <ul class="ds-top-threads nav nav-list"  id="toc" ></ul>
-                <li class="nav-header">
-                    热评
-                </li>
-                <!-- 多说热评文章 end -->
-                <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-                <script type="text/javascript">
-                    var duoshuoQuery = {short_name: "huntehug"};
-                    (function () {
-                        var ds = document.createElement('script');
-                        ds.type = 'text/javascript';
-                        ds.async = true;
-                        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-                        ds.charset = 'UTF-8';
-                        (document.getElementsByTagName('head')[0]
-                        || document.getElementsByTagName('body')[0]).appendChild(ds);
-                    })();
-                </script>
-                <ul class="ds-top-threads nav nav-list" data-range="weekly" data-num-items="5">
-                </ul>
-                <li class="divider">
-                </li>
-                <li>
-                    <a href="/about">关于我</a>
-                </li>
-            </ul>
+            {% include sider.html %}
         </div>
-
-
     </div>
 
 </div>
@@ -71,12 +34,12 @@ layout: default
 <div class="row-fluid container-fluid">
     <div class="span10 offset1">
         <!-- 多说评论框 start -->
-        <div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url={{ page.url | replace: 'index.html','' | prepend: site.baseurl | prepend: site.url }}>
+        <div class="ds-thread" data-thread-key="{{ page.url | prepend: site.baseurl | prepend: site.url }}" data-title="{{ page.title }}" data-url={{ page.url | prepend: site.baseurl | prepend: site.url }}>
     </div>
     <!-- 多说评论框 end -->
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
-        var duoshuoQuery = {short_name: "huntehug"};
+        var duoshuoQuery = {short_name: "{{ site.duoshuo }}"};
         (function () {
             var ds = document.createElement('script');
             ds.type = 'text/javascript';
@@ -90,7 +53,6 @@ layout: default
 </div>
 </div>
 <script type="text/javascript" src="{{ "/js/toc.js" | prepend: site.baseurl }}"></script>
-<!-- 多说公共JS代码 end -->
 <script type="text/javascript">
 $(document).ready(function() {
     $('#toc').toc();

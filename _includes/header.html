@@ -1,5 +1,5 @@
 <div id='head'>
-    <div class="navbar">
+    <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container-fluid">
                 <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span
@@ -25,33 +25,10 @@
                         </li>
                         <li class="divider-vertical">
                         </li>
-                        <li class="dropdown">
-                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">技术宅天地<strong
-                                    class="caret"></strong></a>
-                            <ul class="dropdown-menu">
-								<li>
-								<a href='https://www.djangoproject.com/start/'>django English</a>
-								</li>
-                                <li>
-                                    <a href="/1.html">MarkDown语法</a>
-                                </li>
-                                <li>
-                                    <a href="http://v3.bootcss.com/getting-started/">bootstrap3.35</a>
-                                </li>
-                                <li>
-                                    <a href="#">其他</a>
-                                </li>
-                                <li class="divider">
-                                </li>
-                                <li>
-                                    <a href="#">链接3</a>
-                                </li>
-                            </ul>
-                        </li>
+                        {% include links.html %}
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-
 </div>

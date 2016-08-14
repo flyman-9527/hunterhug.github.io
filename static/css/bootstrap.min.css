@@ -4852,9 +4852,9 @@ a.thumbnail:hover, a.thumbnail:focus {
 }
 
 .hero-unit {
-    padding: 60px;
+    padding: 30px;
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 200;
     line-height: 30px;
     color: inherit;
@@ -4865,7 +4865,7 @@ a.thumbnail:hover, a.thumbnail:focus {
 }
 .hero-unit h1 {
     margin-bottom: 0;
-    font-size: 60px;
+    font-size: 1.2em;
     line-height: 1;
     color: inherit;
     letter-spacing: -1px;

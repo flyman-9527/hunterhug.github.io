@@ -1,0 +1,22 @@
+p{
+    word-wrap: break-word;
+}
+.v-fork-me {
+	position: fixed;
+	right: 0;
+	top: 40px;
+	z-index: 999;
+}
+.btn-to-top {
+	background: url("/static/uparrow.png") no-repeat scroll 14px 14px #FCFCFC;
+	display: block;
+	height: 60px;
+	overflow: hidden;
+	text-indent: -99em;
+	width: 58px;
+	border-radius: 0px 0px 7px 7px;
+	border: 1px solid #E5E5E5;
+	position: fixed;
+	right: 20px;
+	bottom: 20%;
+}
