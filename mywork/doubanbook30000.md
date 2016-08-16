@@ -1,11 +1,12 @@
 ---
 layout: post  
-title: "常用环境部署"
-date: 2016-08-15 18:31:01
+title: "Python豆瓣图书爬虫:30000本书"
+date: 2016-08-15
 author: hunterhug
-categories: [数据开发]
-desc: "大数据软件的环境部署,centos系统,集成mysql,java,kafka,zookeeper,storm,nginx等"
-tags: ["大数据","软件"]
+categories: [我的作品]
+desc: "豆瓣图书爬虫"
+tags: ["豆瓣",爬虫","Python"]
+permalink: "/mywork/doubanbook30000.html"
 --- 
 
 # 说明
@@ -14,7 +15,7 @@ tags: ["大数据","软件"]
 >A project for catch the book of 豆瓣website in china.
 >please see the code source
 
-#BUG
+# BUG
 >2016.7.15修复标签页首页豆瓣改版,以及step8.py的数据库插入错误
 >及  Excel库函数API变化
 
@@ -69,8 +70,8 @@ tags: ["大数据","软件"]
 4. run step2.py
 5. and so on
 
-#如何使用
-##step1.py：数据库初始化
+# 如何使用
+## step1.py：数据库初始化
 ```
 python step1.py
 ```
@@ -98,7 +99,7 @@ def initdoubanbook():
 <img src='https://raw.githubusercontent.com/hunterhug/doubanbook30000/master/img/step1.jpg' />
 <img src='https://raw.githubusercontent.com/hunterhug/doubanbook30000/master/img/step11.jpg' />
 
-##step2.py抓取页面进行测试
+## step2.py抓取页面进行测试
 ```
 python step2.py
 ```
@@ -130,7 +131,7 @@ print("成功")
 ```
 测试请直接运行bookdeal.py
 
-##step3：抽取分类标签页存入Excel方便匹配分类
+## step3：抽取分类标签页存入Excel方便匹配分类
 ```
 python step3.py
 ```
@@ -146,7 +147,7 @@ bookdeal.testbooktag()
 
 <img src='https://raw.githubusercontent.com/hunterhug/doubanbook30000/master/img/step3.jpg' />
 
-##step4.py抓取图书列表页
+## step4.py抓取图书列表页
 ```
 python step4.py
 ```
@@ -170,7 +171,7 @@ catch.catchbooklist(0,2,'html')
 <img src='https://raw.githubusercontent.com/hunterhug/doubanbook30000/master/img/step4.jpg' />
 
 
-##step5.py提取图书列表页到Excel
+## step5.py提取图书列表页到Excel
 ```
 python step5.py
 ```
@@ -186,7 +187,7 @@ catch.dealbooklist()
 
 <img src='https://raw.githubusercontent.com/hunterhug/doubanbook30000/master/img/step5.jpg' />
 
-##step6.py根据图书列表页Excel，提取分类，写入数据库
+## step6.py根据图书列表页Excel，提取分类，写入数据库
 ```
 python step6.py
 ```
@@ -209,7 +210,7 @@ database = Mysql(host="localhost", user="root", pwd="6833066", db="doubanbook")
 <img src='https://raw.githubusercontent.com/hunterhug/doubanbook30000/master/img/step61.jpg' />
 <img src='https://raw.githubusercontent.com/hunterhug/doubanbook30000/master/img/step6.jpg' />
 
-##step7.py根据图书列表页Excel，提取分类，写入数据库
+## step7.py根据图书列表页Excel，提取分类，写入数据库
 ```
 python step7.py
 ```
@@ -237,7 +238,7 @@ catch.catchbook(0,0,34800)#1900
 <img src='https://raw.githubusercontent.com/hunterhug/doubanbook30000/master/img/step71.jpg' />
 
 
-##step8.py根据图书详情页，抽取数据写入数据库
+## step8.py根据图书详情页，抽取数据写入数据库
 ```
 python step8.py
 ```
