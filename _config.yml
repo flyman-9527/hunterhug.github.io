@@ -19,7 +19,9 @@ weibo_url: hunterhug
 weibo_username: 一只尼玛_mark
 github_username:  hunterhug
 duoshuo: hunterhug
-gems: [jekyll-paginate]
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
 paginate: 8
 paginate_path: "page:num"
 # Build settings
