@@ -1,14 +1,14 @@
 ---
 layout: post  
-title: "beego作品:缀美画室官网"
+title: "Beego作品:缀美画室官网"
 date: 2016-08-16
 author: hunterhug
 categories: [我的作品]
 desc: "广州缀美美术学校|缀美画室官网"
-tags: ["Golang",缀美","beego"]
+tags: ["Golang","缀美","beego"]
 permalink: "/mywork/beautyart.html"
 --- 
-#Github:[https://github.com/hunterhug/beautyart](https://github.com/hunterhug/beautyart)
+# Github:[https://github.com/hunterhug/beautyart](https://github.com/hunterhug/beautyart)
 
 # 项目名：广州缀美美术学校|缀美画室官网
 
@@ -151,7 +151,7 @@ beautyart
 7. 前端开发完毕  2016/8/2
 8. 内容填充完毕　2016/8/5
 
-##待做
+## 待做
 1. 图片裁剪或者调用七牛云，阿里云等（一周时间）
 2. 文章历史记录归档，方便查看，否则乱啊（一周时间）
 3. APP应用，前端判断设备进行前端页面切换（一周时间）
