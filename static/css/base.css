@@ -21,6 +21,14 @@ p,h1,h2,h3,h4,h5{
 	bottom: 20%;
 }
 
+.img-responsive{
+	width: 100%;
+	height: 100%;
+}
+.roll{
+	width:960px;
+	height: 400px;
+}
 pre .hll { background-color: #ffffcc }
 pre  { background: #f0f0f0; }
 pre .c { color: #60a0b0;} /* Comment */
