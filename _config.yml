@@ -26,6 +26,7 @@ paginate_path: "page:num"
 # Build settings
 markdown: kramdown
 highlighter: pygments
+pygments: true
 kramdown:
   input: GFM
 exclude: [README.md]
