@@ -6,7 +6,7 @@ author: hunterhug
 categories: [我的作品]
 desc: "一只淘宝关键字Python爬虫"
 tags: ["淘宝关键字",爬虫","Python"]
-permalink: "/mywork/doubanbook30000.html"
+permalink: "/mywork/taobaoscrapy.html"
 --- 
 #Github:[https://github.com/hunterhug/taobaoscrapy](https://github.com/hunterhug/taobaoscrapy)
 
