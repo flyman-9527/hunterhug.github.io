@@ -20,7 +20,7 @@ weibo_username: 一只尼玛_mark
 github_username:  hunterhug
 duoshuo: hunterhug
 gems: [jekyll-paginate]
-paginate: 4
+paginate: 8
 paginate_path: "page:num"
 # Build settings
 markdown: kramdown
