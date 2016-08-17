@@ -8,7 +8,8 @@ desc: "一只淘宝关键字Python爬虫"
 tags: ["淘宝关键字","爬虫","Python"]
 permalink: "/mywork/taobaoscrapy.html"
 --- 
-# Github:[https://github.com/hunterhug/taobaoscrapy](https://github.com/hunterhug/taobaoscrapy)
+# Github
+[https://github.com/hunterhug/taobaoscrapy](https://github.com/hunterhug/taobaoscrapy)
 
 # 说明
 由于Github 打包的exe某些文件上传被.gitignore了，所以不提供windows二进制包
@@ -36,14 +37,14 @@ permalink: "/mywork/taobaoscrapy.html"
 
 1.安装模块请使用
 
-```
+```bash
 sudo pip3 install pymysql
 sudo pip3 install xlsxwriter
 ```
 
 下载图形包：http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
-```
+```bash
 Pillow, a replacement for PIL, the Python Image Library, which provides image processing functionality and supports many file formats.
 Use `from PIL import Image` instead of `import Image`.
 
@@ -56,7 +57,7 @@ Use `from PIL import Image` instead of `import Image`.
 
 ```
 
-```
+```bash
 pip3 install Pillow-3.3.0-cp34-cp34m-win32.whl
 ```
 
@@ -64,13 +65,13 @@ pip3 install Pillow-3.3.0-cp34-cp34m-win32.whl
 
 从万能仓库 http://www.lfd.uci.edu/~gohlke/pythonlibs/#cx_freeze 下载对应版本的打包库,然后:
 
-```
+```bash
 pip3 install cx_Freeze-4.3.4-cp35-none-win_amd64.whl
 ```
 
  转到源代码文件夹
 
-```
+```python
 python setup.py build
 ```
 
@@ -78,7 +79,7 @@ python setup.py build
 
 把exe.win32-3.4移到根目录taobaoscrapy，任意改名，以下改为exe，文件目录如下：
 
-```
+```bash
 taobaoscrapy
 -------source
 -------exe
@@ -86,7 +87,7 @@ taobaoscrapy
 -------help
 ```
 
-```
+```bash
 run.bat
 或者
 python mtaobao.py
@@ -97,7 +98,7 @@ python mtaobao.py
 运行没完成。不必担心,只要原始数据在,一切好办。<br/>
 将 data 中的原始数据移到 help 文件夹中
 
-```
+```bash
 runhelp.bat
 或者
 python help.py
@@ -125,7 +126,7 @@ author:hunterhug<br/>
 
  '手机折扣'字段失效
  
-```
+```bash
 Traceback (most recent call last):
   File "mtaobao.py", line 322, in <module>
     itemlist.append(item['mobileDiscount'])
@@ -134,7 +135,7 @@ KeyError: 'mobileDiscount'
 
 'URL地址'字段失效
 
-```
+```bash
 Traceback (most recent call last):
   File "mtaobao.py", line 328, in <module>
     itemlist.append(item['auctionURL'])
