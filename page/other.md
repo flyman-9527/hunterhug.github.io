@@ -6,4 +6,3 @@ permalink: /other/
 
 ---
 
-# 其他
