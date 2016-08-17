@@ -3,9 +3,9 @@ email: gdccmcm14@live.com
 description: 只是一个技术博客
 about: > # this means to ignore newlines until "baseurl:"
   我是一个喜欢学知识的人，只是因为学了计算机，发现很多东西要学。
-  我会很多计算机语言，C,C++,Python,PHP,JAVA,HTML,CSS,JS,MATLAB。
+  我会很多计算机语言，Go,Python,JAVA,C,C++,PHP,HTML,CSS,JS,MATLAB。
   可是并没有卵用，并没有改变人类，呵呵。
-  我之前学了一学期数学，我知道数学家，计算机科学家和哲学家
+  大学时期学了一学期数学，我知道数学家，计算机科学家和哲学家
   从无到有创造东西真的很奇妙
   比如不知从哪里学会了写网站，然后莫名奇妙的
   晚上会突然做梦梦到学到很厉害的技术
@@ -13,6 +13,7 @@ about: > # this means to ignore newlines until "baseurl:"
   代码这种东西说来不复杂
   只是顺从人的逻辑，提取数据再插入数据
   自从得了精神病精神好多了
+  现在苦逼程序员一个．
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hunterhug.github.io" # the base hostname & protocol for your site
 weibo_url: hunterhug
