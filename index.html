@@ -21,9 +21,9 @@ layout: default
                             <p>
                                 {% if post.desc %}
                                 {{ post.desc }}
-                                {{% else %}}
+                                {% else %}
                                 {{ post.content | slice: 0, 50}}
-                                {{% endif %}}
+                                {% endif %}
                             </p>
                         </div>
                     </div>
