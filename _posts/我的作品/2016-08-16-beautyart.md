@@ -53,7 +53,7 @@ permalink: "/mywork/beautyart.html"
 
 ## 文件目录
 
-```bash
+```shell
 beautyart
 ----conf 配置文件夹
 
@@ -90,7 +90,7 @@ beautyart
 1. 运行init.sh进行包初始化或者根据提示go install
 2. 接着
 
-```bash
+```shell
 	git clone https://www.github.com/hunterhug/beautyart
 	cd beautyart
 	go build main.go
@@ -121,14 +121,14 @@ beautyart
 
 >Category模型说明
 
-```bash
+```shell
 	Siteid    int64  //0缀美   1其他网站
 	Type int64     //0表示文章 1表示相册
 ```
 
 >前台首页配置（可动态调整首页）
 
-```bash
+```shell
 {"1":{"name":"每日动态","limit":6},
 "2":{"name":"画室动态","limit":6},
 "3":{"name":"招生动态","limit":6},

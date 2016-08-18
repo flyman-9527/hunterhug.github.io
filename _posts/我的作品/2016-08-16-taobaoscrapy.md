@@ -37,14 +37,14 @@ permalink: "/mywork/taobaoscrapy.html"
 
 1.安装模块请使用
 
-```bash
+```shell
 sudo pip3 install pymysql
 sudo pip3 install xlsxwriter
 ```
 
 下载图形包：http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
-```bash
+```shell
 Pillow, a replacement for PIL, the Python Image Library, which provides image processing functionality and supports many file formats.
 Use `from PIL import Image` instead of `import Image`.
 
@@ -57,7 +57,7 @@ Use `from PIL import Image` instead of `import Image`.
 
 ```
 
-```bash
+```shell
 pip3 install Pillow-3.3.0-cp34-cp34m-win32.whl
 ```
 
@@ -65,7 +65,7 @@ pip3 install Pillow-3.3.0-cp34-cp34m-win32.whl
 
 从万能仓库 http://www.lfd.uci.edu/~gohlke/pythonlibs/#cx_freeze 下载对应版本的打包库,然后:
 
-```bash
+```shell
 pip3 install cx_Freeze-4.3.4-cp35-none-win_amd64.whl
 ```
 
@@ -79,7 +79,7 @@ python setup.py build
 
 把exe.win32-3.4移到根目录taobaoscrapy，任意改名，以下改为exe，文件目录如下：
 
-```bash
+```shell
 taobaoscrapy
 -------source
 -------exe
@@ -87,7 +87,7 @@ taobaoscrapy
 -------help
 ```
 
-```bash
+```shell
 run.bat
 或者
 python mtaobao.py
@@ -98,7 +98,7 @@ python mtaobao.py
 运行没完成。不必担心,只要原始数据在,一切好办。<br/>
 将 data 中的原始数据移到 help 文件夹中
 
-```bash
+```shell
 runhelp.bat
 或者
 python help.py
@@ -126,7 +126,7 @@ author:hunterhug<br/>
 
  '手机折扣'字段失效
  
-```bash
+```shell
 Traceback (most recent call last):
   File "mtaobao.py", line 322, in <module>
     itemlist.append(item['mobileDiscount'])
@@ -135,7 +135,7 @@ KeyError: 'mobileDiscount'
 
 'URL地址'字段失效
 
-```bash
+```shell
 Traceback (most recent call last):
   File "mtaobao.py", line 328, in <module>
     itemlist.append(item['auctionURL'])
