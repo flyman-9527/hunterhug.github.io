@@ -1,7 +1,7 @@
 ---
 layout: post  
 title: "Cassandra介绍"
-date: 2016-08-1９
+date: 2016-08-19
 author: hunterhug
 categories: [数据开发]
 tags: ["大数据","cassandra"]
