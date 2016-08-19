@@ -18,6 +18,7 @@ cassandra这个数据库有很高的伸缩性和可用性，你完全不需要�
 
 ## 亮点
 - 生产（PROVEN）
+
 >cassandra已经用在很多生产上了，足够证明有用．比如Github,eBay,Instagram超过1500个公司使用，
 >而这些公司有巨大，活跃的数据集．
 
@@ -26,24 +27,31 @@ cassandra这个数据库有很高的伸缩性和可用性，你完全不需要�
 >不用担心，不需要停掉cassandra，就能替换这个节点．
 
 - 性能（PERFORMANT）
+
 >cassandra在水准和[实际应用](http://blog.markedup.com/2013/02/cassandra-hive-and-hadoop-how-we-picked-our-analytics-stack/)上，
 >一直都优于其他流行的NoSQL替代品，主要是因为它的[基础架构选择](http://www.datastax.com/dev/blog/2012-in-review-performance)．
 
 - 去中心化（DECENTRALIZED）
+
 >没有单点故障。没有网络瓶颈。集群中的每个节点是一模一样的，因为数据复制和同步的容错保证！
 
 - 伸缩性（SCALABLE）
+
 >一些特别大的生产部署,包括苹果公司,拥有超过75000个节点存储超过10 PB的数据,Netflix(2500个节点,420TB,每天超过1万亿个请求),中文搜索引擎Easou(270个节点,300TB,每天超过8亿请求),
 >和eBay(超过100个节点,100结核病)。
 
 - 持久性（DURABLE）
+
 >cassandra非常适合那些绝对不能丢失数据的应用，即使整个数据中心挂掉．
 
 - 一切尽在控制中（YOU'RE IN CONTROL）
+
 >每次更新都可以选择异步或者同步复制，高可用的异步操作，包括优化特征Hinted Handoff和Read Repair.
 
 - 灵活性（ELASTIC）
+
 >新机器一加入，读写吞吐量线性增加，不需要关机和中断应用．
 
 - 专家支持（PROFESSIONALLY SUPPORTED）
+
 >cassandra为第三方使用者提供服务，要钱的！
