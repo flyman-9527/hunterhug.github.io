@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 无聊来看
-date: 2015-08-16
+date: 2016-08-16
 permalink: /other/
 ---
 
