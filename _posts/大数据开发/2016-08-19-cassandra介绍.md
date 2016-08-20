@@ -6,7 +6,7 @@ author: hunterhug
 categories: [数据开发]
 tags: ["大数据","cassandra"]
 permalink: "/bigdata/cassandra-introduction.html"
---###
+---
 
 cassandra这个数据库有很高的伸缩性和可用性，你完全不需要向性能妥协．在硬件或者云设施上做修改
 官网:[Cassandra官网](http://cassandra.apache.org/)
