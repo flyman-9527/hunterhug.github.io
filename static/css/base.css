@@ -22,7 +22,7 @@ p,h1,h2,h3,h4,h5{
 }
 
 .roll img{
-	height:50%;
+	width: 100%;
 	max-width: 100%;
 }
 
@@ -99,8 +99,8 @@ pre .vi { color: #bb60d5 } /* Name.Variable.Instance */
 pre .il { color: #40a070 } /* Literal.Number.Integer.Long */
 
 /* http://richleland.github.io/pygments-css/ */
-.highlight pre { color: #cbbcb5; background-color: #1d1d1d; border:none; border-radius: 2px;}
-.highlight { color: #cbbcb5; background-color: #1d1d1d; border-radius: 2px; }
+.highlight pre { color: blue; background-color: #f8f8f2; border:none; border-radius: 3px;}
+.highlight { color: blue; background-color:#f8f8f2; border-radius: 3px; }
 .highlight .c { color: #75715e }
 .highlight .err { color: #960050; background-color: #1e0010 }
 .highlight .k { color: #66d9ef }

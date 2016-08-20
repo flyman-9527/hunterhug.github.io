@@ -29,4 +29,3 @@ paginate_path: "page:num"
 markdown: kramdown
 exclude: [README.md]
 permalink: /:categories/:title.html
-highlighter: pygments
