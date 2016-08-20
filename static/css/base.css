@@ -22,13 +22,14 @@ p,h1,h2,h3,h4,h5{
 }
 
 .roll img{
-	width: 100%;
-	height:90%;
+	height:50%;
 	max-width: 100%;
 }
+
 .roll{
 	width:100%;
-	height: 50%;
+	text-align: center;
+	margin: 0 auto;
 }
 .post-content img{
 	width: 100%;
