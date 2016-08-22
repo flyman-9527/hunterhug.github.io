@@ -5,7 +5,7 @@ date: 2016-08-16
 permalink: /other/
 ---
 
-# 书籍介绍
+书籍介绍
 1. Go语言编程(许式伟)
 
 <img style="width:50%" alt="" src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/gobook1.jpg"/>
