@@ -1,13 +1,15 @@
 ---
 layout: post  
-title: "JAVA版Kafka代码"
+title: "JAVA版Kafka生产和消费代码"
 date: 2016-08-17
 author: hunterhug
 categories: [数据开发]
-desc: "kafka是吞吐量巨大的一个消息系统，它是用scala写的，和普通的消息的生产消费还有所不同，写了个demo程序供大家参考。"
+desc: "kafka是吞吐量巨大的一个消息系统，它是用scala写的，本文提供一个java版代码给大家参考。"
 tags: ["大数据","kafka"]
 permalink: "/bigdata/java-kafka.html"
 --- 
+
+伟大的程序员版权所有,转载请注明：www.lenggirl.com/bigdata/java-kafka.html.html
 
 kafka是吞吐量巨大的一个消息系统，它是用scala写的，和普通的消息的生产消费还有所不同，写了个demo程序供大家参考。kafka的安装请参考官方文档。
 

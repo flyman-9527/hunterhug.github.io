@@ -4,10 +4,13 @@ title: "Beego作品:缀美画室官网"
 date: 2016-08-16
 author: hunterhug
 categories: [我的作品]
-desc: "广州缀美美术学校|缀美画室官网"
+desc: "Golang画室网站，采用beego1.6框架所写，包含RBAC,多模板等功能，已经发布到beego官网"
 tags: ["Golang","缀美","beego"]
 permalink: "/mywork/beautyart.html"
 --- 
+
+伟大的程序员版权所有,转载请注明：www.lenggirl.com/mywork/beautyart.html
+
 # Github
 [https://github.com/hunterhug/beautyart](https://github.com/hunterhug/beautyart)
 

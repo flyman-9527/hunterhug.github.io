@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Cassandra介绍"
+title: "Cassandra官方介绍"
 date: 2016-08-19
 author: hunterhug
 categories: [数据开发]
@@ -8,6 +8,8 @@ desc: "cassandra这个数据库有很高的伸缩性和可用性，你完全不�
 tags: ["大数据","cassandra"]
 permalink: "/bigdata/cassandra-introduction.html"
 ---
+
+伟大的程序员版权所有,转载请注明：www.lenggirl.com/bigdata/cassandra-introduction.html
 
 cassandra这个数据库有很高的伸缩性和可用性，你完全不需要向性能妥协．在硬件或者云设施上做修改
 官网:[Cassandra官网](http://cassandra.apache.org/)
@@ -18,6 +20,7 @@ cassandra这个数据库有很高的伸缩性和可用性，你完全不需要�
 >绝对是一流的，数据的抽取绝对是低延迟性的，并且你可以心平气和地坐着喝茶，因为你知道就算机房断电了，你还会活着！！！
 
 ## 亮点
+
 ### 生产（PROVEN）
 
 >cassandra已经用在很多生产上了，足够证明有用．比如Github,eBay,Instagram超过1500个公司使用，
@@ -57,3 +60,43 @@ cassandra这个数据库有很高的伸缩性和可用性，你完全不需要�
 ### 专家支持（PROFESSIONALLY SUPPORTED）
 
 >cassandra为第三方使用者提供服务，要钱的！
+
+## 安装Cassandra
+
+1. 下载安装包[cassandra](http://cassandra.apache.org)
+
+2. 运行
+
+```
+[root@clicki-v4 apache-cassandra-2.2.6]# bin/cassandra
+[root@clicki-v4 apache-cassandra-2.2.6]# bin/cqlsh 192.168.11.74
+cqlsh> 
+```
+
+3. 配置
+
+```
+# vim conf/cassandra.yaml 
+
+data_file_directories:
+     - /data/db/cassandra
+commitlog_directory: /data/logs/db/cassandra
+saved_caches_directory: /data/db/cassandra/saved_caches
+seed_provider:
+    - class_name: org.apache.cassandra.locator.SimpleSeedProvider
+      parameters:
+          # seeds is actually a comma-delimited list of addresses.
+          # Ex: "<ip1>,<ip2>,<ip3>"
+          - seeds: "172.16.0.10"
+listen_interface: eth0
+native_transport_port: 9042
+rpc_interface: eth0
+```
+
+4. 用法
+
+```
+cqlsh:clicki_v4> desc clicki_v4.  //这样很好!!
+app_visitor     sdk_visitor     visitor         visitor_reload
+cqlsh:clicki_v4> SELECT * from visito
+```
