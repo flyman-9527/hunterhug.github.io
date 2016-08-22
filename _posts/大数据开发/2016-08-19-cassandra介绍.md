@@ -4,6 +4,7 @@ title: "Cassandra介绍"
 date: 2016-08-19
 author: hunterhug
 categories: [数据开发]
+desc: "cassandra这个数据库有很高的伸缩性和可用性，你完全不需要向性能妥协．在硬件或者云设施上做修改."
 tags: ["大数据","cassandra"]
 permalink: "/bigdata/cassandra-introduction.html"
 ---
@@ -39,7 +40,7 @@ cassandra这个数据库有很高的伸缩性和可用性，你完全不需要�
 ### 伸缩性（SCALABLE）
 
 >一些特别大的生产部署,包括苹果公司,拥有超过75000个节点存储超过10 PB的数据,Netflix(2500个节点,420TB,每天超过1万亿个请求),中文搜索引擎Easou(270个节点,300TB,每天超过8亿请求),
->和eBay(超过100个节点,100结核病)。
+>和eBay(超过100个节点,100TB)。
 
 ### 持久性（DURABLE）
 
