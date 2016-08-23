@@ -200,7 +200,7 @@ Stopping secondary namenodes [0.0.0.0]
 You can run a MapReduce job on YARN in a pseudo-distributed mode by setting a few parameters and running ResourceManager daemon and NodeManager daemon in addition.
 再加一点参数和开两个守护进程，资源管理器和节点管理器，就可以用YARN来跑任务了．
 
-接着上面伪分布式还需要配置etc/hadoop/mapred-site.xml:
+1. 接着上面伪分布式还需要配置etc/hadoop/mapred-site.xml:
 
 ```
 <configuration>
@@ -209,4 +209,33 @@ You can run a MapReduce job on YARN in a pseudo-distributed mode by setting a fe
         <value>yarn</value>
     </property>
 </configuration>
+```
+
+2. 编辑etc/hadoop/yarn-site.xml:
+
+```
+<configuration>
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+    </property>
+</configuration>
+```
+
+3. 启动两个守护进程
+
+```
+  $ sbin/start-yarn.sh
+```
+
+4. 打开资源管理器ResourceManager - http://localhost:8088/
+
+<img src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/hadoop1.jpg"/>
+
+5. 可以跑任务了
+
+6.　关闭
+
+```
+$ sbin/stop-yarn.sh
 ```
