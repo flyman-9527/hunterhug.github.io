@@ -171,7 +171,6 @@ kafka是吞吐量巨大的一个消息系统，它是用scala写的，和普通�
         }
     }
 
-# Boker配置参数
 注意消费端需要配置成zk的地址，而生产端配置的是kafka的ip和端口。
 
 Kafka为broker,producer和consumer提供了很多的配置参数。了解并理解这些配置参数对于我们使用kafka是非常重要的。本文列出了一些重要的配置参数。

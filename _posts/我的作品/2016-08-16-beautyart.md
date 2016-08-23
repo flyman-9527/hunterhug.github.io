@@ -21,11 +21,9 @@ permalink: "/mywork/beautyart.html"
 ><p>用php和java重构过同一种网站,Python写过爬虫，现在大部分还是用python~~
 ><p>百哥，看过来！！~~~~
 
------
-
 ## 使用源代码请保留 `广州缀美美术学校官网|缀美画室` 链接:
 
-```html
+```
 <a href='http://beauty.lenggirl.com'>广州缀美美术学校官网|缀美画室</a>
 ```
 
@@ -145,7 +143,6 @@ beautyart
 ## 温馨提示
 1. 注意休息，程序猿朋友们
 2. 请多参考beego官网及多看框架源代码
-
 
 ## 项目进展
 1. 开发手脚架搭建完毕，RBAC模块完成，2016/7/2
