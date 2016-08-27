@@ -16,11 +16,11 @@ permalink: "/code/bonecp.html"
 
     使用BoneCP的必备条件
 
-使用BoneCP需要如下类库支持：
-被连接的数据库的JDBC驱动程序，这个可以到该数据库厂商网站下载；
-Google的集合框架Guava，它的网址是：http://code.google.com/p/guava-libraries/，这个需要说明的是BoneCP官方网站说的必备框架是Google Collect框架，但是这个框架已经不再支持了，而是转为新的集合框架Guava；
-SLF4J日志类库（在早期的BoneCP版本中直接使用了Log4J类库）；
-JDK1.5及更高版本。
+    使用BoneCP需要如下类库支持：
+    被连接的数据库的JDBC驱动程序，这个可以到该数据库厂商网站下载；
+    Google的集合框架Guava，它的网址是：http://code.google.com/p/guava-libraries/，这个需要说明的是BoneCP官方网站说的必备框架是Google Collect框架，但是这个框架已经不再支持了，而是转为新的集合框架Guava；
+    SLF4J日志类库（在早期的BoneCP版本中直接使用了Log4J类库）；
+    JDK1.5及更高版本。
  
 
 也就是需要了如下Jar包：
@@ -33,7 +33,6 @@ JDK1.5及更高版本。
     guava-r07.jar
     
 为了得到比较详细的运行过程信息，需要添加一个log4j的配置文件log4j.properties，log4j.properties的文件位置如上图，文件内容如下：
- 
 
     #log4j.rootLogger=DEBUG,CONSOLE,A1,im   
     log4j.rootLogger=DEBUG,CONSOLE  

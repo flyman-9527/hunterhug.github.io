@@ -34,3 +34,43 @@ p,h1,h2,h3,h4,h5{
 .post-content img{
 	max-width: 100%;
 }
+
+.clickable-header {
+  cursor:pointer;
+}
+.clickable-header:hover {
+  text-decoration:underline;
+}
+.top-level-header {
+  display:inline;
+}
+.back-to-top {
+  margin-left:5px;
+  cursor:pointer;
+}
+
+.tocc{
+	  cursor:pointer;
+	position: fixed;
+	width: 20px;
+	height:20px;
+	overflow: hidden;
+	background-color: black;
+filter:alpha(opacity=40);
+-moz-opacity:0.4;
+opacity:0.4;
+}
+
+.tocc:hover{
+	width: auto;
+	height: auto;
+	color: whitesmoke;
+	background-color: gainsboro;
+	filter:alpha(opacity=100);
+-moz-opacity:1;
+opacity:1
+}
+
+i{
+
+}

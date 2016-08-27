@@ -17,7 +17,15 @@ layout: default
                  {% endfor %}
             </p>
         </header>
-
+        <script type="text/javascript" src="{{ "/static/js/toc.js" | prepend: site.baseurl }}"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $('#toc').toc({ noBackToTopLinks: true,listType: 'ul',showEffect: 'slideDown',classes: { list: 'nav nav-list',
+                           item: ''
+                         }})
+        });
+        </script>
+        <div id="toc" class="tocc"></div>
         <div class="post-content" itemprop="articleBody">
             {{ content }}
         </div>

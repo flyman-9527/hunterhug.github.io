@@ -4,24 +4,22 @@ title: "Beego作品:缀美画室官网"
 date: 2016-08-16
 author: hunterhug
 categories: [我的作品]
-desc: "Golang画室网站，采用beego1.6框架所写，包含RBAC,多模板等功能，已经发布到beego官网"
+desc: "Golang画室网站，采用beego1.6框架所写，包含RBAC,多模板等功能，已经发布到beego官网，参见github"
 tags: ["Golang","缀美","beego"]
 permalink: "/mywork/beautyart.html"
 --- 
 
 伟大的程序员版权所有,转载请注明：www.lenggirl.com/mywork/beautyart.html
 
-# Github
-[https://github.com/hunterhug/beautyart](https://github.com/hunterhug/beautyart)
+# 项目介绍
+Github:[https://github.com/hunterhug/beautyart](https://github.com/hunterhug/beautyart)
 
-# 项目名：广州缀美美术学校|缀美画室官网
-
+>项目名：广州缀美美术学校|缀美画室官网
 >开发语言:Go!!!!
 ><p>想听故事吗？摸过大部分语言,go最小巧，而且我喜欢c语言，简单！可是c语言很难写网站~~~
 ><p>用php和java重构过同一种网站,Python写过爬虫，现在大部分还是用python~~
 ><p>百哥，看过来！！~~~~
-
-## 使用源代码请保留 `广州缀美美术学校官网|缀美画室` 链接:
+>>p>使用源代码请保留 `广州缀美美术学校官网|缀美画室` 链接:
 
 ```
 <a href='http://beauty.lenggirl.com'>广州缀美美术学校官网|缀美画室</a>
@@ -41,18 +39,18 @@ permalink: "/mywork/beautyart.html"
 >```
 
 
-## 项目规划
+# 项目规划
 >环境要求：golang=1.6,mysql=5.6
 ><p>框架：	beego
 ><p>起始时间：2016.6.10
 ><p>结束时间：2016.8.8
 
-## 项目托管
+# 项目托管
 >阿里云服务器： Ubuntu
 ><p>软件:ngnix
 ><p>域名：http://www.beautyart.top ,http://beauty.lenggirl.com
 
-## 文件目录
+# 文件目录
 
 ```
 beautyart
@@ -87,7 +85,7 @@ beautyart
 ----test 测试文件夹
 ```
 
-## 运行步骤
+# 运行步骤
 1. 运行init.sh进行包初始化或者根据提示go install
 2. 接着
 
@@ -99,7 +97,7 @@ beautyart
 	./main
 ```
 
-## 项目约定
+# 项目约定
 >RBAC权限相关的models统一放在admin文件夹，其他都放在home文件夹.
 	前台控制相关的controllers统一放在home文件夹，其他都放在admin文件夹
 	URL router统一M/C/A方式，该正则url需要验证权限，如rbac/public/index，其他如public/index不验证。
@@ -140,11 +138,11 @@ beautyart
 "8":{"name":"学生作品","limit":6}}
 ```
 
-## 温馨提示
+# 温馨提示
 1. 注意休息，程序猿朋友们
 2. 请多参考beego官网及多看框架源代码
 
-## 项目进展
+# 项目进展
 1. 开发手脚架搭建完毕，RBAC模块完成，2016/7/2
 2. 文章相册模块合二为一，完成一半，2016/7/15
 3. 文章模块完成，待copy相册模块，2016/7/24
@@ -154,28 +152,28 @@ beautyart
 7. 前端开发完毕  2016/8/2
 8. 内容填充完毕　2016/8/5
 
-## 待做
+# 待做
 1. 图片裁剪或者调用七牛云，阿里云等（一周时间）
 2. 文章历史记录归档，方便查看，否则乱啊（一周时间）
 3. APP应用，前端判断设备进行前端页面切换（一周时间）
 4. 域名备案（愁啊。。。。无限延期）
 
-## 特别说明
+# 特别说明
 >平台使用说明参见doc文件夹
 ><p>可自由修改源代码，但必须保留友好链接
 ><p>[http://beauty.lenggirl.com](广州缀美美术学校官网|缀美画室)
 
-## 联系方式
+# 联系方式
 >https://www.github.com/hunterhug 
 ><p>QQ：569929309
 
 
-## 参考
+# 参考
 >1. 基于角色的访问控制（Role-Based Access Control）作为传统访问控制
 >2. 使用beego框架和大量javascript脚本ajax调用
 >3.　Amaze UI v2.7.0和jQuery EasyUI 1.4.2、Bootstrap混合（xx)
 >4. 图片延迟加载
 
-## 前端展示
+# 前端展示
 <img src='https://raw.githubusercontent.com/hunterhug/beautyart/master/seeme.jpg' />
 <img src='https://raw.githubusercontent.com/hunterhug/beautyart/master/seemok.png' />

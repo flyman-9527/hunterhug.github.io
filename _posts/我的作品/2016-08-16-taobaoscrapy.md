@@ -11,8 +11,7 @@ permalink: "/mywork/taobaoscrapy.html"
 
 伟大的程序员版权所有,转载请注明：www.lenggirl.com/mywork/taobaoscrapy.html
 
-# Github
-[https://github.com/hunterhug/taobaoscrapy](https://github.com/hunterhug/taobaoscrapy)
+Github：[https://github.com/hunterhug/taobaoscrapy](https://github.com/hunterhug/taobaoscrapy)
 
 # 说明
 由于Github 打包的exe某些文件上传被.gitignore了，所以不提供windows二进制包
@@ -32,8 +31,7 @@ permalink: "/mywork/taobaoscrapy.html"
 ><p>run just click exe/*.exe
 ><p>more please watch the pdf
 
-# 更多说明参考pdf
-
+更多说明参考pdf
 
 # 使用
 

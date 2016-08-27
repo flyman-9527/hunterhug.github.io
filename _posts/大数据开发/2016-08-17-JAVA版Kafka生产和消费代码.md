@@ -1,16 +1,17 @@
 ---
 layout: post  
-title: "JAVA版Kafka生产和消费代码"
+title: "JAVA版Kafka代码及配置解释"
 date: 2016-08-17
 author: hunterhug
 categories: [数据开发]
-desc: "kafka是吞吐量巨大的一个消息系统，它是用scala写的，本文提供一个java版代码给大家参考。"
+desc: "kafka是吞吐量巨大的一个消息系统，它是用scala写的，本文提供java版代码及配置解释给大家参考。"
 tags: ["大数据","kafka"]
 permalink: "/bigdata/java-kafka.html"
 --- 
 
 伟大的程序员版权所有,转载请注明：www.lenggirl.com/bigdata/java-kafka.html.html
 
+# 一.JAVA代码
 kafka是吞吐量巨大的一个消息系统，它是用scala写的，和普通的消息的生产消费还有所不同，写了个demo程序供大家参考。kafka的安装请参考官方文档。
 
 首先我们需要新建一个maven项目，然后在pom中引用kafka jar包，引用依赖如下：
@@ -177,6 +178,8 @@ Kafka为broker,producer和consumer提供了很多的配置参数。了解并理�
 
 官方的文档 Configuration 比较老了，程中根据 0.8.2 的代码也做了修正。
 
+# 二.Config配置
+
 >下表列出了Boker的重要的配置参数， 更多的配置请参考 kafka.server.KafkaConfig
 
     
@@ -206,6 +209,8 @@ Kafka为broker,producer和consumer提供了很多的配置参数。了解并理�
     zookeeper.sync.time.ms 	2000 	zk follower落后于zk leader的最长时间
     High-level Consumer配置参数
 
+# 三.Consumer配置
+
 >下表列出了high-level consumer的重要的配置参数。
 
 更多的配置请参考 kafka.consumer.ConsumerConfig
@@ -225,6 +230,7 @@ Kafka为broker,producer和consumer提供了很多的配置参数。了解并理�
     rebalance.retries.max 	4 	rebalance时的最大尝试次数
     Producer配置参数
 
+# 四.Producer配置
 
 >下表列出了producer的重要的参数。
 

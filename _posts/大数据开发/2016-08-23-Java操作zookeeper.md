@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "zookeeper-Curator框架应用"
+title: "转载:zookeeper-Curator框架应用"
 date: 2016-08-23
 author: hunterhug
 categories: [数据开发]
@@ -19,9 +19,9 @@ Curator框架提供了一套高级的API， 简化了ZooKeeper的操作。 它�
         提供了一个现代的流式接口
     提供了Recipes实现： 如前面的文章介绍的那样，基于这些Recipes可以创建很多复杂的分布式应用
 
-Curator框架通过CuratorFrameworkFactory以工厂模式和builder模式创建CuratorFramework实 例。 CuratorFramework实例都是线程安全的，你应该在你的应用中共享同一个CuratorFramework实例.
+>Curator框架通过CuratorFrameworkFactory以工厂模式和builder模式创建CuratorFramework实 例。 CuratorFramework实例都是线程安全的，你应该在你的应用中共享同一个CuratorFramework实例.
 
-工厂方法newClient()提供了一个简单方式创建实例。 而Builder提供了更多的参数控制。一旦你创建了一个CuratorFramework实例，你必须调用它的start()启动，在应用退出时调用close()方法关闭.
+>工厂方法newClient()提供了一个简单方式创建实例。 而Builder提供了更多的参数控制。一旦你创建了一个CuratorFramework实例，你必须调用它的start()启动，在应用退出时调用close()方法关闭.
 
 下面的例子演示了两种创建Curator的方法：
 

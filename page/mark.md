@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 大数据收藏
+title: 帖子收藏
 date: 2016-08-25
-permalink: /big/
+permalink: /mark/
 ---
 
 >Java

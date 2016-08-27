@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Cassandra官方介绍"
+title: "Cassandra官方介绍及安装"
 date: 2016-08-19
 author: hunterhug
 categories: [数据开发]
