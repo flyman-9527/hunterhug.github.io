@@ -3,7 +3,7 @@ layout: post
 title: "Python手机淘宝关键字爬虫"
 date: 2016-08-16
 author: hunterhug
-categories: [我的作品]
+categories: [我的作品,爬虫点滴]
 desc: "一只淘宝关键字Python爬虫,支持抓取商品标题/商品价格/商品销量/商品图片等"
 tags: ["淘宝关键字","爬虫","Python"]
 permalink: "/mywork/taobaoscrapy.html"
