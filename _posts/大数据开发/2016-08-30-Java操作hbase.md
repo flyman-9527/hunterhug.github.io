@@ -1,7 +1,7 @@
 ---
 layout: post  
 title: "Java开发Hbase示例"
-date: 2016-08-23
+date: 2016-08-30
 author: hunterhug
 categories: [数据开发]
 desc: "Java操作Hbase的简单示例"
