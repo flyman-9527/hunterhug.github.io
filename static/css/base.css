@@ -52,7 +52,7 @@ p,h1,h2,h3,h4,h5{
 .tocc{
 	  cursor:pointer;
 	position: fixed;
-	width: 20px;
+	width: 50%;
 	height:20px;
 	overflow: hidden;
 	background-color: black;
