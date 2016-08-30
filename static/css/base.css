@@ -58,7 +58,7 @@ code{
 	width: 50%;
 	height:20px;
 	overflow: hidden;
-	background-color: black;
+	background-color: #f0f0f0;
 filter:alpha(opacity=40);
 -moz-opacity:0.4;
 opacity:0.4;
