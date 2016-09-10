@@ -12,5 +12,7 @@ permalink: /mark/
 >大数据
 
 [Kafka+Storm+HDFS整合实践](http://shiyanjun.cn/archives/934.html)
-<p>[HBASE乱七八糟](http://www.uml.org.cn/sjjm/201212141.asp)
-<p>[旧HashMap](http://my.oschina.net/mrku/blog/737808)
+
+[HBASE乱七八糟](http://www.uml.org.cn/sjjm/201212141.asp)
+
+[旧HashMap](http://my.oschina.net/mrku/blog/737808)
