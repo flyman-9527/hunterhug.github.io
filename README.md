@@ -12,13 +12,6 @@
 
 >The newest edited in 2016/1/10
 
----
-layout: page
-title: 我的故事
-date: 2016-08-16
-permalink: /about/
----
-
 >我是谁？我究竟是谁？爱生活，看星星．写注释可以像写小说那样多好啊！可惜不能！
 
 >没读大学之前,计算机是什么，不知道，只是用来打游戏和聊天的工具。后来大学读数学专业，读着读着就
@@ -46,13 +39,19 @@ permalink: /about/
 >好了，主播上代码！
 
 > 爬虫大家族
+
 >淘宝关键字：[https://github.com/hunterhug/taobaoscrapy](https://github.com/hunterhug/taobaoscrapy)
+
 >豆瓣大图书：[https://github.com/hunterhug/doubanbook30000](https://github.com/hunterhug/doubanbook30000)
+
 >黑科技教务系统：[https://github.com/hunterhug/gdufesearch](https://github.com/hunterhug/gdufesearch)
+
 >大黑科技教务系统：[https://github.com/hunterhug/gdufeallsearch](https://github.com/hunterhug/gdufeallsearch)
+
 >淘宝抓评论：[https://github.com/hunterhug/taobaocomment](https://github.com/hunterhug/taobaocomment)
 
 >懒人必备
+
 >懒人文件处理工具[https://github.com/hunterhug/xmlmerge](https://github.com/hunterhug/xmlmerge)
 
 >毕业设计做出了一个[企业管理平台](http://ei.lenggirl.com/)，历经心血啊，泪奔啊，开发得最久啊，换模板后可以马上换钱了！
@@ -72,11 +71,15 @@ permalink: /about/
 >欢迎用git来交流，我现在弄了三个tool仓库，弄了几本书，欢迎灌水，其实也没什么时间去写代码了，我们可是要看星星的。
 
 >工具箱开发中
+
 >[https://github.com/hunterhug/java_tool](https://github.com/hunterhug/java_tool)
+
 >[https://github.com/hunterhug/python_tool](https://github.com/hunterhug/python_tool)
+
 >[https://github.com/hunterhug/go_tool](https://github.com/hunterhug/go_tool)
 
 >准备用gitbook写书
+
 >[https://github.com/hunterhug/nima](https://github.com/hunterhug/nima)
 
 >其实我也不知道自己要表达什么！
