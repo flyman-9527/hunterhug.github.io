@@ -20,9 +20,8 @@ permalink: /about/
 是大四刚开学吧，为了找工作，就用PHP简单写了个后台，小丢丢得鼓捣四天出来了。但是找不到工作！为什么写PHP，因为简单！
 而且，大二大三不知道为什么，看了很多前端的书，我一直以为我会是一个优秀的前端人员。事实是没有。
 
->上代码!
-
->弱智博客：[https://github.com/hunterhug/lenggirl_blog](https://github.com/hunterhug/lenggirl_blog)
+>上代码!<br/>
+弱智博客：[https://github.com/hunterhug/lenggirl_blog](https://github.com/hunterhug/lenggirl_blog)
 
 >辣鸡丑，然后要朝进阶的程序员之路前进。
 
@@ -31,48 +30,36 @@ permalink: /about/
 
 >好了，主播上代码！
 
-> 爬虫大家族
+> 爬虫大家族<br/>
+>淘宝关键字：[https://github.com/hunterhug/taobaoscrapy](https://github.com/hunterhug/taobaoscrapy)<br/>
+>豆瓣大图书：[https://github.com/hunterhug/doubanbook30000](https://github.com/hunterhug/doubanbook30000)<br/>
+>黑科技教务系统：[https://github.com/hunterhug/gdufesearch](https://github.com/hunterhug/gdufesearch)<br/>
+>大黑科技教务系统：[https://github.com/hunterhug/gdufeallsearch](https://github.com/hunterhug/gdufeallsearch)<br/>
+>淘宝抓评论：[https://github.com/hunterhug/taobaocomment](https://github.com/hunterhug/taobaocomment)<br/>
 
->淘宝关键字：[https://github.com/hunterhug/taobaoscrapy](https://github.com/hunterhug/taobaoscrapy)
-
->豆瓣大图书：[https://github.com/hunterhug/doubanbook30000](https://github.com/hunterhug/doubanbook30000)
-
->黑科技教务系统：[https://github.com/hunterhug/gdufesearch](https://github.com/hunterhug/gdufesearch)
-
->大黑科技教务系统：[https://github.com/hunterhug/gdufeallsearch](https://github.com/hunterhug/gdufeallsearch)
-
->淘宝抓评论：[https://github.com/hunterhug/taobaocomment](https://github.com/hunterhug/taobaocomment)
-
->懒人必备
-
+>懒人必备<br/>
 >懒人文件处理工具[https://github.com/hunterhug/xmlmerge](https://github.com/hunterhug/xmlmerge)
 
 >毕业设计做出了一个[企业管理平台](http://ei.lenggirl.com/)，历经心血啊，泪奔啊，开发得最久啊，换模板后可以马上换钱了！
 
->上代码！
-
+>上代码！<br/>
 >优质多用户内容系统：[https://github.com/hunterhug/ei](https://github.com/hunterhug/ei)
 
 >工作了，变成一个程序员，在没事的时候用go又写了一个网站[画室网站](http://beauty.lenggirl.com/)
 
->上代码！
-
+>上代码！<br/>
 >Go大法好：[https://github.com/hunterhug/beautyart](https://github.com/hunterhug/beautyart)
 
 >现在修修补补，妈蛋，用回静态博客，点击[萌萌哒的我](https://github.com/hunterhug/hunterhug.github.io)
 
 >欢迎用git来交流，我现在弄了三个tool仓库，弄了几本书，欢迎灌水，其实也没什么时间去写代码了，我们可是要看星星的。
 
->工具箱开发中
+>工具箱开发中<br/>
+>[https://github.com/hunterhug/java_tool](https://github.com/hunterhug/java_tool)<br/>
+>[https://github.com/hunterhug/python_tool](https://github.com/hunterhug/python_tool)<br/>
+>[https://github.com/hunterhug/go_tool](https://github.com/hunterhug/go_tool)<br/>
 
->[https://github.com/hunterhug/java_tool](https://github.com/hunterhug/java_tool)
-
->[https://github.com/hunterhug/python_tool](https://github.com/hunterhug/python_tool)
-
->[https://github.com/hunterhug/go_tool](https://github.com/hunterhug/go_tool)
-
->准备用gitbook写书
-
+>准备用gitbook写书<br/>
 >[https://github.com/hunterhug/nima](https://github.com/hunterhug/nima)
 
 >其实我也不知道自己要表达什么！
