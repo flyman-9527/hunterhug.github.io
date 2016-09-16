@@ -9,6 +9,7 @@ tags: ["大数据","Java","Hbase"]
 permalink: "/bigdata/java-hbase.html"
 ---
 
+使用Hbase操作数据：
 
     package com.sunteng.clickidc.test;
     
