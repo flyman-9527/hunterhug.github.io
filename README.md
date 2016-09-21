@@ -12,6 +12,7 @@
 
 >The newest edited in 2016/1/10
 
+<img alt="" src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/me.png"/>
 
 # 人生感言
 >我是谁？我究竟是谁？爱生活，看星星．写注释可以像写小说那样多好啊！可惜不能！(ps:为什么这样，因为商业活动
