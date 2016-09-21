@@ -22,6 +22,8 @@ permalink: /other/
   
 基础的Go语言入门中国版，比较浅显，七牛云老大写的，第一批Gopher.
 
+[Go/gob编码](http://www.cnblogs.com/yjf512/archive/2012/08/24/2653697.html)
+
 >杀神
 
 传奇玄幻小说，不容错过，有教育意义
