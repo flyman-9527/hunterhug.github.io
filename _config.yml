@@ -1,4 +1,4 @@
-title: 太阳萌飞了|个人博客
+title: 一只尼玛|个人博客
 email: gdccmcm14@live.com
 description: 伟大的程序员,只是一个技术博客,人生苦短，飞了飞了．
 about: > # this means to ignore newlines until "baseurl:"
@@ -17,7 +17,7 @@ about: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hunterhug.github.io" # the base hostname & protocol for your site
 weibo_url: hunterhug
-weibo_username: 太阳萌飞了
+weibo_username: 一只尼玛
 github_username:  hunterhug
 duoshuo: hunterhug
 gems:
