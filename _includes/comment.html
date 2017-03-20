@@ -9,7 +9,7 @@
         <!-- 多说评论框 end -->
         <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
         <script type="text/javascript">
-            var duoshuoQuery = {short_name: "huntehug"};
+            var duoshuoQuery = {short_name: "{{ site.duoshuo }}"};
             (function () {
                 var ds = document.createElement('script');
                 ds.type = 'text/javascript';
@@ -22,11 +22,3 @@
         </script>
     </div>
 </div>
-<!--&lt;!&ndash; 多说公共JS代码 end &ndash;&gt;-->
-<!--<div class="ds-share" data-thread-key="{{ page.url | prepend: site.baseurl | prepend: site.url }}" data-title="{{ page.title }}" data-url="{{ page.url | prepend: site.baseurl | prepend: site.url }}">-->
-    <!--<div class="ds-share-aside-right">-->
-      <!--<div class="ds-share-aside-inner">-->
-      <!--</div>-->
-      <!--<div class="ds-share-aside-toggle">分享到</div>-->
-    <!--</div>-->
-<!--</div>-->
