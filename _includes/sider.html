@@ -1,19 +1,20 @@
-<!--
 <div>
 <ul class="nav nav-list">
     <li class="nav-header">
-        文章分类
+        公众号
     </li>
-    <li class="active">
+    <!--
+	<li class="active">
         <a href="hunterhug.github.io">首页</a>
     </li>
     {% for category in site.categories %}
     <li><a href="{{ "/showCategory.html?cat=" | prepend: site.baseurl }}{{ category | first }}">{{ category | first }}<span>-({{ category | last | size }})</span></a></li>
     {% endfor %}
+	-->
+	<img class="img1" src="/static/code.jpg" style="margin-bottom: 10px">
     <li class="divider">
     </li>
     <img class="img1" src="/static/me.gif" style="margin-bottom: 10px">
 	{% include duoshuo.html %}
 </ul>
 </div>
--->
