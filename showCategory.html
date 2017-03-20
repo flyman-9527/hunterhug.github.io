@@ -2,7 +2,7 @@
 layout: default
 ---
 <script type="text/javascript" src="{{ "/static/js/jquery.q.js" | prepend: site.baseurl }}"></script>
-<div id='content' class="container-fluid">
+<div id='content' class="container-fluid" style="margin:20px">
     <div class="row-fluid">
         <div class="span9">
             <div class="row-fluid" id="yy">
@@ -23,7 +23,7 @@ data = JSON.parse(dataStr);
 //alert(archieves);
 var k='';
 for(i in archieves){
-    var aaa ="<div><div><p>";
+    var aaa ="<div style='border-bottom:1px solid pink;margin-bottom:10px'><div><p>";
     aaa+=archieves[i]['date'];
     aaa+="</p><div class='caption'><h3><p style='font-size: 1.2em'><a href = '";
     aaa+=archieves[i]['url'];
