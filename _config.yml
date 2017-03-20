@@ -1,6 +1,6 @@
-title: 搬砖的陈大师
+title: 搬砖的陈大师|征途大海
 email: 569929309@qq.com
-description: 伟大的程序员,只是一个技术博客
+description: 公众号：lenggirlcom
 about: > # this means to ignore newlines until "baseurl:"
   我是一个喜欢学知识的人，只是因为学了计算机，发现很多东西要学。
   我会很多计算机语言，Go,Python,JAVA,C,C++,PHP,HTML,CSS,JS,MATLAB。
@@ -13,7 +13,6 @@ about: > # this means to ignore newlines until "baseurl:"
   代码这种东西说来不复杂
   只是顺从人的逻辑，提取数据再插入数据
   自从得了精神病精神好多了
-  现在苦逼程序员一个．
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hunterhug.github.io" # the base hostname & protocol for your site
 weibo_url: hunterhug
