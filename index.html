@@ -4,11 +4,11 @@ layout: default
 <div><marquee direction="right">关注公众号，一起傻逼</marquee></div>
 <div id='content' class="container-fluid">
     <div class="row-fluid">
-        <div class="span7">
+        <div class="span8">
             <div class="row-fluid">
                 <!--<div class="span12">-->
                 {% for post in paginator.posts %}
-                <div class="span12" style='border-bottom:1px solid pink;margin-bottom:10px'>
+                <div style='border-bottom:1px solid pink;margin-bottom:10px'>
                     <div>
                         <p>{{ post.date | date: " %b %-d, %Y" }}
                         </p>
