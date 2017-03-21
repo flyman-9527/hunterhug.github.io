@@ -9,7 +9,7 @@ layout: default
                 {% for post in paginator.posts %}
                 <div class="span12" style='border-bottom:1px solid pink;margin-bottom:10px'>
                     <div>
-                        <p style="font-size: 1.2em">{{ post.date | date: " %b %-d, %Y" }}
+                        <p>{{ post.date | date: " %b %-d, %Y" }}
                         </p>
                         <div class="caption">
                             <p style="font-size: 1.2em">
@@ -33,7 +33,7 @@ layout: default
                 <ul>
                 {% if paginator.previous_page %}
                     <li>
-                       <a href="{{ paginator.previous_page_path | prepend: site.baseurl}}">上一页</a>
+                       <a href="{{ paginator.previous_page_path | prepend: site.baseurl}}">Pre</a>
                     </li>
                 {% endif %}
                 {% for page in (1..paginator.total_pages) %}
@@ -46,13 +46,13 @@ layout: default
                     {% endif %}
 			    {% endfor %}
                 {% if paginator.next_page %}
-                <li><a href="{{ paginator.next_page_path | prepend: site.baseurl}}">下一页</a></li>
+                <li><a href="{{ paginator.next_page_path | prepend: site.baseurl}}">Nex</a></li>
                 {% endif %}
                 </ul>
             </div>
             {% endif %}
         </div>
-        <div class="span4">
+        <div class="span3">
             {% include sider.html %}
         </div>
     </div>

@@ -11,7 +11,7 @@ code{
 	z-index: 999;
 }
 .btn-to-top {
-	background: url("/static/uparrow.png") no-repeat scroll 14px 14px #FCFCFC;
+	background: url("/static/uparrow.jpg") no-repeat scroll 14px 14px #FCFCFC;
 	display: block;
 	height: 60px;
 	overflow: hidden;
@@ -48,7 +48,7 @@ code{
   display:inline;
 }
 .back-to-top {
-  margin-left:5px;
+  margin-left:3px;
   cursor:pointer;
 }
 
