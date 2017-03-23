@@ -2,11 +2,12 @@
 layout: page
 title: 日志
 date: 2016-08-16
-permalink: /other/
+permalink: /log/
 ---
 
 # 20170323
-1. 简化了模板
+1. 简化了模板，深信简单就是美
+2. 使用VScode编辑器
 
 # 20170320
 1. 重新优化了博客
