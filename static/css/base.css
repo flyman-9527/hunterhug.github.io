@@ -1,6 +1,13 @@
 body{
 	margin: auto 20%;
 }
+.fimage{
+	margin-bottom: 20px;
+	min-width: 100%
+}
+.contentline{
+	border-bottom:1px solid silver;margin-bottom:10px
+}
 #content{
 	margin-top:30px
 }
