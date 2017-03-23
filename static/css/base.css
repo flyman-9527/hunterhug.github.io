@@ -90,4 +90,7 @@ opacity:1
 body{
 	margin: auto 2%;
 }
+.tocc{
+	display: none;
+}
 }
