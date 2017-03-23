@@ -86,3 +86,8 @@ opacity:0.4;
 -moz-opacity:1;
 opacity:1
 }
+@media screen and (max-width: 600px) {
+body{
+	margin: auto 2%;
+}
+}
