@@ -1,7 +1,7 @@
-<a class="v-fork-me" href="https://github.com/hunterhug/hunterhug.github.io" target="_blank" rel="nofollow">
-      <img src="/static/forkme_right_darkblue.png" alt="Fork me on GitHub">
+<!--<a class="v-fork-me" href="https://github.com/hunterhug/hunterhug.github.io" target="_blank" rel="nofollow">-->
+      <!--<img src="/static/forkme_right_darkblue.png" alt="Fork me on GitHub">-->
 </a>
-<a class="btn-to-top" title="返回顶部" target="_self" href="#">回顶部</a>
+<a class="btn-to-top" title="Top Back" target="_self" href="#">Top Back</a>
 
 <div id='head'>
     <div class="navbar navbar-fixed-top">
@@ -12,14 +12,14 @@
                     href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a>
                 <div class="nav-collapse collapse navbar-responsive-collapse">
                     <ul class="nav">
-						<li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">文章分类<strong class="caret"></strong></a>
+						<li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">文章|Paper<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 							{% for category in site.categories %}
 							<li><a class="page-link" href="{{ "/nima.html?cat=" | prepend: site.baseurl }}{{ category | first }}">{{ category | first }}<span>-({{ category | last | size }})</span></a></li>
 							{% endfor %}
 							</ul>
 						</li>
-                         <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">我的生活<strong class="caret"></strong></a>
+                         <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">生活|Life<strong class="caret"></strong></a>
                             <ul class="dropdown-menu">
 							{% for my_page in site.pages %}
 							{% if my_page.title %}
@@ -30,7 +30,7 @@
                         </li>
                     </ul>
                     <ul class="nav pull-right">
-                        <li><a href="https://yun.baidu.com/share/home?uk=2670395222">资源</a></li>
+                        <li><a href="https://www.github.com/hunterhug">GitHub</a></li>
                         <li>
                             <a href="{{"/feed.xml" | prepend: site.baseurl }}">RSS</a>
                         </li>

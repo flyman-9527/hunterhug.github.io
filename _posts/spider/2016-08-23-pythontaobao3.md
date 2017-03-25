@@ -5,10 +5,12 @@ date: 2016-08-23
 author: hunterhug
 categories: [爬虫点滴]
 desc: "一只淘宝爬虫，相关原理和代码解释"
-permalink: "/spider/taobao31.html"
+permalink: "/spider/taobao3.html"
 --- 
 
-淘宝改字段，Bugfix，查看·[Github](https://github.com/hunterhug/taobaoscrapy.git)
+搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/spider/taobao3.html
+
+淘宝改字段，Bugfix，查看[Github](https://github.com/hunterhug/taobaoscrapy.git)
 
 欢迎回看第一篇和第二篇。
 
@@ -509,8 +511,6 @@ createjia是创建文件夹，不存在会报错的！！
 
 如果有reason则是你网络有问题，无法访问服务器。
 
- 
-
 保存的数据如下(太长不放了)：
 
     http://s.m.taobao.com/search?q=1&abtest=16&search=%E6%8F%90%E4%BA%A4%E6%9F%A5%E8%AF%A2&topSearch=1&style=list&sst=1&atype=b&n=20&page=0&closeModues=nav%2Cselecthot%2Conesearch&_input_charset=utf-8&sort=bid&buying=buyitnow&searchfrom=1&from=1&m=api4h5&event_submit_do_new_search_auction=1&action=home%3Aredirect_app_action&wlsort=16
@@ -624,6 +624,7 @@ total变量存放Excel数据，待生成Excel
 
 <img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao18.png"/>
 <img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao19.png"/>
+
 好的！好多码呀，好复杂。。。。
 
         for item in onefile:
@@ -992,6 +993,4 @@ Python3中级玩家：[Python3中级玩家：淘宝天猫商品搜索爬虫自�
 git clone [https://github.com/hunterhug/taobaoscrapy.git](https://github.com/hunterhug/taobaoscrapy.git)
  
 欢迎收看新的爬虫文章！！！还有很多。。。
-
-
  

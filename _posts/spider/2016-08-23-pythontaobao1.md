@@ -8,6 +8,8 @@ desc: "一只淘宝爬虫，相关原理和代码解释"
 permalink: "/spider/taobao1.html"
 --- 
 
+搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/spider/taobao1.html
+
 淘宝改字段，Bugfix，查看·[Github](https://github.com/hunterhug/taobaoscrapy.git)
 
 # 一、前言
@@ -27,7 +29,6 @@ permalink: "/spider/taobao1.html"
 
 感觉自己萌萌哒~~
 
- 
 # 二、原理
 
 大家知道什么叫爬虫，它也叫网络蜘蛛，机器人等，意思就是说自动的程序，可以去抓取使用网络协议传输的内容。
@@ -41,12 +42,10 @@ http协议主要有请求报文和响应报文，计算机网络必须学好，�
 请求报文，后面带一堆头部，可能会携带数据，如post或get的时候：
 
     GET www.baidu.com HTTP/1.1
-    ...
 
 响应报文，后面带头部还有数据：
 
     HTTP/1.1 200 OK
-    ..
 
 以下为火狐F12的结果，仅供参考！
 
@@ -56,11 +55,9 @@ http协议主要有请求报文和响应报文，计算机网络必须学好，�
 
 我们只需正常进行http请求即可获得数据，问题是淘宝会反爬虫，或者是需要登录。
 
-1.一般反爬虫会在头部做点手脚，加密一些头部，如防盗链有个Referer，如果不是本服务器则拒绝提供服务。
-而Session传送的Cookie一般以jsessionid这种头部存在。。。。
+1.一般反爬虫会在头部做点手脚，加密一些头部，如防盗链有个Referer，如果不是本服务器则拒绝提供服务。而Session传送的Cookie一般以jsessionid这种头部存在。。。。
 
-2.可能会根据IP访问次数，如一秒访问100次则认为是机器人，比如豆瓣。
-本人抓过豆瓣大部分的书~存在数据库了~请上github，点击上方fork！
+2.可能会根据IP访问次数，如一秒访问100次则认为是机器人，比如豆瓣。本人抓过豆瓣大部分的书~存在数据库了
 
 解决方法：自然是伪装成人类，暂停，换IP，登录，完美！！
 
@@ -71,7 +68,6 @@ http协议主要有请求报文和响应报文，计算机网络必须学好，�
 先根据F12调试后，确定链接地址，伪装头部，伪装查询条件，非常情况使用外部Cookie文件，得到JSONP数据，替换成JSON数据，抽取JSON数据，
 
 提取图片链接，更改图片尺寸，抓取大图片，图片压缩，数据选择填入EXCEL，生成EXCEL，KO！
-
 
 # 四、代码
 
@@ -285,13 +281,11 @@ http://s.m.taobao.com/search?buying=buyitnow&abtest=16&wlsort=16&sort=bid&from=1
    
     html_bytes = urllib.request.urlopen(url).read()
     
-    打开url链接，然后读取，读的是二进制喔！！
-    
-     
-    
-        # 保存COOKIE到文件中
-        cj.save(ignore_discard=True, ignore_expires=True)
-        return html_bytes
+打开url链接，然后读取，读的是二进制喔！！
+
+    # 保存COOKIE到文件中
+    cj.save(ignore_discard=True, ignore_expires=True)
+    return html_bytes
 
 最后把生成的cookie保存起来，返回抓取的数据。
 
@@ -304,5 +298,3 @@ http://s.m.taobao.com/search?buying=buyitnow&abtest=16&wlsort=16&sort=bid&from=1
 等不及，请github武装！！！
 
 git clone [https://github.com/hunterhug/taobaoscrapy.git](https://github.com/hunterhug/taobaoscrapy.git)
-
- 

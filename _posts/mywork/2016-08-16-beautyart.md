@@ -5,25 +5,17 @@ date: 2016-08-16
 author: hunterhug
 categories: [我的作品]
 desc: "Golang画室网站，采用beego1.6框架所写，包含RBAC,多模板等功能，已经发布到beego官网，参见github"
-tags: ["Golang","缀美","beego"]
+tags: ["Golang","beego"]
 permalink: "/mywork/beautyart.html"
 --- 
 
-伟大的程序员版权所有,转载请注明：www.lenggirl.com/mywork/beautyart.html
+搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/mywork/beautyart.html
 
 # 项目介绍
 Github:[https://github.com/hunterhug/beautyart](https://github.com/hunterhug/beautyart)
 
->项目名：广州缀美美术学校|缀美画室官网
+>项目名：广州缀美美术学校|缀美画室官网<br/>
 >开发语言:Go!!!!
-><p>想听故事吗？摸过大部分语言,go最小巧，而且我喜欢c语言，简单！可是c语言很难写网站~~~
-><p>用php和java重构过同一种网站,Python写过爬虫，现在大部分还是用python~~
-><p>百哥，看过来！！~~~~
->>p>使用源代码请保留 `广州缀美美术学校官网|缀美画室` 链接:
-
-
-    <a href='http://beauty.lenggirl.com'>广州缀美美术学校官网|缀美画室</a>
-
 
 
     // ░░░░░░░░▌▒█░░░░░░░░░░░▄▀▒▌
@@ -32,7 +24,7 @@ Github:[https://github.com/hunterhug/beautyart](https://github.com/hunterhug/bea
     // ░░░░░▄▄▀▒░▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐ wordpress的多模板切换，能行的，加油！
     // ░░░▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌
     // ░░▐▒▒▒▄▄▒▒▒▒░░░▒▒▒▒▒▒▒▀▄▒▒
-    // ░░▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐官网域名待启用,暂时用二级域名~~
+    // ░░▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒
     // ░▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄一个支持多用户权限控制，拥有基本博客功能，可扩展的网站应用
     // ░▌░▒▄██▄▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒暂时有用户管理，文章管理，相册管理，评论，可扩展式内容管理系统
     // ▀▒▀▐▄█▄█▌▄░▀▒▒░░░░░░░░░░▒▒▒
@@ -160,11 +152,6 @@ Github:[https://github.com/hunterhug/beautyart](https://github.com/hunterhug/bea
 >平台使用说明参见doc文件夹
 ><p>可自由修改源代码，但必须保留友好链接
 ><p>[http://beauty.lenggirl.com](广州缀美美术学校官网|缀美画室)
-
-# 联系方式
->https://www.github.com/hunterhug 
-><p>QQ：569929309
-
 
 # 参考
 >1. 基于角色的访问控制（Role-Based Access Control）作为传统访问控制

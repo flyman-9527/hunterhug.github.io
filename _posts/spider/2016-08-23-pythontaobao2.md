@@ -8,6 +8,8 @@ desc: "一只淘宝爬虫，相关原理和代码解释"
 permalink: "/spider/taobao2.html"
 --- 
 
+搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/spider/taobao2.html
+
 淘宝改字段，Bugfix，查看·[Github](https://github.com/hunterhug/taobaoscrapy.git)
 
 请见第一篇：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第一篇](http://www.lenggirl.com/spider/taobao1.html)
@@ -16,7 +18,7 @@ permalink: "/spider/taobao2.html"
 
 认真看完这些函数之后，我们就可以开始工作了。
 
-# 一、一开始的介绍函数
+# 一、开始的介绍函数
 
     def begin():
         sangjin = '''
@@ -349,7 +351,4 @@ git clone [https://github.com/hunterhug/taobaoscrapy.git](https://github.com/hun
 
 中间去了深圳两天，稍后更新。。。
 
-
-
-
- 
+读到这里心酸酸,2017.03.25
