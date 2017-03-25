@@ -6,6 +6,9 @@
                     {% if site.weibo_username %}
                     <p> Weibo:{% include icon-twitter.html username=site.weibo_url usernameb=site.weibo_username %}</p>
                     {% endif %}
+                    % if site.github_username %}
+                    <p> Github:{% include icon-github.html username=site.github_username usernameb=site.github_username %}</p>
+                    {% endif %}
                     <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 					<p>{{ site.about }}</p>
                 </div>
