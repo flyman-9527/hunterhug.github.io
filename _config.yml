@@ -1,6 +1,6 @@
-title: 搬砖的陈大师|征途大海
+title: 搬砖的陈大师|Coding Man
 email: 569929309@qq.com
-description: 公众号：lenggirlcom
+description: Wechat：lenggirlcom
 about: > # this means to ignore newlines until "baseurl:"
   一个搬砖的，不足挂齿<br/>
   但这里有爬虫，网站还有吐槽的故事<br/>
@@ -8,11 +8,13 @@ about: > # this means to ignore newlines until "baseurl:"
   主要精通Go/Java/Python/Js以及各种工具的拼写。<br/>
   <br/>
   目前围绕Docker/kubernetes工作。<br/>
-  
+  <br/>
+  A Man Like Music,Reading And All Other Interesting Things！<br>
+  Do Not Be Boring,There Are A Lot Of Funning Things Waiting For You...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hunterhug.github.io" # the base hostname & protocol for your site
 weibo_url: hunterhug
-weibo_username: 一只尼玛
+weibo_username: WeiBo(Faded)
 github_username:  hunterhug
 duoshuo: hunterhug
 gems:
