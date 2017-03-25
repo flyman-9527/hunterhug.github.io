@@ -93,4 +93,7 @@ body{
 .tocc{
 	display: none;
 }
+#hide{
+	display: none;
+}
 }
