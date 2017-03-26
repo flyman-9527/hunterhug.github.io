@@ -91,12 +91,6 @@ opacity:1
 body{
 	margin: auto 2%;
 }
-.tocc{
-	display: none;
-}
-#toc{
-	display: none;
-}
 .btn-to-top{
 	display: none;
 }
