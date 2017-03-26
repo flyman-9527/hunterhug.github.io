@@ -27,7 +27,7 @@ layout: default1
 			}else{
 				aaa+="<p>"
 				for (j in archieves[i]["tags"]){
-					aaa+="<a style='margin-right: 5px' href='/tag?cat="+j+"'>"+j+"<a/>"
+					aaa+="<a style='margin-right: 5px' href='/tag?cat="+archieves[i]["tags"][j]+"'>"+archieves[i]["tags"][j]+"<a/>"
 				}
 				aaa+="</p>"
 			}
