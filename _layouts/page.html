@@ -9,6 +9,7 @@ layout: default
             <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
         </header>
         <script type="text/javascript" src="{{ "/static/js/toc.js" | prepend: site.baseurl }}"></script>
+        <div id="toc" class="tocc"></div>
         <script type="text/javascript">
         $(document).ready(function() {
             $('#toc').toc({ noBackToTopLinks: true,listType: 'ul',showEffect: 'slideDown',classes: { list: 'nav nav-list',
@@ -16,9 +17,6 @@ layout: default
                          }})
         });
         </script>
-        <div id="hide">
-        <div id="toc" class="tocc"></div>
-        </div>
         <div class="post-content" itemprop="articleBody">
             {{ content }}
         </div>
