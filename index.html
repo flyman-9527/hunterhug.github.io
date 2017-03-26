@@ -40,7 +40,7 @@ layout: default
                         <a style="margin-right: 5px" href="{{ "/tag.html?cat=" | prepend: site.baseurl }}{{ tag | first }}">{{ tag | first }}</a>
                         {% endfor %}
                         </p>
-                        {{% endif %}}
+                        {% endif %}
                         <div class="caption">
                             <p style="font-size: 1.2em">
                                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
