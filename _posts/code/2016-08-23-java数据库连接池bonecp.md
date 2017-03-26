@@ -4,17 +4,16 @@ title: "转载:java数据库连接池bonecp"
 date: 2016-08-23
 author: hunterhug
 desc: "据BoneCP网站官方报告称，BoneCP比性能排名第二的Java数据库连接池性高高25倍以上，并且支持Hibernate和DataNucleus这样的数据持久框架（当然支持JDBC这种直接方式了）。"
-categories: [渣渣记录]
-tags: ["数据库","Java","数据库连接池"]
-permalink: "/code/bonecp.html"
+categories: [代码相关]
+tags: ["数据库","Java"]
+permalink: "/code/java-bonecp.html"
 --- 
 
 原创作品，允许转载，转载时请务必以超链接形式标明文章 原始出处 、作者信息和本声明。否则将追究法律责任。http://zhoufoxcn.blog.51cto.com/792419/438277
 
-在2006年8月的时候我在项目中使用过Proxool这个Java数据库连接池，在当时的使用过程中遇到了一些问题，为此曾写过一篇名为《关于Proxool使用的一点问题》的博客，网址是http://blog.csdn.net/zhoufoxcn/archive/2006/08/30/1142685.aspx，博文发布以后有很多朋友在博文下面留言，因为它们也遇到了类似的问题。我记得我在2006年使用Proxool的时候版本就已经是0.8.3了，最近在Hibernate中发现它也带了这个Java数据库连接池实现，它的版本依然是0.8.3，应该是这些年来没有更新了。前些天研究一个项目的时候发现了项目中使用了BoneCP这个Java的数据库连接池，抱着好奇的态度学习了一下，觉得还不错，所以写了这篇博文跟大家分享一下。BoneCP也是一个开源的Java数据库连接池，它的官方网站网址是：http://jolbox.com/。
-据BoneCP网站官方报告称，BoneCP比性能排名第二的Java数据库连接池性高高25倍以上，并且支持Hibernate和DataNucleus这样的数据持久框架（当然支持JDBC这种直接方式了）。
+在2006年8月的时候我在项目中使用过Proxool这个Java数据库连接池，在当时的使用过程中遇到了一些问题，为此曾写过一篇名为《关于Proxool使用的一点问题》的博客，网址是http://blog.csdn.net/zhoufoxcn/archive/2006/08/30/1142685.aspx，博文发布以后有很多朋友在博文下面留言，因为它们也遇到了类似的问题。我记得我在2006年使用Proxool的时候版本就已经是0.8.3了，最近在Hibernate中发现它也带了这个Java数据库连接池实现，它的版本依然是0.8.3，应该是这些年来没有更新了。前些天研究一个项目的时候发现了项目中使用了BoneCP这个Java的数据库连接池，抱着好奇的态度学习了一下，觉得还不错，所以写了这篇博文跟大家分享一下。BoneCP也是一个开源的Java数据库连接池，它的官方网站网址是：http://jolbox.com/。据BoneCP网站官方报告称，BoneCP比性能排名第二的Java数据库连接池性高高25倍以上，并且支持Hibernate和DataNucleus这样的数据持久框架（当然支持JDBC这种直接方式了）。
 
-    使用BoneCP的必备条件
+使用BoneCP的必备条件
 
     使用BoneCP需要如下类库支持：
     被连接的数据库的JDBC驱动程序，这个可以到该数据库厂商网站下载；
@@ -75,12 +74,9 @@ permalink: "/code/bonecp.html"
     #log4j.appender.MAIL=org.apache.log4j.net.SMTPAppender   
     #log4j.appender.MAIL.Threshold=FATAL   
     #log4j.appender.MAIL.BufferSize=10   
-     
     #log4j.appender.MAIL.To\=web@www.wusetu.com  
-     
     #log4j.appender.MAIL.SMTPHost=www.wusetu.com   
     #log4j.appender.MAIL.Subject=Log4J Message   
-     
     #log4j.appender.MAIL.layout=org.apache.log4j.PatternLayout   
     #log4j.appender.MAIL.layout.ConversionPattern=[framework] %d - %c -%-4r [%t] %-5p %c %x - %m%n   
     # 用于数据库   
@@ -102,17 +98,14 @@ permalink: "/code/bonecp.html"
     #log4j.appender.im.username = username   
     #log4j.appender.im.password = password   
     #log4j.appender.im.recipient = corlin@cybercorlin.net  
-     
     #log4j.appender.im.layout=org.apache.log4j.PatternLayout   
     #log4j.appender.im.layout.ConversionPattern =[framework] %d - %c -%-4r [%t] %-5p %c %x - %m%n 
 
- 
 
-    在JDBC中使用BoneCP
+在JDBC中使用BoneCP
 
 在JDBC中使用BoneCP相当简单，设置一些关于数据库连接池的参数信息，比如连接池的最大、最小连接数等。下面是一个简单的例子：
  
-
     package com.netskycn;  
     import java.sql.Connection;  
     import java.sql.ResultSet;  
@@ -188,10 +181,7 @@ permalink: "/code/bonecp.html"
 
 这个例子相当简单，但是是利用BoneCP提供的连接池而不是直接使用JDBC来管理连接的。
 
-    使用DataSource
-
 使用DataSource的话，代码如下：
- 
 
     //加载数据库驱动  
     Class.forName("com.mysql.jdbc.Driver");  
@@ -204,8 +194,7 @@ permalink: "/code/bonecp.html"
     //设置密码  
     ds.setPassword("jeri");  
     //下面的代码是设置其它可选属性  
-    //ds.setXXXX(...);  
-              
+    //ds.setXXXX(...);    
     Connection connection;  
     connection = ds.getConnection();  
               
@@ -215,14 +204,11 @@ permalink: "/code/bonecp.html"
     connection.close();  
     ds.close(); 
 
- 
-
-    在Hibernate中使用BoneCP
+在Hibernate中使用BoneCP
 
 在Hibernate中使用BoneCP除了需要上面提到的jar包之外，还需要下载一个名为bonecp-provider-0.7.0.jar的bonecp-provider的jar包，它的下载位置是：http://jolbox.com/bonecp/downloads/maven/com/jolbox/bonecp-provider/0.7.0/bonecp-provider-0.7.0.jar。
 除此之外，还需要做如下配置：
  
-
     <!-- Hibernate SessionFactory --> 
     <bean id="sessionFactory" class="org.springframework.orm.hibernate.LocalSessionFactoryBean" autowire="autodetect"> 
         <property name="hibernateProperties"> 
@@ -243,7 +229,6 @@ permalink: "/code/bonecp.html"
             </props> 
         </property> 
     </bean> 
-
 
 这样就可以在Hibernate中使用BoneCP了。
 

@@ -204,17 +204,17 @@ Python3中级玩家：[Python3中级玩家：淘宝天猫商品搜索爬虫自�
 
 Shift+Ctrl+M变成手机形式，然后模拟触摸事件
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao13.png"/>
+<img  src="/img/taobao13.png"/>
 
 现在好像在PC机上不能搜索宝贝了，谁怕，按F12
 
 看到下面的post参数没有
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao14.png"/>
+<img  src="/img/taobao14.png"/>
 
 然后看到JSON数据没有。
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao15.png"/>
+<img  src="/img/taobao15.png"/>
 
 我们从中间代码剖析。
 
@@ -252,7 +252,7 @@ urlencode是因为关键字可能是汉字或非法字符，需要先转义一�
 
 打印出来的效果是这样的
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao16.png"/>
+<img  src="/img/taobao16.png"/>
  
 好！！我们从一开始的main剖析。
 
@@ -371,7 +371,7 @@ mulu存放图片
 
 createjia是创建文件夹，不存在会报错的！！
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao17.png"/>
+<img  src="/img/taobao17.png"/>
 
 关键boss来了，看好：
 
@@ -623,8 +623,8 @@ total变量存放Excel数据，待生成Excel
             
 使用json.loads加载这个数据，然后就可以像对象一样操作json数据，'listItem'存放了我们需要的数据，看JSON数据格式组成：
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao18.png"/>
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao19.png"/>
+<img  src="/img/taobao18.png"/>
+<img  src="/img/taobao19.png"/>
 
 好的！好多码呀，好复杂。。。。
 
@@ -851,7 +851,7 @@ urlcleanup则是清除全局设置，因为淘宝天猫抓图片不需要任何�
                 
 quote函数说明：
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao20.png"/>
+<img  src="/img/taobao20.png"/>
 
 最后，创建文件夹，设置图片名字，存放图片，关键在于图片取名和浓缩图设置。
 
@@ -884,7 +884,7 @@ quote函数说明：
 
 图片命名：
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao21.png"/>
+<img  src="/img/taobao21.png"/>
 
                     picno=time.strftime('%H%M%S', time.localtime())
                     filenamep=mulu+'/'+picno+validateTitle(item['nick']+'-'+item['title'])
@@ -901,7 +901,7 @@ quote函数说明：
 
 大小对比：
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao22.png"/>
+<img  src="/img/taobao22.png"/>
 
                     pic=urllib.request.urlopen(url)
                     filess=open(filenamepp,'wb')
@@ -935,8 +935,8 @@ quote函数说明：
         
 total有数据，那么写入Excel，Excel命名自己分析哈，结果如下：
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao23.png"/>
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao24.png"/>
+<img  src="/img/taobao23.png"/>
+<img  src="/img/taobao24.png"/>
 
 之后这样要怎样，我想让任何人都可以直接运行，不要安装python环境啦，好啦，看好。
 
@@ -964,15 +964,15 @@ total有数据，那么写入Excel，Excel命名自己分析哈，结果如下�
     
 然后cmd转到该文件夹下：
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao25.png"/>
+<img  src="/img/taobao25.png"/>
  
 生成的文件
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao26.png"/>
+<img  src="/img/taobao26.png"/>
 
 把exe.win32-3.4移到根目录，任意改名，以下改为exe
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao27.png"/>
+<img  src="/img/taobao27.png"/>
 
 可执行exe文件夹下的后缀为exe的可执行文件，但是我们还是建一个批处理脚本run.bat吧,
 

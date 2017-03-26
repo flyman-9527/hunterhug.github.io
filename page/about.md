@@ -79,7 +79,7 @@ Java是一个王的存在，我现在还在写，估计这是一门我理解最�
 
 >常用编辑器IDEA Pycharm，常用语言Go,Python,Java．PHP是世界上最好的语言，所以我拒绝使用！
 
-<img alt="" src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/mylove.jpg" />
+<img alt="" src="/img/mylove.jpg" />
 
 # 2017年
 

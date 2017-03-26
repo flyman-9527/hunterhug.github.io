@@ -141,7 +141,7 @@ permalink: "/spider/taobao2.html"
      
 当然目录结构如下
 
-<img  src="https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/img/taobao12.png"/>
+<img  src="/img/taobao12.png"/>
 
 原来parent就是遍历到的文件夹，dirnames就是遍历到的文件夹下面的文件夹，filenames就是遍历到的文件夹下面的文件，瞬间懂了！继续看原来的代码：
 
