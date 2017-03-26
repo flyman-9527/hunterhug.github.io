@@ -10,7 +10,7 @@
       var word_list = new Array();
         word_list =  [{% for category in site.tags %}
         {
-            text: "{{ category | first }}",weight: {{ category | last | size }}, link: {href: "/tags?cat={{ category | first }}", target: "_blank"}
+            text: "{{ category | first }}",weight: {{ category | last | size }}, link: {href: "/tag?cat={{ category | first }}", target: "_blank"}
         }{% if category != site.tags.last %},{% endif %}
         {% endfor %}]
       
