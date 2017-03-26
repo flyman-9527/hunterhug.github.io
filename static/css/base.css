@@ -71,17 +71,17 @@ code{
 	width: 50%;
 	height:20px;
 	overflow: hidden;
-	background-color: #f0f0f0;
-filter:alpha(opacity=40);
--moz-opacity:0.4;
-opacity:0.4;
+	background-color: white;
+filter:alpha(opacity=30);
+-moz-opacity:0.3;
+opacity:0.3;
 }
 
 .tocc:hover{
 	width: 50%;
 	height: auto;
-	color: whitesmoke;
-	background-color: gainsboro;
+	color: white;
+	background-color: white;
 	filter:alpha(opacity=100);
 -moz-opacity:1;
 opacity:1
