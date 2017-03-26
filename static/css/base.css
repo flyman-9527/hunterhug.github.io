@@ -94,7 +94,10 @@ body{
 .btn-to-top{
 	display: none;
 }
-.tocc{
+#toc{
+	display: none;
+}
+#hidetoc{
 	display: none;
 }
 }
