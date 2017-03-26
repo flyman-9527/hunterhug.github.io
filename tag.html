@@ -16,15 +16,25 @@ layout: default1
 		//alert(curTag);
 		archieves = data[curTag];
 		//alert(archieves);
-		console.log(archieves)
+		// console.log(archieves)
 		var k='';
 		for(i in archieves){
-			var aaa ="<div class='contentline'><div><p>";
-			aaa+=archieves[i]['date'];
-			aaa+="</p><div class='caption'><h3><p style='font-size: 1.2em'><a href = '";
-			aaa+=archieves[i]['url'];
-			aaa+="' > "+archieves[i]['title']+"</a></p><p>"+archieves[i]['desc']+"</p></h3></div></div></div>";
-			k+=aaa;
+					var aaa ="<div class='contentline'><div><p>";
+					aaa+=archieves[i]['date'];
+					aaa+="</p>"
+					if(archieve[i]["tags"]=="null"||archieve[i]["tags"]==""){
+
+					}else{
+						aaa+="<p>"
+						for (j in archieves[i]["tags"]){
+							aaa+="<a style='margin-right: 5px' href='/tag?cat="+j+"'>"+j+"<a/>"
+						}
+						aaa+="</p>"
+					}
+					aaa+="<div class='caption'><h3><p style='font-size: 1.2em'><a href = '";
+					aaa+=archieves[i]['url'];
+					aaa+="' > "+archieves[i]['title']+"</a></p><p>"+archieves[i]['desc']+"</p></h3></div></div></div>";
+					k+=aaa;
 		}
 		var div=document.getElementById("yy");
         div.innerHTML=k;
