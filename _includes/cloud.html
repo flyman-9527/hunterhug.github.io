@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <link rel="stylesheet" type="text/css" href="/static/jqcloud/jqcloud.css" />
+    <script type="text/javascript" src="/static/js/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="/static/jqcloud/jqcloud-1.0.4.min.js"></script>
+    <div class="row-fluid">
+        <div class="span12" id="clound" style="height:350px">
+		</div>
+    </div>
+     <script type="text/javascript">
+      var word_list = new Array();
+        word_list =  [{% for category in site.tags %}
+        {
+            text: "{{ category | first }}",weight: {{ category | last | size }}, link: {href: "/tags?cat={{ category | first }}", target: "_blank"}
+        }{% if category != site.tags.last %},{% endif %}
+        {% endfor %}]
+      
+      $(function() {
+        $("#clound").jQCloud(word_list);
+      });
+    </script>
+</div>
