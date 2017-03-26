@@ -6,6 +6,8 @@ about: > # this means to ignore newlines until "baseurl:"
   但这里有爬虫，网站还有吐槽的故事<br/>
   云计算，中间件，和我半关系没有<br/>
   主要精通Go/Java/Python/Js以及各种工具的拼写。<br/>
+roll: >
+关注公众号，一起傻逼(在下方)|Follow My Wechat And Enjoy It(Bottom)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hunterhug.github.io" # the base hostname & protocol for your site
 weibo_url: hunterhug
