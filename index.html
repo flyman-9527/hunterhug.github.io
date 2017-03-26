@@ -37,7 +37,7 @@ layout: default
                         {% if post.tags %}
                         <p>
                         {% for tag in post.tags %}
-                        <a style="margin-right: 5px" href="{{ "/tag.html?cat=" | prepend: site.baseurl }}{{ tag | first }}">{{ tag | first }}</a>
+                        <a style="margin-right: 5px" href="{{ "/tag.html?cat=" | prepend: site.baseurl }}{{tag}}">{{tag}}</a>
                         {% endfor %}
                         </p>
                         {% endif %}
