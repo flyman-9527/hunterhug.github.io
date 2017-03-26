@@ -3,11 +3,13 @@ layout: post
 title: "Java开发Hbase示例"
 date: 2016-08-30
 author: hunterhug
-categories: [数据开发]
+categories: [代码相关]
 desc: "Java操作Hbase的简单示例"
 tags: ["大数据","Java","Hbase"]
-permalink: "/bigdata/java-hbase.html"
+permalink: "/code/javahbase.html"
 ---
+
+搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/code/javahbase.html
 
 使用Hbase操作数据：
 
