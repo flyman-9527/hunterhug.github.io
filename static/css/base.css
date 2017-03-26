@@ -30,7 +30,7 @@ code{
 	overflow: hidden;
 	text-indent: -99em;
 	width: 58px;
-	border-radius: 7px 7px 7px 7px;
+	border-radius: 0px 0px 7px 7px;
 	border: 1px solid #E5E5E5;
 	position: fixed;
 	right: 20px;
@@ -86,6 +86,7 @@ opacity:0.4;
 -moz-opacity:1;
 opacity:1
 }
+
 @media screen and (max-width: 600px) {
 body{
 	margin: auto 2%;
@@ -94,6 +95,9 @@ body{
 	display: none;
 }
 #hide{
+	display: none;
+}
+.btn-to-top{
 	display: none;
 }
 }

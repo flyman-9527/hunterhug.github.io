@@ -5,6 +5,7 @@ date: 2016-08-23
 author: hunterhug
 categories: [爬虫点滴]
 desc: "一只淘宝爬虫，相关原理和代码解释"
+tags: ["爬虫","Python"]
 permalink: "/spider/taobao2.html"
 --- 
 
