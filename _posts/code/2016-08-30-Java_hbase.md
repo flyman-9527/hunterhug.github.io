@@ -6,10 +6,10 @@ author: hunterhug
 categories: [代码相关]
 desc: "Java操作Hbase的简单示例"
 tags: ["大数据","Java","Hbase"]
-permalink: "/code/javahbase.html"
+permalink: "/code/java-hbase.html"
 ---
 
-搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/code/javahbase.html
+搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/code/java-hbase.html
 
 使用Hbase操作数据：
 

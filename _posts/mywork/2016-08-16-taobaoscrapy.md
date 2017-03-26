@@ -5,7 +5,7 @@ date: 2016-08-16
 author: hunterhug
 categories: [我的作品]
 desc: "一只淘宝关键字Python爬虫,支持抓取商品标题/商品价格/商品销量/商品图片等"
-tags: ["爬虫","Python"]
+tags: ["爬虫","Python","淘宝"]
 permalink: "/mywork/taobaoscrapy.html"
 --- 
 

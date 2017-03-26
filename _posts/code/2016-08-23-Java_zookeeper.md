@@ -4,9 +4,9 @@ title: "转载:zookeeper-Curator框架应用"
 date: 2016-08-23
 author: hunterhug
 categories: [数据开发]
-desc: "Java,ZooKeeper的用法： Curator框架应用"
-tags: ["大数据","zookeeper","curator"]
-permalink: "/bigdata/zookeeper-curator.html"
+desc: "Java,ZooKeeper的用法：Curator框架应用"
+tags: ["大数据","Zookeeper","Java"]
+permalink: "/code/zookeeper-curator.html"
 ---
 
 前面的几篇文章介绍了一些ZooKeeper的应用方法， 本文将介绍Curator访问ZooKeeper的一些基本方法， 而不仅仅限于指定的Recipes， 你可以使用Curator API任意的访问ZooKeeper。

@@ -5,7 +5,7 @@ date: 2016-08-16
 author: hunterhug
 categories: [我的作品]
 desc: "一只淘宝Python爬虫,支持抓取商品评论，批量导出EXCEL"
-tags: ["爬虫","Python"]
+tags: ["爬虫","Python","淘宝"]
 permalink: "/mywork/taobaocomment.html"
 --- 
 

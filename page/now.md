@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 近况
+title: 近况计划
 date: 2017-03-25
 permalink: /now/
 ---
