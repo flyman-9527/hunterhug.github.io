@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 幼稚时光
+title: 个人介绍
 date: 2016-08-16
 permalink: /about/
 ---
