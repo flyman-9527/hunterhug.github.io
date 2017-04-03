@@ -54,7 +54,8 @@ code{
 	margin: 0 auto;
 }
 .post-content img{
-	max-width: 100%;
+	max-width: 80%;
+	padding:10%
 }
 
 .clickable-header {
@@ -105,5 +106,9 @@ body{
 }
 #hidetoc{
 	display: none;
+}
+
+.post-content img{
+	max-width: 100%
 }
 }
