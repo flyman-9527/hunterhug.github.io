@@ -1,6 +1,6 @@
 .post-content p{
-	  margin-bottom: 25px;
-    font-size: 17.5px;
+	margin-bottom: 25px;
+    font-size: 15.5px;
     font-weight: 200;
     line-height: 1.25; 
 }
@@ -55,7 +55,6 @@ code{
 }
 .post-content img{
 	max-width: 80%;
-	padding:10%
 }
 
 .clickable-header {
