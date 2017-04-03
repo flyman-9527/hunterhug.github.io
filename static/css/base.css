@@ -4,6 +4,16 @@
     font-weight: 200;
     line-height: 1.25; 
 }
+
+.post-title{
+	text-align: center
+}
+
+.post-meta{
+text-align: center;
+padding-bottom: 10px;
+	
+}
 body{
 	margin: auto 20%;
 }
