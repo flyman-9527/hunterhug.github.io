@@ -5,6 +5,10 @@
     line-height: 1.25; 
 }
 
+.post-header{
+		margin-bottom: 30px;
+		border-bottom:1px dotted black
+}
 .post-title{
 	text-align: center
 }
@@ -25,7 +29,7 @@ body{
 	border-bottom:1px solid silver;margin-bottom:10px
 }
 #content{
-	margin-top:50px;
+	margin-top:20px;
 }
 p,h1,h2,h3,h4,h5{
     word-wrap: break-word;
