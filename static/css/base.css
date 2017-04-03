@@ -79,9 +79,10 @@ code{
 	height:20px;
 	overflow: hidden;
 	background-color: white;
-filter:alpha(opacity=30);
--moz-opacity:0.3;
-opacity:0.3;
+	filter:alpha(opacity=30);
+	-moz-opacity:0.3;
+	opacity:0.3;
+	right:10px
 }
 
 .tocc:hover{
@@ -90,8 +91,8 @@ opacity:0.3;
 	color: white;
 	background-color: white;
 	filter:alpha(opacity=100);
--moz-opacity:1;
-opacity:1
+	-moz-opacity:1;
+	opacity:1
 }
 
 @media screen and (max-width: 600px) {
