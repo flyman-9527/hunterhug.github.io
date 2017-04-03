@@ -92,12 +92,12 @@ code{
 	filter:alpha(opacity=30);
 	-moz-opacity:0.3;
 	opacity:0.3;
-	right:30px;
+	left:30px;
 	top:30px;
 }
 
 .tocc:hover{
-	width: 50%;
+	width: 20%;
 	height: auto;
 	color: white;
 	background-color: white;
