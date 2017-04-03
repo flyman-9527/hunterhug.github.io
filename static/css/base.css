@@ -82,7 +82,8 @@ code{
 	filter:alpha(opacity=30);
 	-moz-opacity:0.3;
 	opacity:0.3;
-	right:10px
+	right:30px;
+	top:30px;
 }
 
 .tocc:hover{
