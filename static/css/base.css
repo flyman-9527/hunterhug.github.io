@@ -54,7 +54,8 @@ code{
 	margin: 0 auto;
 }
 .post-content img{
-	max-width: 80%;
+	max-width: 70%;
+	padding: 20px
 }
 
 .clickable-header {
