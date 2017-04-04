@@ -9,7 +9,7 @@ tags: ["爬虫","Python","淘宝"]
 permalink: "/mywork/taobaocomment.html"
 --- 
 
-搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/mywork/taobaocomment.html
+搬砖的陈大师版权所有,转载请注明：www.cjhug.me/mywork/taobaocomment.html
 
 # 说明
 由于Github 打包的exe某些文件上传被.gitignore了，所以不提供windows二进制包

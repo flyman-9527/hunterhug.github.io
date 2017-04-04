@@ -4,6 +4,10 @@ title: 修订日志
 date: 2016-08-16
 permalink: /log/
 ---
+# 20170404
+1. 启用了新的域名：www.cjhug.me
+2. I am cjhug
+
 # 20170403
 1. 多说要关闭了，使用网易云跟帖
 2. 调整图片大小和padding

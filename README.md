@@ -1,5 +1,5 @@
 # hunterhug.github.io
-网址：http://www.lenggirl.com
+网址：http://www.cjhug.me
 
 如何拥有自己的博客?<br/>
 How To Get A Blog For Me?

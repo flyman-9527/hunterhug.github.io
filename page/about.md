@@ -118,7 +118,7 @@ permalink: /about/
 
 >发表了一个期刊:[基于物体影长数据的定位方法研究 ](http://s.wanfangdata.com.cn/Paper.aspx?q=%e4%bd%9c%e8%80%85%3a%22%e9%99%88%e9%94%a6%e7%80%9a%22)
 
->翻译了一本书：[瀚哥的matlab手册](http://www.lenggirl.com/matlab.pdf)
+>翻译了一本书：[瀚哥的matlab手册](http://www.cjhug.me/matlab.pdf)
 
 >大学时期学了很多技术，却没怎么玩，大家的大学是玩的，我的大学玩得少，立秋到了，不知什么时候可以去
 嗨皮一下，扔掉代码，去看星星！好想看星星，那种整片的星星。我挺喜欢看书，写代码顺带是一个技能，能养活自己，而且挺自由的样子。

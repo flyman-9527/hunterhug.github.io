@@ -1,6 +1,6 @@
 title: 搬砖的陈大师|Coding Man
 email: 569929309@qq.com
-description: Wechat：lenggirlcom
+description: Wechat：hunterhug
 about: > # this means to ignore newlines until "baseurl:"
   一个搬砖的，不足挂齿<br/>
   但这里有爬虫，网站还有吐槽的故事<br/>
@@ -13,7 +13,6 @@ url: "http://hunterhug.github.io" # the base hostname & protocol for your site
 weibo_url: hunterhug
 weibo_username: 一只尼玛
 github_username:  hunterhug
-duoshuo: hunterhug
 gems:
   - jekyll-coffeescript
   - jekyll-paginate

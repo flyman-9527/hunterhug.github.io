@@ -9,7 +9,7 @@ tags: ["大数据","Java","Hbase"]
 permalink: "/code/java-hbase.html"
 ---
 
-搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/code/java-hbase.html
+搬砖的陈大师版权所有,转载请注明：www.cjhug.me/code/java-hbase.html
 
 使用Hbase操作数据：
 
