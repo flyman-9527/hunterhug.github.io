@@ -11,6 +11,8 @@ permalink: /about/
 
 >技能：Web全栈，爬虫，逻辑中间件开发，数据挖掘
 
+>下面的东西看看就好，不要当真，Too naive.
+
 >Outline
 
 ```
@@ -92,6 +94,8 @@ permalink: /about/
 
 20170401记录
 ```
+
+>这就是我，年轻的时候：www.lenggirl.com/static/me.jpg 
 
 ---
 
