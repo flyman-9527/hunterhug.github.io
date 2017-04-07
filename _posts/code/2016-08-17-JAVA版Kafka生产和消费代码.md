@@ -9,7 +9,7 @@ tags: ["大数据","kafka","Java"]
 permalink: "/code/java-kafka.html"
 --- 
 
-搬砖的陈大师版权所有,转载请注明：www.cjhug.me/code/java-kafka.html
+搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/code/java-kafka.html
 
 # 一.JAVA代码
 kafka是吞吐量巨大的一个消息系统，它是用scala写的，和普通的消息的生产消费还有所不同，写了个demo程序供大家参考。kafka的安装请参考官方文档。

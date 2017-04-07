@@ -9,7 +9,7 @@ tags: ["Golang","beego","Web"]
 permalink: "/mywork/beautyart.html"
 --- 
 
-搬砖的陈大师版权所有,转载请注明：www.cjhug.me/mywork/beautyart.html
+搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/mywork/beautyart.html
 
 # 项目介绍
 Github:[https://github.com/hunterhug/beautyart](https://github.com/hunterhug/beautyart)

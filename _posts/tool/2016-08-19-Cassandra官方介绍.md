@@ -9,7 +9,7 @@ tags: ["大数据","cassandra"]
 permalink: "/tool/cassandra-introduction.html"
 ---
 
-搬砖的陈大师版权所有,转载请注明：www.cjhug.me/tool/cassandra-introduction.html
+搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/tool/cassandra-introduction.html
 
 cassandra这个数据库有很高的伸缩性和可用性，你完全不需要向性能妥协．在硬件或者云设施上做修改
 官网:[Cassandra官网](http://cassandra.apache.org/)

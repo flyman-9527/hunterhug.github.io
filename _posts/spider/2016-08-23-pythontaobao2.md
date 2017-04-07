@@ -9,11 +9,11 @@ tags: ["爬虫","Python","淘宝"]
 permalink: "/spider/taobao2.html"
 --- 
 
-搬砖的陈大师版权所有,转载请注明：www.cjhug.me/spider/taobao2.html
+搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/spider/taobao2.html
 
 淘宝改字段，Bugfix，查看·[Github](https://github.com/hunterhug/taobaoscrapy.git)
 
-请见第一篇：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第一篇](http://www.cjhug.me/spider/taobao1.html)
+请见第一篇：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第一篇](http://www.lenggirl.com/spider/taobao1.html)
 
 说完核心函数，我们接下来看其他函数。
 
@@ -342,7 +342,7 @@ permalink: "/spider/taobao2.html"
 
 下一篇将把所有函数连接在一起，进行我们爬虫工具的组装！！上面只是做预热准备~
 
-明天持续第三篇：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第三篇）](http://www.cjhug.me/spider/taobao3.html）
+明天持续第三篇：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第三篇）](http://www.lenggirl.com/spider/taobao3.html）
 
 等不及就上github:
 

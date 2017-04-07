@@ -9,15 +9,15 @@ tags: ["爬虫","Python","淘宝"]
 permalink: "/spider/taobao3.html"
 --- 
 
-搬砖的陈大师版权所有,转载请注明：www.cjhug.me/spider/taobao3.html
+搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/spider/taobao3.html
 
 淘宝改字段，Bugfix，查看[Github](https://github.com/hunterhug/taobaoscrapy.git)
 
 欢迎回看第一篇和第二篇。
 
-Python3中级玩家：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第一篇](http://www.cjhug.me/spider/taobao1.html)
+Python3中级玩家：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第一篇](http://www.lenggirl.com/spider/taobao1.html)
 
-Python3中级玩家：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第二篇](http://www.cjhug.me/spider/taobao2.html)
+Python3中级玩家：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第二篇](http://www.lenggirl.com/spider/taobao2.html)
 
 这一篇是终极篇，看完这个你就知道一个爬虫，是那么地需要，灵活运用，各种各样的工具。
 
@@ -985,9 +985,9 @@ run.bat里面写入
 
 好了，我们的Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具就结束了，好累！
 
-Python3中级玩家：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第一篇](http://www.cjhug.me/spider/taobao1.html)
+Python3中级玩家：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第一篇](http://www.lenggirl.com/spider/taobao1.html)
 
-Python3中级玩家：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第二篇](http://www.cjhug.me/spider/taobao2.html)
+Python3中级玩家：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第二篇](http://www.lenggirl.com/spider/taobao2.html)
 
 等不及就上github:
 

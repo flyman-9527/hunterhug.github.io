@@ -9,7 +9,7 @@ tags: ["爬虫","Python","淘宝"]
 permalink: "/spider/taobao1.html"
 --- 
 
-搬砖的陈大师版权所有,转载请注明：www.cjhug.me/spider/taobao1.html
+搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/spider/taobao1.html
 
 淘宝改字段，Bugfix，查看·[Github](https://github.com/hunterhug/taobaoscrapy.git)
 
@@ -294,7 +294,7 @@ http://s.m.taobao.com/search?buying=buyitnow&abtest=16&wlsort=16&sort=bid&from=1
  
 时间：2016/3/27 
 
-明天待续：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第二篇）](http://www.cjhug.me/spider/taobao2.html)
+明天待续：[Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第二篇）](http://www.lenggirl.com/spider/taobao2.html)
 
 等不及，请github武装！！！
 
