@@ -3,7 +3,7 @@ layout: post
 title: "Python天猫淘宝评论爬虫"
 date: 2016-08-16
 author: hunterhug
-categories: [科学]
+categories: [代码]
 desc: "一只淘宝Python爬虫,支持抓取商品评论，批量导出EXCEL"
 tags: ["爬虫","Python","淘宝"]
 permalink: "/mywork/taobaocomment.html"

@@ -3,7 +3,7 @@ layout: post
 title: "Python3中级玩家：淘宝天猫商品搜索爬虫自动化工具（第三篇）"
 date: 2016-08-23
 author: hunterhug
-categories: [科学]
+categories: [代码]
 desc: "一只淘宝爬虫，相关原理和代码解释"
 tags: ["爬虫","Python","淘宝"]
 permalink: "/spider/taobao3.html"

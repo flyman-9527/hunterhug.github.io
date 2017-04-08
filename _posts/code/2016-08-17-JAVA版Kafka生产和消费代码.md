@@ -3,7 +3,7 @@ layout: post
 title: "JAVA版Kafka代码及配置解释"
 date: 2016-08-17
 author: hunterhug
-categories: [科学]
+categories: [代码]
 desc: "kafka是吞吐量巨大的一个消息系统，它是用scala写的，本文提供java版代码及配置解释给大家参考。"
 tags: ["大数据","kafka","Java"]
 permalink: "/code/java-kafka.html"

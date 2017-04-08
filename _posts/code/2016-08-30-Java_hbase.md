@@ -3,7 +3,7 @@ layout: post
 title: "Java开发Hbase示例"
 date: 2016-08-30
 author: hunterhug
-categories: [科学]
+categories: [代码]
 desc: "Java操作Hbase的简单示例"
 tags: ["大数据","Java","Hbase"]
 permalink: "/code/java-hbase.html"

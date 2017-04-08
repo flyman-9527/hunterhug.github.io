@@ -3,7 +3,7 @@ layout: post
 title: "Beego作品:缀美画室官网"
 date: 2016-08-16
 author: hunterhug
-categories: [科学]
+categories: [代码]
 desc: "Golang画室网站，采用beego1.6框架所写，包含RBAC,多模板等功能，已经发布到beego官网，参见github"
 tags: ["Golang","beego","Web"]
 permalink: "/mywork/beautyart.html"

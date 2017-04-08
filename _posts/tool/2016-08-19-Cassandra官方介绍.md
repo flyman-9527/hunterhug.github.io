@@ -3,7 +3,7 @@ layout: post
 title: "Cassandra官方介绍及安装"
 date: 2016-08-19
 author: hunterhug
-categories: [科学]
+categories: [代码]
 desc: "cassandra这个数据库有很高的伸缩性和可用性，你完全不需要向性能妥协．在硬件或者云设施上做修改."
 tags: ["大数据","cassandra"]
 permalink: "/tool/cassandra-introduction.html"

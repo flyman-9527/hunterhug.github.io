@@ -3,7 +3,7 @@ layout: post
 title: "转载:zookeeper-Curator框架应用"
 date: 2016-08-23
 author: hunterhug
-categories: [科学]
+categories: [代码]
 desc: "Java,ZooKeeper的用法：Curator框架应用"
 tags: ["大数据","Zookeeper","Java"]
 permalink: "/code/zookeeper-curator.html"
