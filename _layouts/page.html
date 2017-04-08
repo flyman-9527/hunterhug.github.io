@@ -14,3 +14,16 @@ layout: default
     </div>
     </div>
 </div>
+ <script type="text/javascript" src="{{ "/static/js/toc.js" | prepend: site.baseurl }}"></script>
+        <div id="hidetoc">
+        <div id="toc" class="tocc"></div>
+        </div>
+        <script type="text/javascript">
+        $(function() {
+            $('#toc').toc({ noBackToTopLinks: true,listType: 'ul',showEffect: 'slideDown',classes: { list: 'nav nav-list',
+                           item: ''
+                         }})
+        });
+        </script>
+
+

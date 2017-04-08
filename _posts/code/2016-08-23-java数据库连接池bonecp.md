@@ -4,7 +4,7 @@ title: "转载:java数据库连接池bonecp"
 date: 2016-08-23
 author: hunterhug
 desc: "据BoneCP网站官方报告称，BoneCP比性能排名第二的Java数据库连接池性高高25倍以上，并且支持Hibernate和DataNucleus这样的数据持久框架（当然支持JDBC这种直接方式了）。"
-categories: [代码相关]
+categories: [科学]
 tags: ["数据库","Java"]
 permalink: "/code/java-bonecp.html"
 --- 
