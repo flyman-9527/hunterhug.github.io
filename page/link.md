@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 链接收录
-date: 2017-04-08
+date: 2016-04-08
 permalink: /link/
 ---
 
@@ -9,7 +9,7 @@ permalink: /link/
 
 # 资源
 
-1. 百度云：[云盘资源](https://yun.baidu.com/share/home?uk=2670395222)
+1. 百度云：[云盘资源](https://yun.baidu.com/share/home?uk=2670395222) [常用工具](https://yun.baidu.com/s/1c2v61Q4)
 2. 陈大师代码库：[Github](https://www.github.com/hunterhug)
 
 # 技术博客
