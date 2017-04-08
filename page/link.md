@@ -8,9 +8,11 @@ permalink: /link/
 收录各种有用资源的链接。
 
 # 小工具
-1. [阴阳历](http://www.cjhug,me/front/yinyang)
-2. [世界地图](http://www.cjhug.me/front/map)
-3. 小工具全部放在[https://github.com/skypika/skypika.github.io](https://github.com/skypika/skypika.github.io)
+1. 阴阳历：[yinyang](http://www.cjhug.me/front/yinyang)
+2. 世界地图：[map](http://www.cjhug.me/front/map)
+3. 我们的爱：[love](http://www.cjhug.me/front/love)
+4. 企业首页模板1：[e1](http://www.cjhug.me/front/e1)
+5. 小工具全部放在[https://github.com/skypika/skypika.github.io](https://github.com/skypika/skypika.github.io)
 
 # 资源
 
