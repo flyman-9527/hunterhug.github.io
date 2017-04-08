@@ -4,7 +4,7 @@ description: Wechat：hunterhug
 about: > # this means to ignore newlines until "baseurl:"
   从没有见到如此厚颜无耻之人！
 roll: >
-  从没有见到如此厚颜无耻之人！
+  从没有见到如此厚颜无耻之人！2017.4月后开始暂停更新，直到脱坑
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hunterhug.github.io" # the base hostname & protocol for your site
 weibo_url: hunterhug
