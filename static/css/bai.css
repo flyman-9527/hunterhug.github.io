@@ -27,7 +27,7 @@ background-size: cover;
     display: none;
     background: url("../cao.jpg") no-repeat center center;
     position: fixed;
-    bottom: 165px;
+    bottom: 160px;
     right: 1.4%;
     z-index: 99;
     -webkit-animation: hide 350ms ease-out forwards 1;
