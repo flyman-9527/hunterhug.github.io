@@ -4,6 +4,10 @@ title: 修订日志
 date: 2016-08-16
 permalink: /log/
 ---
+
+# 20170411
+1. 增加一个小草，准备更多好玩的
+
 # 20170404
 1. 启用了新的域名：www.cjhug.me
 2. I am cjhug
