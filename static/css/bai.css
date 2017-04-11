@@ -15,11 +15,12 @@
 }
 
 body{
-background-image: url(../dudu.jpg);
+/*background-image: url(../dudu.jpg);*/
 /*background-size: cover;
 	background-attachment: fixed;*/
-    background-repeat: no-repeat;
-    background-position-x: right;
+   /* background-repeat: no-repeat;
+    background-position-x: right;*/
+	background-color: bisque;
 }
 
 a {
