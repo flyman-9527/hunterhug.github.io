@@ -13,6 +13,14 @@
     transition: background-color 100ms ease-in-out;
 
 }
+
+body{
+background-image: url(../back.jpg);
+background-size: cover;
+	background-attachment: fixed;
+}
+
+
 .gototop1 {
     width: 144px;
     height: 155px;
