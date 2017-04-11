@@ -39,10 +39,18 @@
 </div>
 <!--<a class="btn-to-top" title="Top Back" target="_self" href="#">Top Back</a>-->
 <a class="gototop" title="返回顶部" target="_self" href="#"></a>
+<a class="gototop1" title="me" target="_blank" href="http://www.cjhug.me"></a>
 <script type="text/javascript" src="/static/js/jquery.gototop.min.js"></script>
 <script type="text/javascript">
     $(function(){
             $(".gototop").gototop({
+                position : 0,
+                duration : 1250,
+                visibleAt : 300,
+                classname : "isvisible"
+            });
+
+             $(".gototop1").gototop({
                 position : 0,
                 duration : 1250,
                 visibleAt : 300,

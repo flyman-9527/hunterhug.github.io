@@ -13,6 +13,21 @@
     transition: background-color 100ms ease-in-out;
 
 }
+.gototop1 {
+    width: 144px;
+    height: 155px;
+    display: none;
+    background: url("../cao.png") no-repeat center center;
+    position: fixed;
+    bottom: 165px;
+    right: 1.4%;
+    z-index: 99;
+    -webkit-animation: hide 350ms ease-out forwards 1;
+    animation: hide 350ms ease-out forwards 1;
+    -webkit-transition: background-color 100ms ease-in-out;
+    transition: background-color 100ms ease-in-out;
+
+}
 
 .isvisible {
     -webkit-animation: show 1s ease-out forwards 1;

@@ -13,7 +13,7 @@ permalink: /link/
 1. 一只尼玛：[http://www.cnblogs.com/nima](http://www.cnblogs.com/nima)
 2. TTyb: [http://www.cnblogs.com/ttyb](http://www.cnblogs.com/ttyb)
 
-# 好基友域名、
+# 好基友域名
 1. 百哥威武：[http://ttyb.github.io](http://ttyb.github.io)
 
 # 小工具
@@ -45,3 +45,6 @@ permalink: /link/
 
 # 教程网站
 1. 菜鸟教程：[http://www.runoob.com](http://www.runoob.com)
+
+# 在线工具
+1. 兔子透明化工具[http://www.2gei.com/bgremover/](http://www.2gei.com/bgremover/)
