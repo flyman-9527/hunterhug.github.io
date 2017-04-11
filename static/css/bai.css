@@ -16,8 +16,10 @@
 
 body{
 background-image: url(../girl.jpg);
-background-size: cover;
-	background-attachment: fixed;
+/*background-size: cover;
+	background-attachment: fixed;*/
+    background-repeat: none;
+    background-position-x: left;
 }
 
 a {
