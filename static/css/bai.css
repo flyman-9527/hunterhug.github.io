@@ -15,11 +15,11 @@
 }
 
 body{
-background-image: url(../girl.jpg);
+background-image: url(../dudu.jpg);
 /*background-size: cover;
 	background-attachment: fixed;*/
     background-repeat: no-repeat;
-    background-position-x: left;
+    background-position-x: right;
 }
 
 a {
