@@ -18,7 +18,7 @@ body{
 background-image: url(../girl.jpg);
 /*background-size: cover;
 	background-attachment: fixed;*/
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position-x: left;
 }
 
