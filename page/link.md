@@ -5,7 +5,16 @@ date: 2016-04-08
 permalink: /link/
 ---
 
+这个博客是2015年左右开始，2016年尾巴开始大量改版，简单就是美啊，字要大一点，狂大，使用jekyll，IDE使用VS code，域名是[http://www.lenggirl.com](http://www.lenggirl.com)，还有另外一个主权域名[http://www.cjhug.me](http://www.cjhug.me)，就要酷炫，慢慢搞！
+
 收录各种有用资源的链接。
+
+# 技术博客
+1. 一只尼玛：[http://www.cnblogs.com/nima](http://www.cnblogs.com/nima)
+2. TTyb: [http://www.cnblogs.com/ttyb](http://www.cnblogs.com/ttyb)
+
+# 好基友域名、
+1. 百哥威武：[http://ttyb.github.io](http://ttyb.github.io)
 
 # 小工具
 1. 阴阳历：[yinyang](http://www.cjhug.me/front/yinyang)
@@ -18,11 +27,6 @@ permalink: /link/
 
 1. 百度云：[云盘资源](https://yun.baidu.com/share/home?uk=2670395222) [常用工具](https://yun.baidu.com/s/1c2v61Q4)
 2. 陈大师代码库：[Github](https://www.github.com/hunterhug)
-
-# 技术博客
-1. 一只尼玛：[http://www.cnblogs.com/nima](http://www.cnblogs.com/nima)
-2. TTyb: [http://www.cnblogs.com/ttyb](http://www.cnblogs.com/ttyb)
-3. 百哥威武：[http://ttyb.github.io](http://ttyb.github.io)
 
 # 我的作品
 1. 画室网站：[http://www.beautyart.top](http://www.beautyart.top)
