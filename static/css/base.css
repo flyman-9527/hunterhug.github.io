@@ -1,3 +1,13 @@
+body{
+background-image: url(http://img.hb.aicdn.com/1936a773b4d51b259e09c7ad62835f58eef010aa967c-NnlG7i);
+background-size: cover;
+	background-attachment: fixed;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, a {
+	font-family: 'KozGoPr6N-ExtraLight', 'STXihei', 'Microsoft YaHei', 'WenQuanYi ZenHei';
+}
 .post-content p{
 	margin-bottom: 25px;
     font-size: 1.2em;
