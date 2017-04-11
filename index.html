@@ -21,14 +21,14 @@ layout: default
 					……………………………………………………………………………………
 -->
     <script>
-        console.log("I'm Coding Man.")
-        console.log("If you want to talk with me You can Add My Wechat")
-        console.log("My WeChat is hunterhug")
-        console.log("Enjoy It")
+        console.warn("I'm Coding Man.")
+        console.warn("If you want to talk with me You can Add My Wechat")
+        console.warn("My WeChat is hunterhug")
+        console.warn("Enjoy It")
     </script>
     <div id='content' class="container-fluid">
-    <div class="row">
-    <div>
+        <div class="row">
+            <div>
                 <div style="margin:20px"><marquee direction="right">{{ site.roll }}</marquee></div>
                 {% for post in paginator.posts %}
                 <div class="contentline">
@@ -80,5 +80,5 @@ layout: default
                 </ul>
             </div>
             {% endif %}
-    </div>
+        </div>
     </div>
