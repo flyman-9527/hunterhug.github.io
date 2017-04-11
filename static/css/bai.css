@@ -15,15 +15,21 @@
 }
 
 body{
-background-image: url(../back.jpg);
+background-image: url(../girl.jpg);
 background-size: cover;
 	background-attachment: fixed;
 }
 
+a {
+    color: pink
+}
 
+a:hover{
+    color: deeppink
+}
 .gototop1 {
-    width: 144px;
-    height: 155px;
+    width: 140px;
+    height: 105px;
     display: none;
     background: url("../cao.jpg") no-repeat center center;
     position: fixed;
