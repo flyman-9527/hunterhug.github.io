@@ -152,6 +152,9 @@ func main() {
 
 ```
 
-
-
 ![](/img/jiandan/meizi.png)
+
+
+编辑`rootdir := "C:\\jiandan"`，这是图片保存的位置
+
+运行`go run main.go`
