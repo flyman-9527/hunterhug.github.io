@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Golang分布式爬虫：抓取煎蛋妹纸图片|小心开..."
+title: "Golang爬虫：抓取煎蛋妹纸图片|小心开..."
 date: 2017-04-15
 author: hunterhug
 categories: [代码]
