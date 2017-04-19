@@ -17,8 +17,7 @@ permalink: /link/
 1. 百哥威武：[http://ttyb.github.io](http://ttyb.github.io)
 
 # 中二病少年集合
-不知道原来好多。。。。
-https://blog.ooxx.dk
+1. [https://blog.ooxx.dk](https://blog.ooxx.dk)
 
 # 小工具
 1. 阴阳历：[yinyang](http://www.cjhug.me/front/yinyang)
