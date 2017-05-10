@@ -13,7 +13,7 @@
                     <ul class="nav">
 						<li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">文章|Paper<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
-                            <li><a class="page-link" href="/404.html">标签云</a></li>
+                            <!--<li><a class="page-link" href="/404.html">标签云</a></li>-->
 							{% for category in site.categories %}
 							<li><a class="page-link" href="{{ "/nima.html?cat=" | prepend: site.baseurl }}{{ category | first }}">{{ category | first }}<span>-({{ category | last | size }})</span></a></li>
 							{% endfor %}
@@ -30,6 +30,7 @@
                         </li>
                     </ul>
                     <ul class="nav pull-right">
+                        <li><a class="page-link" href="/404.html"></a></li>
                         {% include links.html %}
                     </ul>
                 </div>
