@@ -14,8 +14,11 @@ permalink: /good/
 - 余华系列
 
 ## 2.技术书
-- [《分布式系统概念和设计》](https://book.douban.com/subject/2698938/)
 
+正准备读
+- [《分布式系统概念和设计》](https://book.douban.com/subject/2698938/)
+- [《Paxos到Zookeeper：分布式一致性原理与实践》](https://book.douban.com/subject/26292004/)
+- [《RabbitMQ实战：高效部署分布式消息队列》](https://book.douban.com/subject/26649178/)
 # 二.Movies
 
 # 三.Musics
