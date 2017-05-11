@@ -26,9 +26,12 @@ permalink: /good/
 - [《mongodb应用设计模式》](https://book.douban.com/subject/26583941/)
 
 # 二.Movies
+- 为奴十二年
 
 # 三.Musics
 
 
 # 四.技术文章
 1. [golang中context包解读](http://www.tuicool.com/articles/n6rInyn)
+2. [ETCD简介使用](http://blog.csdn.net/shukebai/article/details/53464887)
+3. [MongoDB两阶段提交](http://www.tuicool.com/articles/f6ZBjm)
