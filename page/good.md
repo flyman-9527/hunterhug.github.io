@@ -15,10 +15,16 @@ permalink: /good/
 
 ## 2.技术书
 
+谨记：技术书无论写得多烂，也是可以借鉴的，注意区分！
+
 正准备读
 - [《分布式系统概念和设计》](https://book.douban.com/subject/2698938/)
 - [《Paxos到Zookeeper：分布式一致性原理与实践》](https://book.douban.com/subject/26292004/)
 - [《RabbitMQ实战：高效部署分布式消息队列》](https://book.douban.com/subject/26649178/)
+
+阅读中
+- [《mongodb应用设计模式》](https://book.douban.com/subject/26583941/)
+
 # 二.Movies
 
 # 三.Musics
