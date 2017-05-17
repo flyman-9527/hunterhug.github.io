@@ -176,15 +176,15 @@ a:hover{
 
 /* Main */
 
-/*#main {*/
-    /*padding: 4em 4em 2em 4em;*/
-    /*background-color: #ffffff;*/
-    /*border-radius: 4px;*/
-/*}*/
+#main {
+    padding: 4em 4em 2em 4em;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
 
-/*#main > header:first-child {*/
-    /*text-align: center;*/
-/*}*/
+#main > header:first-child {
+    text-align: center;
+}
 
 @media screen and (max-width: 736px) {
     #main {
@@ -194,6 +194,9 @@ a:hover{
 @media screen and (max-width: 480px) {
     #main {
         padding: 2em 1em 0.1em 1em;
+    }
+    #posterTvGrid{
+        display: none;
     }
 }
 /* Intro */
