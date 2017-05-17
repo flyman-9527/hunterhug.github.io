@@ -1,5 +1,5 @@
 ---
-layout: default1
+layout: default2
 ---
 <!--
 我就是我，不一样的烟花
@@ -27,58 +27,43 @@ layout: default1
         console.warn("Enjoy It")
     </script>
     <div id='content' class="container-fluid">
-        <div class="row">
-            <div>
-                <div style="margin:20px"><marquee direction="right">{{ site.roll }}</marquee></div>
-                {% for post in paginator.posts %}
-                <div class="contentline">
-                    <div>
-                        <p>{{ post.date | date: " %b %-d, %Y" }}</p>
-                        {% if post.tags %}
-                        <p>
-                        {% for tag in post.tags %}
-                        <a style="margin-right: 5px" href="{{ "/tag.html?cat=" | prepend: site.baseurl }}{{tag}}">{{tag}}</a>
-                        {% endfor %}
-                        </p>
-                        {% endif %}
-                        <div class="caption">
-                            <p style="font-size: 1.2em">
-                                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                            </p>
-                            <p>
-                                {% if post.desc %}
-                                {{ post.desc }}
-                                {% else %}
-                                {{ post.content | slice: 0,50 }}
-                                {% endif %}
-                            </p>
-                        </div>
-                    </div>
+        <div style="margin:20px"><marquee direction="right">{{ site.roll }}</marquee></div>
+
+        <div class="htmleaf-container">
+            <div class="htmleaf-content">
+                <div id="posterTvGrid" style="margin:40px auto 0 auto;"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="static/js/posterTvGrid.js"></script>
+        <script type="text/javascript">
+            var posterTvGrid = new posterTvGrid('posterTvGrid',{className: "posterTvGrid"},[
+                    {"img":"static\/rollpic\/1.jpg","title":"百哥好棒","url":"https:\/\/www.lenggirl.com\/"},
+                    {"img":"static\/rollpic\/2.jpg","title":"百哥好棒","url":"https:\/\/www.lenggirl.com\/"},
+                    {"img":"static\/rollpic\/3.jpg","title":"百哥好棒","url":"https:\/\/www.lenggirl.com\/"},
+                    {"img":"static\/rollpic\/4.jpg","title":"百哥好棒","url":"https:\/\/www.lenggirl.com\/"}
+                    ]
+            );
+        </script>
+
+        <div id="wrapper">
+
+            <section id="intro" class="main">
+                <img src="static/round.png" />
+                <h2 style="font-family: KaiTi;">跟着百哥走</h2>
+                <pre>
+Do you know that computer changed our life.
+All the things in the world can become a automachine
+Which is equel to a algorithm.
+Follows our thought and step by step.
+Then you don't know the bottom of the truth.
+So Gods bless you not lose yourselt.
+Just the world have never own such a strange object.
+                    By 陈大师
+                </pre>
+                <div style="margin:20px">
+                    <marquee direction="left" style="font-family: KaiTi;">百哥语录：不用多久，我就会升职加薪，当上总经理，出任CEO，迎娶白富美，走上人生巅峰|Pretty soon I'll General Manager,be promoted as CEO and marry Bai Fu Mei on the salary increase when pinnacle toward life </marquee>
                 </div>
-                {% endfor %}
-            </div>
-            {% if paginator.total_pages > 1 %}
-            <div class="pagination pagination-centered pagination-large">
-                <ul>
-                {% if paginator.previous_page %}
-                    <li>
-                       <a href="{{ paginator.previous_page_path | prepend: site.baseurl}}">Pre</a>
-                    </li>
-                {% endif %}
-                {% for page in (1..paginator.total_pages) %}
-                    {% if page == paginator.page %}
-                      <li><span class="active">{{ page }}</span></li>
-                    {% elsif page == 1 %}
-                      <li> <a href="{{ '/index.html' | prepend: site.baseurl}}">{{ page }}</a></li>
-                    {% else %}
-                      <li><a href="/{{ site.paginate_path | prepend: site.baseurl | replace: ':num', page }}">{{ page }}</a></li>
-                    {% endif %}
-			    {% endfor %}
-                {% if paginator.next_page %}
-                <li><a href="{{ paginator.next_page_path | prepend: site.baseurl}}">Nex</a></li>
-                {% endif %}
-                </ul>
-            </div>
-            {% endif %}
+
+            </section>
         </div>
     </div>

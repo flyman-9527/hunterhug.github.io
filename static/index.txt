@@ -1,0 +1,84 @@
+---
+layout: default1
+---
+<!--
+我就是我，不一样的烟花
+			  
+					……………………………………………………………………………………
+
+					　　　　　　！！！！！
+					　　　　　　 \\ - - //
+					　　　　　　 (-● ●-)
+					　　　　　　　\ (_) /
+					　　　　　　　 \ u /
+					┏oOOo-━━━━━━━━┓
+					┃　　　　　　　　　　 ┃
+					┃　　　！　　 ┃
+					┃WeChat:hunterhug！！！┃
+					┃　　　　　　　　　　 ┃
+					┗━━━━━━━━-oOOo┛
+
+					……………………………………………………………………………………
+-->
+    <script>
+        console.warn("I'm Coding Man.")
+        console.warn("If you want to talk with me You can Add My Wechat")
+        console.warn("My WeChat is hunterhug")
+        console.warn("Enjoy It")
+    </script>
+    <div id='content' class="container-fluid">
+        <div class="row">
+            <div>
+                <div style="margin:20px"><marquee direction="right">{{ site.roll }}</marquee></div>
+                {% for post in paginator.posts %}
+                <div class="contentline">
+                    <div>
+                        <p>{{ post.date | date: " %b %-d, %Y" }}</p>
+                        {% if post.tags %}
+                        <p>
+                        {% for tag in post.tags %}
+                        <a style="margin-right: 5px" href="{{ "/tag.html?cat=" | prepend: site.baseurl }}{{tag}}">{{tag}}</a>
+                        {% endfor %}
+                        </p>
+                        {% endif %}
+                        <div class="caption">
+                            <p style="font-size: 1.2em">
+                                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                            </p>
+                            <p>
+                                {% if post.desc %}
+                                {{ post.desc }}
+                                {% else %}
+                                {{ post.content | slice: 0,50 }}
+                                {% endif %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% if paginator.total_pages > 1 %}
+            <div class="pagination pagination-centered pagination-large">
+                <ul>
+                {% if paginator.previous_page %}
+                    <li>
+                       <a href="{{ paginator.previous_page_path | prepend: site.baseurl}}">Pre</a>
+                    </li>
+                {% endif %}
+                {% for page in (1..paginator.total_pages) %}
+                    {% if page == paginator.page %}
+                      <li><span class="active">{{ page }}</span></li>
+                    {% elsif page == 1 %}
+                      <li> <a href="{{ '/index.html' | prepend: site.baseurl}}">{{ page }}</a></li>
+                    {% else %}
+                      <li><a href="/{{ site.paginate_path | prepend: site.baseurl | replace: ':num', page }}">{{ page }}</a></li>
+                    {% endif %}
+			    {% endfor %}
+                {% if paginator.next_page %}
+                <li><a href="{{ paginator.next_page_path | prepend: site.baseurl}}">Nex</a></li>
+                {% endif %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+    </div>
