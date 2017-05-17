@@ -202,12 +202,12 @@ a:hover{
 /* Intro */
 #intro {
     padding: 4em 4em 2em 4em;
-    background-color: lightpink;
+    /*background-color: lightpink;*/
     border-radius: 4px;
     text-align: center;
     margin: auto;
     width:91%;
-    border: 1px dotted purple;
+    /*border: 1px dotted purple;*/
 }
 
 @media screen and (max-width: 736px) {
