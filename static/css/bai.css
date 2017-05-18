@@ -15,12 +15,8 @@
 }
 
 body{
-/*background-image: url(../dudu.jpg);*/
-/*background-size: cover;
-	background-attachment: fixed;*/
-   /* background-repeat: no-repeat;
-    background-position-x: right;*/
 	background-color: floralwhite;
+	font-size:1.0em
 }
 
 a {
