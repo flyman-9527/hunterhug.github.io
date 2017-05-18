@@ -17,14 +17,14 @@ permalink: "/spider/taobao1.html"
 
 大家好，今天我要来讲讲一个比较实用的爬虫工具，抓取淘宝的关键字商品信息，即是：
 
-<img  src="/img/taobao1.jpg"/>
+<img  src="/img/taobao/taobao1.jpg"/>
 
 输入关键字，按照价格等排序，抓取列出的商品信息以及下载图片，并且支持导出为Excel。
 
 如果如下：
 
-<img  src="/img/taobao2.jpg"/>
-<img  src="/img/taobao3.jpg"/>
+<img  src="/img/taobao/taobao2.jpg"/>
+<img  src="/img/taobao/taobao3.jpg"/>
 
 看完下面的讲解，Python语言就掌握得差不多，中级水平了，而且这个封装后的工具还是很好用的。
 
@@ -50,7 +50,7 @@ http协议主要有请求报文和响应报文，计算机网络必须学好，�
 
 以下为火狐F12的结果，仅供参考！
 
-<img  src="/img/taobao4.jpg"/>
+<img  src="/img/taobao/taobao4.jpg"/>
 
 正在翻译：http://www.kancloud.cn/yizhinima/httpcore/117444
 
@@ -76,7 +76,7 @@ http协议主要有请求报文和响应报文，计算机网络必须学好，�
 
 使用Python3.4，下面为文件层次截图，部分未截。
 
-<img  src="/img/taobao5.jpg"/>
+<img  src="/img/taobao/taobao5.jpg"/>
 
 1.导入相应模块
 
@@ -100,11 +100,11 @@ http协议主要有请求报文和响应报文，计算机网络必须学好，�
 
 下载对应版本：
 
-<img  src="/img/taobao6.png"/> 
+<img  src="/img/taobao/taobao6.png"/> 
 
 然后打开cmd，转到该文件目录，使用：
 
-<img  src="/img/taobao7.png"/>
+<img  src="/img/taobao/taobao7.png"/>
 
 妥妥的，自行安装哈，有问题咨询我！
 
@@ -181,7 +181,7 @@ http协议主要有请求报文和响应报文，计算机网络必须学好，�
 
 上述语句表明，访问网站后cookie保存在cookie.txt中，程序运行后如图
 
-<img  src="/img/taobao8.png"/>
+<img  src="/img/taobao/taobao8.png"/>
 
 由于每次生成cookie.txt后需要重新使用
 
@@ -200,7 +200,7 @@ http协议主要有请求报文和响应报文，计算机网络必须学好，�
 
 登陆：[http://s.m.taobao.com/h5entry](http://s.m.taobao.com/h5entry)
 
-<img  src="/img/taobao9.png"/>
+<img  src="/img/taobao/taobao9.png"/>
 
 登陆后在浏览器上按F12，点击网络，然后在地址栏输入：
 
@@ -208,11 +208,11 @@ http://s.m.taobao.com/search?buying=buyitnow&abtest=16&wlsort=16&sort=bid&from=1
 
 如下图，复制Cookie。
 
-<img  src="/img/taobao10.png"/>
+<img  src="/img/taobao/taobao10.png"/>
  
 将复制的Cookie粘贴到subcookie.txt文件中，最后一行这一部分去掉。
  
-<img  src="/img/taobao11.png"/>
+<img  src="/img/taobao/taobao11.png"/>
 
 因为JSESSIONID已经自动生成了，需要上面的其他头部。下面是subcookie.txt内容，好丑！
 
