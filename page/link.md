@@ -48,6 +48,7 @@ permalink: /link/
 
 # 教程网站
 1. 菜鸟教程：[http://www.runoob.com](http://www.runoob.com)
+2. PostgreSQL:[http://www.postgres.cn/docs/9.5/index.html](http://www.postgres.cn/docs/9.5/index.html)
 
 # 在线工具
 1. 兔子透明化工具[http://www.2gei.com/bgremover/](http://www.2gei.com/bgremover/)
