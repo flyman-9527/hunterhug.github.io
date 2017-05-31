@@ -118,6 +118,9 @@ code{
 	padding-top:10px
 }
 
+#footer{
+	background-color: black;
+}
 @media screen and (max-width: 600px) {
 body{
 	margin: auto 2%;

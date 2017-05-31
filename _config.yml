@@ -13,7 +13,7 @@ github_username:  hunterhug
 gems:
   - jekyll-coffeescript
   - jekyll-paginate
-paginate: 8
+paginate: nil
 paginate_path: "page:num"
 # Build settings
 markdown: kramdown
