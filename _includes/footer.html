@@ -1,9 +1,12 @@
 <div id='footer' class="container-fluid">
     <div class="row">
-		<div class="span4">
+        <div class="span3">
+            <img src="/static/me.gif" class="fimage">
+        </div>
+        <div class="span4">
             <img src="/static/code.jpg" class="fimage">
         </div>
-        <div class="span5 offset1">
+        <div class="span4 offset1">
             <div id="footerabout">
                 {% if site.weibo_username %}
                 <p> Weibo:{% include icon-twitter.html username=site.weibo_url usernameb=site.weibo_username %}</p>
@@ -14,7 +17,7 @@
                 <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
                 <p>{{ site.about }}</p>
                 <p>Copyright © 2016-2116 Github Blog lenggirl.com All Rights
-                Reserved. 备案号：粤ICP备16008312号-1  |<a href="{{"/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+                    Reserved. 备案号：粤ICP备16008312号-1  |<a href="{{"/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
                 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253358117'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1253358117%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
             </div>
         </div>
@@ -22,21 +25,13 @@
 </div>
 <div>
     <a class="gototop"  title="返回顶部" target="_self" href="#"></a>
-    <a class="gototop1"  title="me" target="_blank" href="http://www.cjhug.me/front/me/index.html"></a>
     <script type="text/javascript" src="/static/js/jquery.gototop.min.js"></script>
     <script type="text/javascript">
         $(function(){
             $(".gototop").gototop({
                 position : 0,
-                duration : 1250,
-                visibleAt : 300,
-                classname : "isvisible"
-            });
-
-            $(".gototop1").gototop({
-                position : 0,
-                duration : 1250,
-                visibleAt : 300,
+                duration : 0,
+                visibleAt : 500,
                 classname : "isvisible"
             });
         });

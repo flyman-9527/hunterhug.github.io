@@ -142,6 +142,9 @@ a:hover {
         margin: auto 0;
     }
 
+    .gototop{
+        display: none;
+    }
     #head{
         padding-top: 0px;
         margin-top:0px

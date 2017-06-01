@@ -3,7 +3,7 @@
     width: 144px;
     height: 155px;
     display: none;
-    background: url("../tu.png") no-repeat center center;
+    background: url("/static/public/tu.png") no-repeat center center;
     position: fixed;
     bottom: 10px;
     right: 1.4%;
@@ -15,93 +15,78 @@
 
 }
 
-.gototop1 {
-    width: 140px;
-    height: 105px;
-    display: none;
-    background: url("../cao.jpg") no-repeat center center;
-    position: fixed;
-    bottom: 160px;
-    right: 1.4%;
-    z-index: 99;
-    -webkit-animation: hide 350ms ease-out forwards 1;
-    animation: hide 350ms ease-out forwards 1;
-    -webkit-transition: background-color 100ms ease-in-out;
-    transition: background-color 100ms ease-in-out;
+/*@-webkit-keyframes hide {*/
+    /*0% {*/
+        /*opacity: 1;*/
+        /*-webkit-transform: translateY(0);*/
+    /*}*/
+    /*25% {*/
+        /*opacity: .5;*/
+        /*-webkit-transform: rotate(-3deg) translateY(-40px);*/
+    /*}*/
+    /*75% {*/
+        /*-webkit-transform: rotate(3deg);*/
+    /*}*/
+    /*100% {*/
+        /*opacity: 0;*/
+        /*-webkit-transform: translateY(100px);*/
+    /*}*/
+/*}*/
 
-}
+/*@keyframes hide {*/
+    /*0% {*/
+        /*opacity: 1;*/
+        /*transform: translateY(0);*/
+    /*}*/
+    /*25% {*/
+        /*opacity: .5;*/
+        /*transform: rotate(-3deg) translateY(-40px);*/
+    /*}*/
+    /*75% {*/
+        /*transform: rotate(3deg);*/
+    /*}*/
+    /*100% {*/
+        /*opacity: 0;*/
+        /*transform: translateY(100px);*/
+    /*}*/
+/*}*/
+
+/*@-webkit-keyframes show {*/
+    /*0% {*/
+        /*-webkit-transform: rotate(0deg);*/
+    /*}*/
+    /*25% {*/
+        /*opacity: .5;*/
+        /*-webkit-transform: rotate(-3deg) translateY(-40px);*/
+    /*}*/
+    /*75% {*/
+        /*-webkit-transform: rotate(3deg);*/
+    /*}*/
+    /*100% {*/
+        /*opacity: 1;*/
+        /*-webkit-transform: rotate(0deg);*/
+    /*}*/
+/*}*/
+
+/*@keyframes show {*/
+    /*0% {*/
+        /*transform: rotate(0deg);*/
+    /*}*/
+    /*25% {*/
+        /*opacity: .5;*/
+        /*transform: rotate(-3deg) translateY(-40px);*/
+    /*}*/
+    /*75% {*/
+        /*transform: rotate(3deg);*/
+    /*}*/
+    /*100% {*/
+        /*opacity: 1;*/
+        /*transform: rotate(0deg);*/
+    /*}*/
+/*}*/
 
 
 
-@-webkit-keyframes hide {
-    0% {
-        opacity: 1;
-        -webkit-transform: translateY(0);
-    }
-    25% {
-        opacity: .5;
-        -webkit-transform: rotate(-3deg) translateY(-40px);
-    }
-    75% {
-        -webkit-transform: rotate(3deg);
-    }
-    100% {
-        opacity: 0;
-        -webkit-transform: translateY(100px);
-    }
-}
-
-@keyframes hide {
-    0% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    25% {
-        opacity: .5;
-        transform: rotate(-3deg) translateY(-40px);
-    }
-    75% {
-        transform: rotate(3deg);
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-}
-
-@-webkit-keyframes show {
-    0% {
-        -webkit-transform: rotate(0deg);
-    }
-    25% {
-        opacity: .5;
-        -webkit-transform: rotate(-3deg) translateY(-40px);
-    }
-    75% {
-        -webkit-transform: rotate(3deg);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: rotate(0deg);
-    }
-}
-
-@keyframes show {
-    0% {
-        transform: rotate(0deg);
-    }
-    25% {
-        opacity: .5;
-        transform: rotate(-3deg) translateY(-40px);
-    }
-    75% {
-        transform: rotate(3deg);
-    }
-    100% {
-        opacity: 1;
-        transform: rotate(0deg);
-    }
-}
 
 .dashang {
     display: inline-block;
@@ -324,7 +309,7 @@
     left: -174px;
     width: 174px;
     height: 224px;
-    background: url(img/leftShadow.png) no-repeat;
+    background: url(/static/rollpic/leftShadow.png) no-repeat;
 }
 
 .posterTvGrid .contentHolderUnit .rightShadow {
@@ -333,7 +318,7 @@
     right: -174px;
     width: 174px;
     height: 224px;
-    background: url(img/rightShadow.png) no-repeat;
+    background: url(/static/rollpic/rightShadow.png) no-repeat;
 }
 
 .posterTvGrid .bannerControls {
