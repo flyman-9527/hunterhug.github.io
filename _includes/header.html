@@ -1,9 +1,9 @@
-<!--<a class="v-fork-me" href="https://github.com/hunterhug/hunterhug.github.io" target="_blank" rel="nofollow">
+<a class="v-fork-me" href="https://github.com/hunterhug/hunterhug.github.io" target="_blank" rel="nofollow">
     <img src="/static/forkme_right_darkblue.png" alt="Fork me on GitHub">
-</a>-->
+</a>
 <div id='head'>
-    <div class="navbar">
-        <!--<div class="navbar-inner">-->
+    <div class="navbar  navbar-default navbar-fixed-top" >
+        <div class="navbar-inner">
             <div>
             <div class="container-fluid">
                 <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span
@@ -13,12 +13,12 @@
                     <ul class="nav">
 						<li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">文章|Paper<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
-                            <!--<li><a class="page-link" href="/404.html">标签云</a></li>-->
 							{% for category in site.categories %}
 							<li><a class="page-link" href="{{ "/nima.html?cat=" | prepend: site.baseurl }}{{ category | first }}">{{ category | first }}<span>-({{ category | last | size }})</span></a></li>
 							{% endfor %}
 							</ul>
 						</li>
+                        <li><a class="page-link" href="/404.html">标签云|Cloud</a></li>
                         <li><a class="page-link"  href="/say">留言板|Say</a>
 						</li>
                          <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">关于|About<strong class="caret"></strong></a>
@@ -39,4 +39,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
