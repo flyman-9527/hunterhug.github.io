@@ -3,13 +3,14 @@
 <script type="text/javascript"> 
 function showImg( url ) { 
 var frameid = 'frameimg' + Math.random(); 
-window.img = '<img id="img" src=\''+url+'?'+Math.random()+'\' /><script>window.onload = function() { parent.document.getElementById(\''+frameid+'\').height = document.getElementById(\'img\').height+\'px\'; }<'+'/script>'; 
-document.write('<iframe id="'+frameid+'" src="javascript:parent.img;" frameBorder="0" scrolling="no" width="100%"></iframe>'); 
+window.frameid = '<img id="img" src=\''+url+'?'+Math.random()+'\' /><script>window.onload = function() { parent.document.getElementById(\''+frameid+'\').height = document.getElementById(\'img\').height+\'px\'; }<'+'/script>'; 
+document.write('<iframe id="'+frameid+'" src="javascript:parent.frameid;" frameBorder="0" scrolling="no" width="100%"></iframe>'); 
 } 
 </script> 
-<h1>÷±Ω”µ¡¡¥£∫</h1><br> 
-<img src="https://pic4.zhimg.com/2994d89bccaf455384ce645b9bd141af_r.jpg" /><br> 
 <h1>js∆∆Ω‚µ¡¡¥£∫</h1><br> 
 <div id="hotlinking">
 <script type="text/javascript">showImg('https://pic4.zhimg.com/2994d89bccaf455384ce645b9bd141af_r.jpg');</script>
+</div><br> 
+<div id="hotlinking">
+<script type="text/javascript">showImg('https://pic4.zhimg.com/v2-94e948c2bc34d8ff9e514e09c5ce466f_r.jpg');</script>
 </div><br> 
