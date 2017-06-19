@@ -1,25 +1,25 @@
 <div id='footer' class="container-fluid">
-    <div class="row">
+    <div class="row" style="margin: 0 auto;width: 80%">
         <div class="span3">
             <img src="/static/me.gif" class="fimage">
         </div>
         <div class="span3">
             <img src="/static/code.jpg" class="fimage">
         </div>
-        <div class="span3">
-            <div id="footerabout">
-                {% if site.weibo_username %}
-                <p> Weibo:{% include icon-twitter.html username=site.weibo_url usernameb=site.weibo_username %}</p>
-                {% endif %}
-                {% if site.github_username %}
-                <p> Github:{% include icon-github.html username=site.github_username usernameb=site.github_username %}</p>
-                {% endif %}
-                <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-                <p>{{ site.about }}</p>
-                <p>Copyright © 2016-2116 Github Blog lenggirl.com All Rights
-                    Reserved. 备案号：粤ICP备16008312号-1  |<a href="{{"/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
-                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253358117'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1253358117%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
-            </div>
+    </div>
+    <div class="span12">
+        <div id="footerabout">
+            {% if site.weibo_username %}
+            <p> Weibo:{% include icon-twitter.html username=site.weibo_url usernameb=site.weibo_username %}</p>
+            {% endif %}
+            {% if site.github_username %}
+            <p> Github:{% include icon-github.html username=site.github_username usernameb=site.github_username %}</p>
+            {% endif %}
+            <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+            <p>{{ site.about }}</p>
+            <p>Copyright © 2016-2116 Github Blog lenggirl.com All Rights
+                Reserved. 备案号：粤ICP备16008312号-1  |<a href="{{"/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+            <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253358117'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1253358117%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
         </div>
     </div>
 </div>
