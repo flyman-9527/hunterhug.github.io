@@ -5,7 +5,8 @@ date: 2016-04-08
 permalink: /link/
 ---
 
-这个博客是2015年左右开始，2016年尾巴开始大量改版，简单就是美啊，字要大一点，狂大，使用jekyll，IDE使用VS code，域名是[http://www.lenggirl.com](http://www.lenggirl.com)，还有另外一个主权域名[http://www.cjhug.me](http://www.cjhug.me)，就要酷炫，慢慢搞！
+这个博客是2015年左右开始，2016年尾巴开始大量改版，简单就是美啊，字要大一点，使用jekyll，IDE使用VS code，域名是[http://www.lenggirl.com](http://www.lenggirl.com)，还有另外一个主权域名[http://www.cjhug.me](http://www.cjhug.me)
+HTML/CSS都是自己设计的，写点文章，放点好玩的东西。
 
 收录各种有用资源的链接。
 
@@ -36,6 +37,7 @@ permalink: /link/
 2. 多用户企业网站：[http://ei.lenggirl.com](http://ei.lenggirl.com)
 3. 萌萌个人博客：[http://php.lenggirl.com](http://php.lenggirl.com)
 4. 分布式大型亚马逊爬虫：[https://github.com/hunterhug/AmazonBigSpider](https://github.com/hunterhug/AmazonBigSpider)
+5. 太多写得好累
 
 # 前端
 1. Bootstrap：[http://v3.bootcss.com/getting-started](http://v3.bootcss.com/getting-started)
@@ -52,6 +54,3 @@ permalink: /link/
 
 # 在线工具
 1. 兔子透明化工具[http://www.2gei.com/bgremover/](http://www.2gei.com/bgremover/)
-
-# 名人
-1. 彭煜玮博士[http://www.pengyuwei.net](http://www.pengyuwei.net)

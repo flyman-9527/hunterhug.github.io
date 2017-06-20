@@ -204,4 +204,11 @@ a:hover {
     #content {
         margin: 20px auto;
     }
+
+    .indexb {
+        font-family: Microsoft YaHei;
+        padding: 5px;
+        width: 100%;
+        margin: 0 auto
+    }
 }
