@@ -9,7 +9,7 @@ tags: ["linux","supervisord"]
 permalink: "/tool/supervisord.html"
 --- 
 
-# 介绍
+# 一.介绍
 
 1. Supervisor是一个客户/服务器系统，它可以在类Unix系统中管理控制大量进程。Supervisor使用python开发，有多年历史，目前很多生产环境下的服务器都在使用Supervisor。
 2. Supervisor的服务器端称为supervisord，主要负责在启动自身时启动管理的子进程，响应客户端的命令，重启崩溃或退出的子进程，记录子进程stdout和stderr输出，生成和处理子进程生命周期中的事件。可以在一个配置文件中配置相关参数，包括Supervisord自身的状态，其管理的各个子进程的相关属性。配置文件一般位于/etc/supervisord.conf。
@@ -19,7 +19,7 @@ permalink: "/tool/supervisord.html"
 supervisord的官网：(http://supervisord.org)[http://supervisord.org]
 
 
-# 安装
+# 二.安装
 
 统一用Python2，因为3不支持
 
@@ -33,7 +33,7 @@ supervisord的官网：(http://supervisord.org)[http://supervisord.org]
 
     echo_supervisord_conf > /etc/supervisord.conf
 
-# 配置文件设置
+# 三.配置文件设置
 
 ```
 # 生成必要的配置文件
@@ -90,7 +90,7 @@ supervisorctl status
 打开`http://127.0.0.1:9001/`
 
 
-常用命令：
+# 四.常用命令：
 
 1.启动supervisord管理的所有进程`supervisorctl start all`
 
