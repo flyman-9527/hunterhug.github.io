@@ -62,7 +62,9 @@ a:hover {
     width: 70%;
     margin: 0 auto
 }
-
+.indexp {
+    padding:30px
+}
 /*
 头部
 */
@@ -210,5 +212,9 @@ a:hover {
         padding: 5px;
         width: 100%;
         margin: 0 auto
+    }
+
+    .indexp {
+        padding:2px
     }
 }
