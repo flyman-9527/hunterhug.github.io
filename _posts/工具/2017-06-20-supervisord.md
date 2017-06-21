@@ -11,19 +11,22 @@ permalink: "/tool/supervisord.html"
 
 # 一.介绍
 
-1. Supervisor是一个客户/服务器系统，它可以在类Unix系统中管理控制大量进程。Supervisor使用python开发，有多年历史，目前很多生产环境下的服务器都在使用Supervisor。
-2. Supervisor的服务器端称为supervisord，主要负责在启动自身时启动管理的子进程，响应客户端的命令，重启崩溃或退出的子进程，记录子进程stdout和stderr输出，生成和处理子进程生命周期中的事件。可以在一个配置文件中配置相关参数，包括Supervisord自身的状态，其管理的各个子进程的相关属性。配置文件一般位于/etc/supervisord.conf。
-3. Supervisor的客户端称为supervisorctl，它提供了一个类shell的接口（即命令行）来使用supervisord服务端提供的功能。通过supervisorctl，用户可以连接到supervisord服务器进程，获得服务器进程控制的子进程的状态，启动和停止子进程，获得正在运行的进程列表。客户端通过Unix域套接字或者TCP套接字与服务端进行通信，服务器端具有身份凭证认证机制，可以有效提升安全性。当客户端和服务器位于同一台机器上时，客户端与服务器共用同一个配置文件`/etc/supervisord.conf`，通过不同标签来区分两者的配置。
-4. Supervisor也提供了一个web页面来查看和管理进程状态，这个功能用得人比较少。
+1.Supervisor是一个客户/服务器系统，它可以在类Unix系统中管理控制大量进程。Supervisor使用python开发，有多年历史，目前很多生产环境下的服务器都在使用Supervisor。
 
-supervisord的官网：(http://supervisord.org)[http://supervisord.org]
+2.Supervisor的服务器端称为supervisord，主要负责在启动自身时启动管理的子进程，响应客户端的命令，重启崩溃或退出的子进程，记录子进程stdout和stderr输出，生成和处理子进程生命周期中的事件。可以在一个配置文件中配置相关参数，包括Supervisord自身的状态，其管理的各个子进程的相关属性。配置文件一般位于/etc/supervisord.conf。
+
+3.Supervisor的客户端称为supervisorctl，它提供了一个类shell的接口（即命令行）来使用supervisord服务端提供的功能。通过supervisorctl，用户可以连接到supervisord服务器进程，获得服务器进程控制的子进程的状态，启动和停止子进程，获得正在运行的进程列表。客户端通过Unix域套接字或者TCP套接字与服务端进行通信，服务器端具有身份凭证认证机制，可以有效提升安全性。当客户端和服务器位于同一台机器上时，客户端与服务器共用同一个配置文件`/etc/supervisord.conf`，通过不同标签来区分两者的配置。
+
+4.Supervisor也提供了一个web页面来查看和管理进程状态，这个功能用得人比较少。
+
+supervisord的官网：[http://supervisord.org]()http://supervisord.org)
 
 
 # 二.安装
 
-统一用Python2，因为3不支持
+一定要用Python2，因为3不支持
 
-    $pip install supervisor
+    pip install supervisor
 
 测试是否安装成功：
 
