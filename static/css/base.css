@@ -1,8 +1,10 @@
 /*基本样式*/
 body {
     margin: auto 6%;
-    background-color: floralwhite;
-    font-size: 15px
+    /*background-image: url("/img/timg.jpg");*/
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 a {
@@ -10,7 +12,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
-    font-family: 'KozGoPr6N-ExtraLight', 'STXihei', 'Microsoft YaHei', 'WenQuanYi ZenHei';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     word-wrap: break-word;
 }
 
@@ -62,9 +64,17 @@ a:hover {
     width: 70%;
     margin: 0 auto
 }
+
 .indexp {
-    padding:30px
+    padding: 30px
 }
+
+.media-body {
+    float: left;
+    padding-right: 10px;
+    width: 100%
+}
+
 /*
 头部
 */
@@ -215,6 +225,6 @@ a:hover {
     }
 
     .indexp {
-        padding:2px
+        padding: 2px
     }
 }
