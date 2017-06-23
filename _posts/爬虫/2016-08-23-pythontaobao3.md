@@ -7,9 +7,7 @@ categories: [爬虫]
 desc: "一只淘宝爬虫，相关原理和代码解释"
 tags: ["爬虫","Python","淘宝"]
 permalink: "/spider/taobao3.html"
---- 
-
-搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/spider/taobao3.html
+---
 
 淘宝改字段，Bugfix，查看[Github](https://github.com/hunterhug/taobaoscrapy.git)
 

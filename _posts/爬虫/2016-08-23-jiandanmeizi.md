@@ -7,9 +7,7 @@ categories: [爬虫]
 desc: "Golang分布式爬虫：抓取煎蛋妹纸图片"
 tags: ["爬虫","Golang"]
 permalink: "/spider/jiandanmeizi.html"
---- 
-
-搬砖的陈大师版权所有,转载请注明：www.lenggirl.com/spider/jiandanmeizi.html
+---
 
 项目地址：[https://github.com/hunterhug/GoSpiderExample](https://github.com/hunterhug/GoSpiderExample)
 

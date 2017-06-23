@@ -9,8 +9,6 @@ tags: ["爬虫","Python","淘宝"]
 permalink: "/mywork/taobaoscrapy.html"
 --- 
 
-搬砖的陈大师版权所有，转载请注明：www.lenggirl.com/mywork/taobaoscrapy.html
-
 Github：[https://github.com/hunterhug/taobaoscrapy](https://github.com/hunterhug/taobaoscrapy)
 
 # 说明
