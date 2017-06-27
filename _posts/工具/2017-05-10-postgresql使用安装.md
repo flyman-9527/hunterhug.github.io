@@ -82,6 +82,22 @@ exit
 psql -U jinhan -d exampledb -h 127.0.0.1 -p 5432
 ```
 
+# 远程登录
+
+```
+vim /etc/postgresql/9.5/main/postgresql.conf
+
+listen_addresses = '*'  
+
+vim /etc/postgresql/9.5/main/pg_hba.conf
+
+host    all             all             127.0.0.1/32            md5
+host all all 0.0.0.0/0  md5
+
+# 如果想指定数据库的话，需要修改第一个 all，如果需要指定用户的话，修改第二个all
+
+sudo /etc/init.d/postgresql restart
+```
 # 命令
 
 除了前面已经用到的\password命令（设置密码）和\q命令（退出）以外，控制台还提供一系列其他命令。
