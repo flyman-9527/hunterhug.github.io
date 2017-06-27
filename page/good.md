@@ -37,3 +37,5 @@ permalink: /good/
 2. [ETCD简介使用](http://blog.csdn.net/shukebai/article/details/53464887) API我都写好了
 3. [MongoDB两阶段提交](http://www.tuicool.com/articles/f6ZBjm) 平时几乎不会用到
 4. [postgresql教程](http://www.yiibai.com/postgresql)
+5. [Grpc](http://doc.oschina.net/grpc) 正在加紧读中.... 2017.6.27
+6. [Go50](http://colobu.com/2015/09/07/gotchas-and-common-mistakes-in-go-golang) 读中... 2017.6.27
