@@ -9,7 +9,7 @@ tags: ["sql"]
 permalink: "/tool/postgresql.html"
 --- 
 
-# 安装
+# 一. 安装
 
 ubuntu安装
 ```
@@ -23,7 +23,7 @@ sudo apt-get install pgadmin3
 
 安装后默认生成一个名为postgres的数据库和一个名为postgres的数据库用户。这里需要注意的是，同时还生成了一个名为postgres的Linux系统用户。
 
-# 登录
+# 二. 登录
 
 ```
 # 先切换到postgres用户
@@ -44,7 +44,7 @@ psql -U dbuser -d exampledb -h 127.0.0.1 -p 5432
 
 上面命令的参数含义如下：-U指定用户，-d指定数据库，-h指定服务器，-p指定端口。
 
-# 授权其他用户
+# 三. 授权其他用户
 
 授权其他用户登录
 ```
@@ -82,7 +82,7 @@ exit
 psql -U jinhan -d exampledb -h 127.0.0.1 -p 5432
 ```
 
-# 远程登录
+# 四. 远程登录
 
 ```
 vim /etc/postgresql/9.5/main/postgresql.conf
@@ -98,9 +98,10 @@ host all all 0.0.0.0/0  md5
 
 sudo /etc/init.d/postgresql restart
 ```
-# 命令
 
-除了前面已经用到的\password命令（设置密码）和\q命令（退出）以外，控制台还提供一系列其他命令。
+# 五. 命令
+
+除了前面已经用到的`\password`命令（设置密码）和`\q`命令（退出）以外，控制台还提供一系列其他命令。
 
         \h：查看SQL命令的解释，比如\h select。
         \?：查看psql命令列表。
@@ -147,5 +148,63 @@ sudo /etc/init.d/postgresql restart
     # 删除表格
     DROP TABLE IF EXISTS backup_tbl;
 
+# 六. 连接数爆了
 
 
+Connection could not be allocated because: FATAL: sorry, too many clients alread
+
+查找配置文件还有连接数:
+
+```
+postgres=# SHOW config_file;
+               config_file                
+------------------------------------------
+ /etc/postgresql/9.5/main/postgresql.conf
+(1 row)
+
+postgres=# select count(1) from pg_stat_activity;
+ count 
+-------
+    74
+(1 row)
+```
+
+编辑
+
+```
+vim  /etc/postgresql/9.5/main/postgresql.conf
+
+max_connections=6000
+
+sudo /etc/init.d/postgresql restart
+```
+
+扩大linux的文件描述符
+
+```
+一，通过ulimit命令修改
+ 
+//显示当前文件描述符
+ulimit -n
+ 
+//修改当前用户环境下的文件描述符为65536
+ulimit -HSn 65536
+ 
+echo "ulimit -HSn 65536" >> /etcrc.local
+ 
+使用ulimit命令的缺点：
+ 
+1，只能修改当前登录用户环境下的文件描述符，如果此用户来另外打开一个连接，此链接环境的文件描述符依然是没改前的
+2，如果系统重启，以前修改都不再生效
+ 
+二，通过修改limits.conf文件
+ 
+编辑/etc/security/limits.conf 文件，在最后加入如下两行
+ 
+*  soft    nofile  65536
+*  hard    nofile  65536
+ 
+保存退出，都不需要重启服务器，直接重新登陆!!!!用ulimit -n就能看到效果
+ 
+这样无论使用哪个用户，无论是否重启都不会失效了。
+```
