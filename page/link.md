@@ -54,3 +54,40 @@ HTML/CSS都是自己设计的，写点文章，放点好玩的东西。
 
 # 在线工具
 1. 兔子透明化工具[http://www.2gei.com/bgremover/](http://www.2gei.com/bgremover/)
+
+---
+
+推荐喜欢的书和电影，或音乐，待完善
+
+# 一.Books
+
+## 1.人文书
+
+- 余华系列
+
+## 2.技术书
+
+谨记：技术书无论写得多烂，也是可以借鉴的，注意区分！
+
+正准备读
+- [《分布式系统概念和设计》](https://book.douban.com/subject/2698938/) 弃疗
+- [《Paxos到Zookeeper：分布式一致性原理与实践》](https://book.douban.com/subject/26292004/) 弃疗
+
+阅读中
+- [《mongodb应用设计模式》](https://book.douban.com/subject/26583941/) 写得不好
+- [《RabbitMQ实战：高效部署分布式消息队列》](https://book.douban.com/subject/26649178/) 看得差不多
+
+# 二.Movies
+- [为奴十二年](https://movie.douban.com/subject/6879185) 没有革命的胜利
+
+# 三.Musics
+
+- 在路上
+
+# 四.技术文章
+1. [golang中context包解读](http://www.tuicool.com/articles/n6rInyn)
+2. [ETCD简介使用](http://blog.csdn.net/shukebai/article/details/53464887) API我都写好了
+3. [MongoDB两阶段提交](http://www.tuicool.com/articles/f6ZBjm) 平时几乎不会用到
+4. [postgresql教程](http://www.yiibai.com/postgresql)
+5. [Grpc](http://doc.oschina.net/grpc) 正在加紧读中.... 2017.6.27
+6. [Go50](http://colobu.com/2015/09/07/gotchas-and-common-mistakes-in-go-golang) 读中... 2017.6.27
