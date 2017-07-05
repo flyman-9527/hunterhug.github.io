@@ -43,4 +43,11 @@ permalink: /about/
     <p><a href="http://www.lenggirl.com/static/me.jpg">That is ME</a></p>
     <p>摊手</p>
 </div>
+
+-----
+
+<div>
+    <p>不想说话的人</p>
+</div>
+
 </div>
