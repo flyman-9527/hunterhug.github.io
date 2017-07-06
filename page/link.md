@@ -1,11 +1,12 @@
-oragekk.me---
+---
 layout: page
 title: 链接收录
 date: 2016-04-08
 permalink: /link/
 ---
 
-这个博客是2015年左右开始，2016年尾巴开始大量改版，简单就是美啊，字要大一点，使用jekyll，IDE使用VS code，域名是[http://www.lenggirl.com](http://www.lenggirl.com)，还有另外一个主权域名[http://www.cjhug.me](http://www.cjhug.me)
+这个博客是2015年左右开始，2016年尾巴开始大量改版，使用jekyll，IDE使用VS code，域名是[http://www.lenggirl.com](http://www.lenggirl.com)，<br/>
+还有另外一个主权域名[http://www.cjhug.me](http://www.cjhug.me)没怎么用。。。<br/>
 HTML/CSS都是自己设计的，写点文章，放点好玩的东西。
 
 收录各种有用资源的链接。
@@ -16,9 +17,6 @@ HTML/CSS都是自己设计的，写点文章，放点好玩的东西。
 
 # 好基友域名
 1. 百哥威武：[http://ttyb.github.io](http://ttyb.github.io)
-
-# 中二病少年集合
-1. [https://blog.ooxx.dk](https://blog.ooxx.dk)
 
 # 小工具
 1. 阴阳历：[yinyang](http://www.cjhug.me/front/yinyang)
@@ -89,5 +87,5 @@ HTML/CSS都是自己设计的，写点文章，放点好玩的东西。
 2. [ETCD简介使用](http://blog.csdn.net/shukebai/article/details/53464887) API我都写好了
 3. [MongoDB两阶段提交](http://www.tuicool.com/articles/f6ZBjm) 平时几乎不会用到
 4. [postgresql教程](http://www.yiibai.com/postgresql)
-5. [Grpc](http://doc.oschina.net/grpc) 正在加紧读中.... 2017.6.27
-6. [Go50](http://colobu.com/2015/09/07/gotchas-and-common-mistakes-in-go-golang) 读中... 2017.6.27
+5. [Grpc](http://doc.oschina.net/grpc) 正在加紧读中.... 2017.6.27  KO 2017.7
+6. [Go50](http://colobu.com/2015/09/07/gotchas-and-common-mistakes-in-go-golang) 读中... 2017.6.27 KO 2017.7
