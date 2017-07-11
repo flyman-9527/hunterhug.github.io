@@ -27,41 +27,10 @@ layout: index
                     ]
             );
         </script>
-
-        <!--<div id="wrapper">-->
-            <!--<section id="intro" class="main">-->
-                <!--<img src="static/round.png" />-->
-                <!--<h2 style="font-family: KaiTi;">跟着好基友百哥一起建设社会主义</h2>-->
-                <!--<pre>-->
-<!--Do you know that computer changed our life.-->
-<!--All the things in the world can become a automachine-->
-<!--Which is equel to a algorithm.-->
-<!--Follows our thought and step by step.-->
-<!--Then you don't know the bottom of the truth.-->
-<!--So Gods bless you not lose yourselt.-->
-<!--Just the world have never own such a strange object.-->
-
-<!--身高一米八，有余；普通话十分普通-->
-<!--大学读的是数学专业，毕业却是计算机科学-->
-<!--每天绕代码，上班写代码，下班写代码-->
-<!--喜欢各种运动-->
-<!--喜欢电影，音乐，书籍-->
-<!--最喜欢去各种陌生的地方-->
-
-<!--目前在深圳发展-->
-<!--QQ：null-->
-                    <!--By 陈大师-->
-                <!--</pre>-->
-                <!--<div style="margin:20px">-->
-                    <!--<marquee direction="left" style="font-family: KaiTi;">百哥语录：不用多久，我就会升职加薪，当上总经理，出任CEO，迎娶白富美，走上人生巅峰|Pretty soon I'll General Manager,be promoted as CEO and marry Bai Fu Mei on the salary increase when pinnacle toward life </marquee>-->
-                <!--</div>-->
-
-            <!--</section>-->
-        <!--</div>-->
-            <div id='content' class="container-fluid">
-                <div class="row">
-                    <h1 style="text-align: center;color: pink">最新文章</h1>
-                    <div class="indexp">
+        <div id='content' class="container-fluid">
+            <div class="row">
+                <h1 style="text-align: center;color: pink">最新文章</h1>
+                <div class="indexp">
                     {% for post in site.posts limit:5 %}
                     <div class="contentline"><div>
                         <p>{{ post.date | date:"%d/%m/%Y"}}</p>
@@ -87,195 +56,38 @@ layout: index
                     </div>
                     </div>
                     {% endfor %}
-                    </div>
                 </div>
+                <h1 style="text-align: center;color: pink"><a href="/clound.html">-->更多点击<--</a></h1>
             </div>
-        <div style="width: 100%;">
-            <h1 style="text-align: center;color: pink">开源项目</h1>
-            <div class="media thumbnail indexb">
-                <div class="col-xs-7 col-sm-7 col-md-8">
-                    <div class="media-body">
-                        <h4><a href="https://github.com/hunterhug/GoSpider" style="color:#333;font-weight:bold">GoSpider</a></h4>
-                        <p style="word-wrap:break-word; word-break:normal;">
-                            Project Tubo Release v1 土拨鼠高级封装Golang爬虫包，快速，高效。微信开发/API对接/自动化测试/抢票脚本/网站监控/点赞插件
-                            <br/>
-                            <a href="https://github.com/hunterhug/GoSpiderExample/tree/master/taobao">淘宝图片助手</a>/
-                            <a href="https://github.com/hunterhug/GoSpiderExample/tree/master/jiandanmeizi">煎蛋无聊图、妹纸图助手</a>/
-                            <a href="https://github.com/hunterhug/jiandan">煎蛋分布式文章助手</a>/
-                            <a href="https://github.com/hunterhug/zhihuxx">知乎XX API</a>
-                        <!--<pre>-->
-<!--项目代号：土拨鼠（tubo）-->
+        </div>
+        <div id="wrapper">
+            <section id="intro" class="main">
+                <img src="static/round.png" />
+                <h2 style="font-family: KaiTi;">跟着好基友百哥一起建设社会主义</h2>
+                <pre>
+Do you know that computer changed our life.
+All the things in the world can become a automachine
+Which is equel to a algorithm.
+Follows our thought and step by step.
+Then you don't know the bottom of the truth.
+So Gods bless you not lose yourselt.
+Just the world have never own such a strange object.
 
-<!--网站开发、搜索和爬虫是异曲同工的，开发过网站，弄过搜索，回到爬虫，觉得很有趣，以前开发大型python爬虫，项目管理难，且用的都是别人封装的库，而且要开发并发程序也难，坑多，有些写到最后一堆乱麻，不排除我的问题，知其所以然才是王道，Golang HTTP原生库你可以直接看到代码，学习到HTTP协议的实现，我的包是在原生库基础上进行封装，支持高并发，各种结构都加了锁，人类友好姿态API。&#45;&#45;||-->
+身高一米八，有余；普通话十分普通
+大学读的是数学专业，毕业却是计算机科学
+每天绕代码，上班写代码，下班写代码
+喜欢各种运动
+喜欢电影，音乐，书籍
+最喜欢去各种陌生的地方
 
-<!--项目地址： https://github.com/hunterhug/GoSpider-->
-
-<!--示例：知乎API小助手 https://github.com/hunterhug/zhihuxx-->
-<!--使用参见：https://github.com/hunterhug/GoSpiderExample-->
-                    <!--</pre>-->
-
-                        </p>
-                        <h5 class="pull-right" style="width: 120px;"><a class="contactme" title="前往" href="https://github.com/hunterhug/GoSpider">前往 »</a></h5>
-                    </div>
+目前在深圳发展
+QQ：null
+                    By 陈大师
+                </pre>
+                <div style="margin:20px">
+                    <marquee direction="left" style="font-family: KaiTi;">百哥语录：不用多久，我就会升职加薪，当上总经理，出任CEO，迎娶白富美，走上人生巅峰|Pretty soon I'll General Manager,be promoted as CEO and marry Bai Fu Mei on the salary increase when pinnacle toward life </marquee>
                 </div>
-            </div>
 
-            <div class="media thumbnail indexb">
-                <div class="col-xs-7 col-sm-7 col-md-8">
-                    <div class="media-body" >
-                        <h4><a href="https://github.com/hunterhug/AmazonBigSpider" style="color:#333;font-weight:bold">AmazonBigSpider</a></h4>
-                        <p style="word-wrap:break-word; word-break:normal;">Golang全自动亚马逊全网分布式爬虫（美国，日本，德国和英国）。分布式，高并发，跨平台，多站点，多种自定义配置，极强的容错能力是这个爬虫的特点。机器数量和IP代理足够情况下，每天每个站点可满足抓取几百万的商品数据。
-                        曾架设八台代理服务器和三台爬虫服务器（美国机房），构建代理IP服务池模块和多爬虫切换模块，配合redis和mysql进行分布式高并发抓取日本/英国/美国/德国亚马逊商品数据，实现IP重蹈，爬虫监控，数据库主从到阿里云（读写分离）等功能，还配套Dashboard后台，方便筛选商品、下载excel和查看商品历史排名/价格等轨迹。爬虫crontab定时夜间开爬，代理IP自动循环导入。爬虫高度自动化，运维成本较低，每天有几百万数据产生。核心爬虫库抽离并
-                            <a href="https://github.com/hunterhug/GoSpider">开源GoSpider</a>！
-                        <!--<pre>-->
-<!--亚马逊爬虫支持-->
-
-<!--1.列表页和详情页可选择代理方式-->
-<!--2.多浏览器保存cookie机制-->
-<!--3.机器人检测达到阈值自动换代理-->
-<!--4.检测日期过期自动停止程序-->
-<!--5.IP池扫描周期填充代理IP-->
-<!--6.支持分布式跨平台抓取-->
-<!--7.高并发进程设置抓取-->
-<!--8.默认网页爬取去重-->
-<!--9.日志记录功能-->
-<!--10.配套可视化网站，支持多角度查看数据，小类数据，大类数据，Asin数据和类目数据，支持查看每件Asin商品的历史记录，如排名，价格，打分，reviews变化。部分数据支持导出，且网站支持RBAC权限，可分配每部分数据的查看和使用权限。-->
-<!--11.网络端监控爬虫，可查看爬虫当前时段数据抓取状态，爬取的进度，IP的消耗程度。 可支持网络端启动和停止爬虫，彻底成为Saas（待做）-->
-<!--12.可自定义填入IP，如塞入其他代理IP网站API获取的IP-->
-<!--13.可选择HTML文件保存本地-->
-
-<!--项目地址：https://github.com/hunterhug/AmazonBigSpider-->
-
-<!--配套Dashboard网站地址: https://github.com/hunterhug/AmazonBigSpiderWeb-->
-                    <!--</pre>-->
-
-                        </p>
-                        <h5 class="pull-right" style="width: 120px;"><a class="contactme" title="前往" href="https://github.com/hunterhug/AmazonBigSpider">前往 »</a></h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="media thumbnail indexb">
-                <div class="col-xs-7 col-sm-7 col-md-8">
-                    <div class="media-body" >
-                        <h4><a href="https://github.com/hunterhug/GoWeb" style="color:#333;font-weight:bold">GoWeb</a></h4>
-                        <p style="word-wrap:break-word; word-break:normal;">
-                            Project Tuzi doing 兔子网站超级助手，beego高级带RBAC,图片轮转，博客，相册功能，极度优化，快速脚手架。后台极度美观。 示例见<a href="http://www.beautyart.top">脚手架示例网站</a>
-                        <!--<pre>-->
-<!--Beego网站手脚架：Tuzi，不懂编程的同学听我演示一遍就可以拥有一个企业官网了！-->
-
-<!--项目代号： 兔子(tuzi)-->
-
-<!--目前实现了基本的RBAC模块和博客模块（文章和相册）,附带Dashbord后端,UI基本框架形成依靠此项目可敏捷开发.灵感来源：http://www.beautyart.top-->
-
-<!--1.基于角色的访问控制（Role-Based Access Control）作为传统访问控制-->
-<!--2.Amaze UI v2.7.0（部分后台）和jQuery EasyUI v1.4.2（后台表格CRUD）、Bootstrap v3.3.5（前台）混合-->
-
-<!--项目结构-->
-    <!--&#45;&#45;&#45;&#45;conf 配置文件夹-->
-
-        <!--&#45;&#45;&#45;&#45;app.conf 		应用配置文件-->
-        <!--&#45;&#45;&#45;&#45;local_**.ini 	国际化文件-->
-
-    <!--&#45;&#45;&#45;&#45;controllers 控制器-->
-        <!--&#45;&#45;&#45;&#45;admin	后台控制器-->
-            <!--&#45;&#45;&#45;&#45;blog 博客模块-->
-            <!--&#45;&#45;&#45;&#45;rbac 权限模块-->
-        <!--&#45;&#45;&#45;&#45;home 	前台控制器-->
-        <!--&#45;&#45;&#45;&#45;rbac.go 路由权限过滤器入口-->
-
-    <!-- -&#45;&#45;&#45;&#45;lib 公共库-->
-    <!-- -&#45;&#45;&#45;&#45;file 上传文件保存地址-->
-    <!-- -&#45;&#45;&#45;&#45;models ORM模型-->
-        <!--&#45;&#45;&#45;&#45;admin RBAC主要数据库-->
-            <!--&#45;&#45;&#45;&#45;AdminInit.go 数据默认填充地-->
-        <!--&#45;&#45;&#45;&#45;blog  博客主要数据库-->
-
-    <!--&#45;&#45;&#45;&#45;routers 路由-->
-    <!--&#45;&#45;&#45;&#45;static  静态文件-->
-        <!-- -&#45;&#45;admin 后台js/css勿改-->
-        <!-- -&#45;&#45;home 前台UI美观第三方js/css-->
-            <!-- -&#45;&#45;amazi  妹紙UI-->
-            <!-- -&#45;&#45;boostrap 最牛逼的界面UI-->
-         <!-- -&#45;&#45;tool 公用第三方js-->
-         <!-- -&#45;&#45;diy 自己的js/css-->
-    <!--&#45;&#45;&#45;&#45;views	视图-->
-        <!--&#45;&#45;&#45;&#45;admin 	后台视图-->
-            <!--&#45;&#45;&#45;&#45;default 默认主题-->
-        <!--&#45;&#45;&#45;&#45;home 	前台视图-->
-            <!--&#45;&#45;&#45;&#45;default 默认主题-->
-
-    <!--&#45;&#45;&#45;&#45;front 前端测试文件夹-->
-        <!-- -&#45;&#45;data 模拟的JSON数据-->
-
-    <!--&#45;&#45;&#45;&#45;log 日志-->
-    <!--&#45;&#45;&#45;&#45;doc 说明文档（重点待写）-->
-    <!--&#45;&#45;&#45;&#45;test 测试文件夹-->
-
-    <!-- -&#45;&#45; init.sql 提供的示例数据库-->
-    <!-- -&#45;&#45; ngnix.conf Nginx配置-->
-
-<!--项目地址：https://github.com/hunterhug/GoWeb-->
-                    <!--</pre>-->
-
-                        </p>
-                        <h5 class="pull-right" style="width: 120px;"><a class="contactme" title="前往" href="https://github.com/hunterhug/GoWeb">前往 »</a></h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="media thumbnail indexb">
-                <div class="col-xs-7 col-sm-7 col-md-8">
-                    <div class="media-body" >
-                        <h4><a href="https://github.com/hunterhug/taobaoscrapy" style="color:#333;font-weight:bold">Taobao Tool</a></h4>
-                        <p style="word-wrap:break-word; word-break:normal;">
-                            实习生期间做的抓<a href="https://github.com/hunterhug/taobaoscrapy">淘宝天猫搜索框工具</a>，支持导出Excel，抓图片，对小白十分要好。仍然能跑201706
-                            以及某猫某宝<a href="https://github.com/hunterhug/taobaocomment">商品评论爬虫程序</a>，封装可直接使用，填入商品链接，批量抓取评论，存储于Excel，自动判断链接来自天猫还是淘宝。
-                            <br/>
-                            其他：<a href="https://github.com/hunterhug/doubanbook30000" />豆瓣三万图书</a>/<a href="https://github.com/hunterhug/51job">前程无忧简历</a>
-                        <!--<pre>-->
-<!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
-
-<!--一个抓取淘宝天猫关键字搜索商品的爬虫使用python3.4，爬虫程序已经封装好-->
-<!--支持抓取商品标题/商品价格/商品销量/商品图片等-->
-<!--使用请直接点击exe文件夹中后缀为exe的文件或者run.bat-->
-
-<!--&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
-
-<!--项目地址：https://github.com/hunterhug/taobaoscrapy-->
-
-<!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
-<!--往taobao.txt中按行写入商品链接-->
-
-<!--网址格式有如下几种(#开头的网址直接被忽视):-->
-<!--https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-7841214359.4.6lp4CP&id=525842199471-->
-<!--https://detail.tmall.com/item.htm?spm=a230r.1.14.6.o11GZI&id=41389303364&cm_id=140105335569ed55e27b&abbucket=3-->
-<!--https://item.taobao.com/item.htm?id=40066362090-->
-<!--https://rate.tmall.com/list_detail_rate.htm?itemId=45789209181&sellerId=2274061169&order=3&currentPage=2-->
-<!--https://item.taobao.com/item.htm?spm=a230r.1.14.37.B4SrL2&id=45804256292&ns=1&abbucket=3#detail-->
-<!--http://a.m.taobao.com/i44628690678.htm?&abtest=16&sid=ceff9ca9adb294b3459844e3640a76d1-->
-
-<!--执行-->
-
-<!--run.bat-->
-
-<!--或者-->
-<!--cd source-->
-<!--python taobaocomment.py-->
-
-<!--或者-->
-
-<!--pythonrun.bat-->
-<!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
-
-<!--项目地址：https://github.com/hunterhug/taobaocomment-->
-
-                    <!--</pre>-->
-
-                        </p>
-                        <h5 class="pull-right" style="width: 120px;"><a class="contactme" title="前往" href="https://github.com/hunterhug/taobaoscrapy">前往 »</a></h5>
-                    </div>
-                </div>
-            </div>
+            </section>
         </div>
     </div>

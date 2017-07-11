@@ -109,8 +109,7 @@ a:hover {
 
 .post-content p {
     margin: 20px auto;
-    font-size: 1.0em;
-    font-weight: 400;
+    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 .post-content img {
