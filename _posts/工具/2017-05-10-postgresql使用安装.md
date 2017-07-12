@@ -147,6 +147,15 @@ sudo /etc/init.d/postgresql restart
 
     # 删除表格
     DROP TABLE IF EXISTS backup_tbl;
+    
+    #!/usr/bin/env bash
+    ## -W 强制输入密码
+    ## -d 数据库名字
+    ## -t 表名字
+    ## -s 导入schema，不导入数据
+    ## -C 创建数据库并连接数据库
+    ## -f 数据文件
+    pg_dump -h $1 -U postgres -W -d postgres -t job -s -C -f init_pg.sql
 
 # 六. 连接数爆了
 
